@@ -1,0 +1,181 @@
+Script started on 2021-02-15 14:49:07+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man tar
+[?1049h[22;0;0t[?1h=TAR(1)                          GNU TAR Manual                          TAR(1)[m
+[m
+[1mNAME[0m[m
+       tar - an archiving utility[m
+[m
+[1mSYNOPSIS[0m[m
+   [1mTraditional[0m [1musage[0m[m
+       [1mtar[0m {[1mA[0m|[1mc[0m|[1md[0m|[1mr[0m|[1mt[0m|[1mu[0m|[1mx[0m}[[1mGnSkUWOmpsMBiajJzZhPlRvwo[0m] [[4mARG[24m...][m
+[m
+   [1mUNIX-style[0m [1musage[0m[m
+       [1mtar[0m [1m-A[0m [[4mOPTIONS[24m] [4mARCHIVE[24m [4mARCHIVE[24m[m
+[m
+       [1mtar[0m [1m-c[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-d[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-t[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[m
+       [1mtar[0m [1m-r[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-u[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mFILE[24m...][m
+[m
+       [1mtar[0m [1m-x[0m [[1m-f[0m [4mARCHIVE[24m] [[4mOPTIONS[24m] [[4mMEMBER[24m...][m
+[7m Manual page tar(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ dc
+tar   cd
+dc: stack empty
+cd
+dc: stack empty
+q c ^C
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ cd
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar c *.txt | gzpi[K[K[Kzip -c > myfiles.tar.gz
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  mydosfile.txt    [0m[40;33mmypipe[0m          [01;34mPublic[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           myunixfile.txt  sda-table
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  output.txt      [01;34msnap[0m
+[01;34mDownloads[0m  memo.txt~   [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;34mTemplates[0m
+f2.txt     [01;34mMusic[0m       [01;36mmyfile-symlink[0m   [01;34mPictures[0m        [01;32mtestscript.sh[0m
+fi.txt     mydisk      mynewfile.txt    pkg.txt         [01;34mVideos[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar czf myfiles.tar.gz *.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  mydosfile.txt    [0m[40;33mmypipe[0m          [01;34mPublic[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           myunixfile.txt  sda-table
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  output.txt      [01;34msnap[0m
+[01;34mDownloads[0m  memo.txt~   [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;34mTemplates[0m
+f2.txt     [01;34mMusic[0m       [01;36mmyfile-symlink[0m   [01;34mPictures[0m        [01;32mtestscript.sh[0m
+fi.txt     mydisk      mynewfile.txt    pkg.txt         [01;34mVideos[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar czvf myfiles.tar.gz *.txt
+copy.txt
+f2.txt
+fi.txt
+memo.txt
+mydosfile.txt
+mynewfile.txt
+myunixfile.txt
+output.txt
+patchfile.txt
+pkg.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ gunzip -c myfiles.tar.gz | tar x
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  mydosfile.txt    [0m[40;33mmypipe[0m          [01;34mPublic[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           myunixfile.txt  sda-table
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  output.txt      [01;34msnap[0m
+[01;34mDownloads[0m  memo.txt~   [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;34mTemplates[0m
+f2.txt     [01;34mMusic[0m       [01;36mmyfile-symlink[0m   [01;34mPictures[0m        [01;32mtestscript.sh[0m
+fi.txt     mydisk      mynewfile.txt    pkg.txt         [01;34mVideos[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar xzvf myfiles.tar.gz
+copy.txt
+f2.txt
+fi.txt
+memo.txt
+mydosfile.txt
+mynewfile.txt
+myunixfile.txt
+output.txt
+patchfile.txt
+pkg.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar cjvf myfiles.tar.bz2 *.txt
+copy.txt
+f2.txt
+fi.txt
+memo.txt
+mydosfile.txt
+mynewfile.txt
+myunixfile.txt
+output.txt
+patchfile.txt
+pkg.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar xjvf myfiles.tar.bz2
+copy.txt
+f2.txt
+fi.txt
+memo.txt
+mydosfile.txt
+mynewfile.txt
+myunixfile.txt
+output.txt
+patchfile.txt
+pkg.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  mydosfile.txt    mynewfile.txt   pkg.txt        [0m[01;34mVideos[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           [40;33mmypipe[0m          [01;34mPublic[0m
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  myunixfile.txt  sda-table
+[01;34mDownloads[0m  memo.txt~   [01;31mmyfiles.tar.bz2[0m  output.txt      [01;34msnap[0m
+f2.txt     [01;34mMusic[0m       [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;34mTemplates[0m
+fi.txt     mydisk      [01;36mmyfile-symlink[0m   [01;34mPictures[0m        [01;32mtestscript.sh[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cd myfiles.tar.bz2
+bash: cd: myfiles.tar.bz2: Not a directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudoo[K apt-get install lzop
+[sudo] password for bok_suh: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  lzop
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 82.8 kB of archives.
+After this operation, 166 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]                        Get:1 http://kr.archive.ubuntu.com/ubuntu focal/universe amd64 lzop amd64 1.04-1 [82.8 kB]
+7% [1 lzop 7,018 B/82.8 kB 8%]42% [1 lzop 43.5 kB/82.8 kB 53%]                                100% [Working]              Fetched 82.8 kB in 1s (56.4 kB/s)
+Selecting previously unselected package lzop.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 281468 files and directories currently installed.)
+Preparing to unpack .../archives/lzop_1.04-1_amd64.deb ...
+Unpacking lzop (1.04-1) ...
+Setting up lzop (1.04-1) ...
+Processing triggers for man-db (2.9.1-1) ...
+libdvd-pkg: Checking orig.tar integrity...
+/usr/src/libdvd-pkg/libdvdcss_1.4.2.orig.tar.bz2: OK
+libdvd-pkg: `apt-get check` failed, you may have broken packages. Aborting...
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar --use-compress-po[Krogram-l[K[K-[K=lzop -cf myfiles.tar.lzo *.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tar --use-cojm[K[Kmpress-program=lzop -xf myfiles.tar.lzo
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo apt-get install unra[Kar
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+unrar is already the newest version (1:5.6.6-2build1).
+unrar set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo apt-get install unrar[K[K[K[K[Krar
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  rar
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 295 kB of archives.
+After this operation, 799 kB of additional disk space will be used.
+0% [Working]0% [Connecting to kr.archive.ubuntu.com (91.189.88.152)]                                                        Get:1 http://kr.archive.ubuntu.com/ubuntu focal/multiverse amd64 rar amd64 2:5.5.0-1build1 [295 kB]
+                                                        0% [1 rar 0 B/295 kB 0%]12% [1 rar 43.5 kB/295 kB 15%]                              47% [1 rar 175 kB/295 kB 59%]                             100% [Working]              Fetched 295 kB in 2s (144 kB/s)
+Selecting previously unselected package rar.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 281483 files and directories currently installed.)
+Preparing to unpack .../rar_2%3a5.5.0-1build1_amd64.deb ...
+Unpacking rar (2:5.5.0-1build1) ...
+Setting up rar (2:5.5.0-1build1) ...
+Processing triggers for man-db (2.9.1-1) ...
+libdvd-pkg: Checking orig.tar integrity...
+/usr/src/libdvd-pkg/libdvdcss_1.4.2.orig.tar.bz2: OK
+libdvd-pkg: `apt-get check` failed, you may have broken packages. Aborting...
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ gzpi[K[Kip myfile
+gzip: myfile has 1 other link  -- unchanged
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt    [0m[01;34mLogs[0m           myfile-hardlink  myunixfile.txt  [01;34msnap[0m
+[01;34mDesktop[0m     memo.txt       [01;31mmyfiles.tar.bz2[0m  output.txt      [01;34mTemplates[0m
+[01;34mDocuments[0m   memo.txt~      [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;32mtestscript.sh[0m
+[01;34mDownloads[0m   [01;34mMusic[0m          [01;31mmyfiles.tar.lzo[0m  [01;34mPictures[0m        [01;34mVideos[0m
+f2.txt      mydisk         [01;36mmyfile-symlink[0m   pkg.txt
+fi.txt      mydosfile.txt  mynewfile.txt    [01;34mPublic[0m
+index.html  myfile         [40;33mmypipe[0m           sda-table
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cd myfile
+bash: cd: myfile: Not a directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt    [0m[01;34mLogs[0m           myfile-hardlink  myunixfile.txt  [01;34msnap[0m
+[01;34mDesktop[0m     memo.txt       [01;31mmyfiles.tar.bz2[0m  output.txt      [01;34mTemplates[0m
+[01;34mDocuments[0m   memo.txt~      [01;31mmyfiles.tar.gz[0m   patchfile.txt   [01;32mtestscript.sh[0m
+[01;34mDownloads[0m   [01;34mMusic[0m          [01;31mmyfiles.tar.lzo[0m  [01;34mPictures[0m        [01;34mVideos[0m
+f2.txt      mydisk         [01;36mmyfile-symlink[0m   pkg.txt
+fi.txt      mydosfile.txt  mynewfile.txt    [01;34mPublic[0m
+index.html  myfile         [40;33mmypipe[0m           sda-table
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ gzip Logs
+gzip: Logs

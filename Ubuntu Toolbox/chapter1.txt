@@ -1,0 +1,901 @@
+Script started on 2021-02-10 21:16:07+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ cate
+
+Command 'cate' not found, did you mean:
+
+  command 'kate' from snap kate (20.04.0)
+  command 'date' from deb coreutils (8.30-3ubuntu2)
+  command 'late' from deb late (0.1.0-13build1)
+  command 'cake' from deb cakephp-scripts (2.10.11-2)
+  command 'kate' from deb kate (4:19.12.3-0ubuntu1)
+  command 'cfte' from deb fte (0.50.2b6-20110708-3build1)
+  command 'care' from deb care (2.2.1-1build1)
+  command 'cat' from deb coreutils (8.30-3ubuntu2)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ which mount
+/usr/bin/mount
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ whereis mount
+mount: /usr/bin/mount /usr/sbin/mount.vboxsf /usr/sbin/mount.fuse /usr/sbin/mount.ntfs /usr/sbin/mount.ntfs-3g /usr/sbin/mount.lowntfs-3g /usr/share/man/man8/mount.8.gz /usr/share/man/man2/mount.2.gz
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ locate mount
+/etc/apparmor.d/abstractions/apparmor_api/find_mountpoint
+/etc/icecast2/admin/listmounts.xsl
+/etc/initramfs-tools/scripts/init-premount
+/etc/initramfs-tools/scripts/local-premount
+/etc/initramfs-tools/scripts/nfs-premount
+/etc/systemd/system/snap-core18-1944.mount
+/etc/systemd/system/snap-core18-1988.mount
+/etc/systemd/system/snap-gnome\x2d3\x2d34\x2d1804-36.mount
+/etc/systemd/system/snap-gnome\x2d3\x2d34\x2d1804-66.mount
+/etc/systemd/system/snap-gtk\x2dcommon\x2dthemes-1506.mount
+/etc/systemd/system/snap-gtk\x2dcommon\x2dthemes-1514.mount
+/etc/systemd/system/snap-snap\x2dstore-467.mount
+/etc/systemd/system/snap-snap\x2dstore-518.mount
+/etc/systemd/system/snap-snapd-10707.mount
+/etc/systemd/system/snap-snapd-11036.mount
+/etc/systemd/system/multi-user.target.wants/snap-core18-1944.mount
+/etc/systemd/system/multi-user.target.wants/snap-core18-1988.mount
+/etc/systemd/system/multi-user.target.wants/snap-gnome\x2d3\x2d34\x2d1804-36.mount
+/etc/systemd/system/multi-user.target.wants/snap-gnome\x2d3\x2d34\x2d1804-66.mount
+/etc/systemd/system/multi-user.target.wants/snap-gtk\x2dcommon\x2dthemes-1506.mount
+/etc/systemd/system/multi-user.target.wants/snap-gtk\x2dcommon\x2dthemes-1514.mount
+/etc/systemd/system/multi-user.target.wants/snap-snap\x2dstore-467.mount
+/etc/systemd/system/multi-user.target.wants/snap-snap\x2dstore-518.mount
+/etc/systemd/system/multi-user.target.wants/snap-snapd-10707.mount
+/etc/systemd/system/multi-user.target.wants/snap-snapd-11036.mount
+/opt/VBoxGuestAdditions-6.1.16/other/mount.vboxsf
+/opt/VBoxGuestAdditions-6.1.16/src/vboxguest-6.1.16/vboxsf/vbsfmount.h
+/snap/core18/1944/bin/mount
+/snap/core18/1944/bin/mountpoint
+/snap/core18/1944/bin/umount
+/snap/core18/1944/etc/apparmor.d/abstractions/apparmor_api/find_mountpoint
+/snap/core18/1944/lib/systemd/systemd-remount-fs
+/snap/core18/1944/lib/systemd/system/dev-hugepages.mount
+/snap/core18/1944/lib/systemd/system/dev-mqueue.mount
+/snap/core18/1944/lib/systemd/system/mountall-bootclean.service
+/snap/core18/1944/lib/systemd/system/mountall.service
+/snap/core18/1944/lib/systemd/system/mountdevsubfs.service
+/snap/core18/1944/lib/systemd/system/mountkernfs.service
+/snap/core18/1944/lib/systemd/system/mountnfs-bootclean.service
+/snap/core18/1944/lib/systemd/system/mountnfs.service
+/snap/core18/1944/lib/systemd/system/proc-sys-fs-binfmt_misc.automount
+/snap/core18/1944/lib/systemd/system/proc-sys-fs-binfmt_misc.mount
+/snap/core18/1944/lib/systemd/system/sys-fs-fuse-connections.mount
+/snap/core18/1944/lib/systemd/system/sys-kernel-config.mount
+/snap/core18/1944/lib/systemd/system/sys-kernel-debug.mount
+/snap/core18/1944/lib/systemd/system/systemd-remount-fs.service
+/snap/core18/1944/lib/systemd/system/umount.target
+/snap/core18/1944/lib/systemd/system/umountfs.service
+/snap/core18/1944/lib/systemd/system/umountnfs.service
+/snap/core18/1944/lib/systemd/system/umountroot.service
+/snap/core18/1944/lib/systemd/system/local-fs.target.wants/systemd-remount-fs.service
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/dev-hugepages.mount
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/dev-mqueue.mount
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/proc-sys-fs-binfmt_misc.automount
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount
+/snap/core18/1944/lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount
+/snap/core18/1944/lib/x86_64-linux-gnu/libmount.so.1
+/snap/core18/1944/lib/x86_64-linux-gnu/libmount.so.1.1.0
+/snap/core18/1944/usr/bin/systemd-mount
+/snap/core18/1944/usr/bin/systemd-umount
+/snap/core18/1944/usr/lib/python3/dist-packages/cloudinit/config/cc_mounts.py
+/snap/core18/1944/usr/lib/python3/dist-packages/cloudinit/config/__pycache__/cc_mounts.cpython-36.pyc
+/snap/core18/1944/usr/share/bash-completion/completions/fusermount
+/snap/core18/1944/usr/share/bash-completion/completions/mount
+/snap/core18/1944/usr/share/bash-completion/completions/mount.linux
+/snap/core18/1944/usr/share/bash-completion/completions/mountpoint
+/snap/core18/1944/usr/share/bash-completion/completions/umount
+/snap/core18/1944/usr/share/bash-completion/completions/umount.linux
+/snap/core18/1944/usr/share/doc/libmount1
+/snap/core18/1944/usr/share/doc/mount
+/snap/core18/1944/usr/share/doc/libmount1/changelog.Debian.gz
+/snap/core18/1944/usr/share/doc/libmount1/copyright
+/snap/core18/1944/usr/share/doc/mount/changelog.Debian.gz
+/snap/core18/1944/usr/share/doc/mount/copyright
+/snap/core18/1944/usr/share/doc/mount/examples
+/snap/core18/1944/usr/share/doc/mount/mount.txt
+/snap/core18/1944/usr/share/doc/mount/examples/fstab
+/snap/core18/1944/usr/share/lintian/overrides/mount
+/snap/core18/1944/usr/share/systemd/tmp.mount
+/snap/core18/1988/bin/mount
+/snap/core18/1988/bin/mountpoint
+/snap/core18/1988/bin/umount
+/snap/core18/1988/etc/apparmor.d/abstractions/apparmor_api/find_mountpoint
+/snap/core18/1988/lib/systemd/systemd-remount-fs
+/snap/core18/1988/lib/systemd/system/dev-hugepages.mount
+/snap/core18/1988/lib/systemd/system/dev-mqueue.mount
+/snap/core18/1988/lib/systemd/system/mountall-bootclean.service
+/snap/core18/1988/lib/systemd/system/mountall.service
+/snap/core18/1988/lib/systemd/system/mountdevsubfs.service
+/snap/core18/1988/lib/systemd/system/mountkernfs.service
+/snap/core18/1988/lib/systemd/system/mountnfs-bootclean.service
+/snap/core18/1988/lib/systemd/system/mountnfs.service
+/snap/core18/1988/lib/systemd/system/proc-sys-fs-binfmt_misc.automount
+/snap/core18/1988/lib/systemd/system/proc-sys-fs-binfmt_misc.mount
+/snap/core18/1988/lib/systemd/system/sys-fs-fuse-connections.mount
+/snap/core18/1988/lib/systemd/system/sys-kernel-config.mount
+/snap/core18/1988/lib/systemd/system/sys-kernel-debug.mount
+/snap/core18/1988/lib/systemd/system/systemd-remount-fs.service
+/snap/core18/1988/lib/systemd/system/umount.target
+/snap/core18/1988/lib/systemd/system/umountfs.service
+/snap/core18/1988/lib/systemd/system/umountnfs.service
+/snap/core18/1988/lib/systemd/system/umountroot.service
+/snap/core18/1988/lib/systemd/system/local-fs.target.wants/systemd-remount-fs.service
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/dev-hugepages.mount
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/dev-mqueue.mount
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/proc-sys-fs-binfmt_misc.automount
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount
+/snap/core18/1988/lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount
+/snap/core18/1988/lib/x86_64-linux-gnu/libmount.so.1
+/snap/core18/1988/lib/x86_64-linux-gnu/libmount.so.1.1.0
+/snap/core18/1988/usr/bin/systemd-mount
+/snap/core18/1988/usr/bin/systemd-umount
+/snap/core18/1988/usr/lib/python3/dist-packages/cloudinit/config/cc_mounts.py
+/snap/core18/1988/usr/lib/python3/dist-packages/cloudinit/config/__pycache__/cc_mounts.cpython-36.pyc
+/snap/core18/1988/usr/share/bash-completion/completions/fusermount
+/snap/core18/1988/usr/share/bash-completion/completions/mount
+/snap/core18/1988/usr/share/bash-completion/completions/mount.linux
+/snap/core18/1988/usr/share/bash-completion/completions/mountpoint
+/snap/core18/1988/usr/share/bash-completion/completions/umount
+/snap/core18/1988/usr/share/bash-completion/completions/umount.linux
+/snap/core18/1988/usr/share/doc/libmount1
+/snap/core18/1988/usr/share/doc/mount
+/snap/core18/1988/usr/share/doc/libmount1/changelog.Debian.gz
+/snap/core18/1988/usr/share/doc/libmount1/copyright
+/snap/core18/1988/usr/share/doc/mount/changelog.Debian.gz
+/snap/core18/1988/usr/share/doc/mount/copyright
+/snap/core18/1988/usr/share/doc/mount/examples
+/snap/core18/1988/usr/share/doc/mount/mount.txt
+/snap/core18/1988/usr/share/doc/mount/examples/fstab
+/snap/core18/1988/usr/share/lintian/overrides/mount
+/snap/core18/1988/usr/share/systemd/tmp.mount
+/snap/gnome-3-34-1804/36/usr/include/gio-unix-2.0/gio/gunixmounts.h
+/snap/gnome-3-34-1804/36/usr/include/glib-2.0/gio/gmount.h
+/snap/gnome-3-34-1804/36/usr/include/glib-2.0/gio/gmountoperation.h
+/snap/gnome-3-34-1804/36/usr/include/gtk-2.0/gtk/gtkmountoperation.h
+/snap/gnome-3-34-1804/36/usr/include/gtk-3.0/gtk/gtkmountoperation.h
+/snap/gnome-3-34-1804/36/usr/include/linux/ncp_mount.h
+/snap/gnome-3-34-1804/36/usr/include/linux/nfs4_mount.h
+/snap/gnome-3-34-1804/36/usr/include/linux/nfs_mount.h
+/snap/gnome-3-34-1804/36/usr/include/linux/cifs/cifs_mount.h
+/snap/gnome-3-34-1804/36/usr/include/rpcsvc/mount.h
+/snap/gnome-3-34-1804/36/usr/include/rpcsvc/mount.x
+/snap/gnome-3-34-1804/36/usr/include/x86_64-linux-gnu/sys/mount.h
+/snap/gnome-3-34-1804/36/usr/lib/x86_64-linux-gnu/libmount.so
+/snap/gnome-3-34-1804/36/usr/share/mime/inode/mount-point.xml
+/snap/gnome-3-34-1804/66/usr/lib/x86_64-linux-gnu/libmount.so
+/snap/gnome-3-34-1804/66/usr/share/mime/inode/mount-point.xml
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/128/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/128/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/16/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/16/cdwriter_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/16/dvd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/16/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/16/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/22/camera_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/22/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/22/cdwriter_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/22/dvd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/22/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/3floppy_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/camera_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/cdwriter_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/dvd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/ipod_mount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/24/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/32/3floppy_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/32/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/32/cdwriter_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/32/dvd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/32/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/3floppy_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/camera_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/cdwriter_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/dvd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/ipod_mount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/48/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/64/cdrom_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/Humanity/devices/64/hdd_unmount.svg
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/apps/48/xfce-mount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/128/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/128/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/128/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/128/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/128/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/16/usbpendrive_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/22/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/22/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/22/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/22/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/22/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/3floppy_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/ipod_mount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/24/usbpendrive_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/3floppy_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/32/ipod_mount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/3floppy_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/ipod_mount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/48/usbpendrive_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/camera_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/cdrom_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/cdwriter_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/dvd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/hdd_unmount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/64/ipod_mount.png
+/snap/gtk-common-themes/1506/share/icons/elementary-xfce/devices/96/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/128/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/128/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/16/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/16/cdwriter_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/16/dvd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/16/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/16/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/22/camera_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/22/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/22/cdwriter_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/22/dvd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/22/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/3floppy_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/camera_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/cdwriter_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/dvd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/ipod_mount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/24/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/32/3floppy_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/32/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/32/cdwriter_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/32/dvd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/32/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/3floppy_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/camera_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/cdwriter_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/dvd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/ipod_mount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/48/usbpendrive_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/64/cdrom_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Humanity/devices/64/hdd_unmount.svg
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16@2x/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16@2x/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/16x16@2x/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24@2x/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24@2x/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/24x24@2x/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256@2x/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256@2x/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/256x256@2x/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32@2x/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32@2x/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/32x32@2x/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48@2x/devices/cdrom-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48@2x/devices/cdwriter-unmount.png
+/snap/gtk-common-themes/1514/share/icons/Yaru/48x48@2x/devices/dvd-unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/apps/48/xfce-mount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/128/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/128/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/128/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/128/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/128/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/16/usbpendrive_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/22/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/22/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/22/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/22/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/22/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/3floppy_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/ipod_mount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/24/usbpendrive_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/3floppy_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/32/ipod_mount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/3floppy_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/ipod_mount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/48/usbpendrive_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/camera_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/cdrom_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/cdwriter_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/dvd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/hdd_unmount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/64/ipod_mount.png
+/snap/gtk-common-themes/1514/share/icons/elementary-xfce/devices/96/camera_unmount.png
+/snap/snap-store/467/usr/share/icons/Humanity/devices/128/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/128/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/16/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/16/cdwriter_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/16/dvd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/16/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/16/usbpendrive_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/22/camera_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/22/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/22/cdwriter_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/22/dvd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/22/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/3floppy_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/camera_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/cdwriter_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/dvd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/ipod_mount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/24/usbpendrive_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/32/3floppy_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/32/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/32/cdwriter_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/32/dvd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/32/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/3floppy_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/camera_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/cdwriter_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/dvd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/hdd_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/ipod_mount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/48/usbpendrive_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/64/cdrom_unmount.svg
+/snap/snap-store/467/usr/share/icons/Humanity/devices/64/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/128/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/128/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/16/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/16/cdwriter_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/16/dvd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/16/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/16/usbpendrive_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/22/camera_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/22/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/22/cdwriter_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/22/dvd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/22/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/3floppy_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/camera_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/cdwriter_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/dvd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/ipod_mount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/24/usbpendrive_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/32/3floppy_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/32/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/32/cdwriter_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/32/dvd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/32/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/3floppy_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/camera_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/cdwriter_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/dvd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/hdd_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/ipod_mount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/48/usbpendrive_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/64/cdrom_unmount.svg
+/snap/snap-store/518/usr/share/icons/Humanity/devices/64/hdd_unmount.svg
+/usr/bin/fusermount
+/usr/bin/gnome-disk-image-mounter
+/usr/bin/grub-mount
+/usr/bin/gvfs-mount
+/usr/bin/mmount
+/usr/bin/mount
+/usr/bin/mountpoint
+/usr/bin/systemd-mount
+/usr/bin/systemd-umount
+/usr/bin/umount
+/usr/include/linux/mount.h
+/usr/include/linux/nfs4_mount.h
+/usr/include/linux/nfs_mount.h
+/usr/include/linux/cifs/cifs_mount.h
+/usr/include/rpcsvc/mount.h
+/usr/include/rpcsvc/mount.x
+/usr/include/x86_64-linux-gnu/sys/mount.h
+/usr/lib/klibc/bin/mount
+/usr/lib/klibc/bin/nfsmount
+/usr/lib/klibc/bin/umount
+/usr/lib/linux-boot-probes/50mounted-tests
+/usr/lib/linux-boot-probes/mounted
+/usr/lib/linux-boot-probes/mounted/40grub
+/usr/lib/linux-boot-probes/mounted/40grub2
+/usr/lib/linux-boot-probes/mounted/50lilo
+/usr/lib/linux-boot-probes/mounted/90fallback
+/usr/lib/modules/5.8.0-38-generic/kernel/drivers/hid/hid-penmount.ko
+/usr/lib/modules/5.8.0-38-generic/kernel/drivers/input/touchscreen/penmount.ko
+/usr/lib/modules/5.8.0-40-generic/kernel/drivers/hid/hid-penmount.ko
+/usr/lib/modules/5.8.0-40-generic/kernel/drivers/input/touchscreen/penmount.ko
+/usr/lib/os-probes/50mounted-tests
+/usr/lib/os-probes/mounted
+/usr/lib/os-probes/mounted/05efi
+/usr/lib/os-probes/mounted/10freedos
+/usr/lib/os-probes/mounted/10qnx
+/usr/lib/os-probes/mounted/20macosx
+/usr/lib/os-probes/mounted/20microsoft
+/usr/lib/os-probes/mounted/30utility
+/usr/lib/os-probes/mounted/40lsb
+/usr/lib/os-probes/mounted/70hurd
+/usr/lib/os-probes/mounted/80minix
+/usr/lib/os-probes/mounted/83haiku
+/usr/lib/os-probes/mounted/90linux-distro
+/usr/lib/os-probes/mounted/90solaris
+/usr/lib/os-probes/mounted/efi
+/usr/lib/os-probes/mounted/efi/10elilo
+/usr/lib/os-probes/mounted/efi/20microsoft
+/usr/lib/systemd/systemd-remount-fs
+/usr/lib/systemd/system/clean-mount-point@.service
+/usr/lib/systemd/system/dev-hugepages.mount
+/usr/lib/systemd/system/dev-mqueue.mount
+/usr/lib/systemd/system/proc-sys-fs-binfmt_misc.automount
+/usr/lib/systemd/system/proc-sys-fs-binfmt_misc.mount
+/usr/lib/systemd/system/sys-fs-fuse-connections.mount
+/usr/lib/systemd/system/sys-kernel-config.mount
+/usr/lib/systemd/system/sys-kernel-debug.mount
+/usr/lib/systemd/system/sys-kernel-tracing.mount
+/usr/lib/systemd/system/systemd-remount-fs.service
+/usr/lib/systemd/system/umount.target
+/usr/lib/systemd/system/sysinit.target.wants/dev-hugepages.mount
+/usr/lib/systemd/system/sysinit.target.wants/dev-mqueue.mount
+/usr/lib/systemd/system/sysinit.target.wants/proc-sys-fs-binfmt_misc.automount
+/usr/lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount
+/usr/lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount
+/usr/lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount
+/usr/lib/systemd/system/sysinit.target.wants/sys-kernel-tracing.mount
+/usr/lib/x86_64-linux-gnu/libmount.so.1
+/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+/usr/lib/x86_64-linux-gnu/directfb-1.7-7/inputdrivers/libdirectfb_penmount.so
+/usr/sbin/mount.fuse
+/usr/sbin/mount.lowntfs-3g
+/usr/sbin/mount.ntfs
+/usr/sbin/mount.ntfs-3g
+/usr/sbin/mount.vboxsf
+/usr/sbin/umount.udisks2
+/usr/share/applications/gnome-disk-image-mounter.desktop
+/usr/share/backgrounds/brad-huchteman-stone-mountain.jpg
+/usr/share/bash-completion/completions/_mount
+/usr/share/bash-completion/completions/_mount.linux
+/usr/share/bash-completion/completions/_umount
+/usr/share/bash-completion/completions/_umount.linux
+/usr/share/bash-completion/completions/fusermount
+/usr/share/bash-completion/completions/mount
+/usr/share/bash-completion/completions/mountpoint
+/usr/share/bash-completion/completions/umount
+/usr/share/doc/libmount1
+/usr/share/doc/mount
+/usr/share/doc/libmount1/changelog.Debian.gz
+/usr/share/doc/libmount1/copyright
+/usr/share/doc/mount/NEWS.Debian.gz
+/usr/share/doc/mount/changelog.Debian.gz
+/usr/share/doc/mount/copyright
+/usr/share/doc/mount/examples
+/usr/share/doc/mount/mount.txt
+/usr/share/doc/mount/examples/fstab
+/usr/share/doc/mount/examples/mount.fstab
+/usr/share/doc/util-linux/mount.txt
+/usr/share/games/bzflag/mountain1.png
+/usr/share/games/bzflag/mountain2.png
+/usr/share/games/bzflag/mountain3.png
+/usr/share/games/bzflag/mountain4.png
+/usr/share/games/bzflag/mountain5.png
+/usr/share/gvfs/mounts
+/usr/share/gvfs/mounts/admin.mount
+/usr/share/gvfs/mounts/afc.mount
+/usr/share/gvfs/mounts/afp-browse.mount
+/usr/share/gvfs/mounts/afp.mount
+/usr/share/gvfs/mounts/archive.mount
+/usr/share/gvfs/mounts/burn.mount
+/usr/share/gvfs/mounts/cdda.mount
+/usr/share/gvfs/mounts/computer.mount
+/usr/share/gvfs/mounts/dav+sd.mount
+/usr/share/gvfs/mounts/dav.mount
+/usr/share/gvfs/mounts/dns-sd.mount
+/usr/share/gvfs/mounts/ftp.mount
+/usr/share/gvfs/mounts/ftpis.mount
+/usr/share/gvfs/mounts/ftps.mount
+/usr/share/gvfs/mounts/google.mount
+/usr/share/gvfs/mounts/gphoto2.mount
+/usr/share/gvfs/mounts/http.mount
+/usr/share/gvfs/mounts/localtest.mount
+/usr/share/gvfs/mounts/mtp.mount
+/usr/share/gvfs/mounts/network.mount
+/usr/share/gvfs/mounts/nfs.mount
+/usr/share/gvfs/mounts/recent.mount
+/usr/share/gvfs/mounts/sftp.mount
+/usr/share/gvfs/mounts/smb-browse.mount
+/usr/share/gvfs/mounts/smb.mount
+/usr/share/gvfs/mounts/trash.mount
+/usr/share/icecast2/admin/listmounts.xsl
+/usr/share/icons/Humanity/devices/128/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/128/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/16/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/16/cdwriter_unmount.svg
+/usr/share/icons/Humanity/devices/16/dvd_unmount.svg
+/usr/share/icons/Humanity/devices/16/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/16/usbpendrive_unmount.svg
+/usr/share/icons/Humanity/devices/22/camera_unmount.svg
+/usr/share/icons/Humanity/devices/22/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/22/cdwriter_unmount.svg
+/usr/share/icons/Humanity/devices/22/dvd_unmount.svg
+/usr/share/icons/Humanity/devices/22/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/24/3floppy_unmount.svg
+/usr/share/icons/Humanity/devices/24/camera_unmount.svg
+/usr/share/icons/Humanity/devices/24/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/24/cdwriter_unmount.svg
+/usr/share/icons/Humanity/devices/24/dvd_unmount.svg
+/usr/share/icons/Humanity/devices/24/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/24/ipod_mount.svg
+/usr/share/icons/Humanity/devices/24/usbpendrive_unmount.svg
+/usr/share/icons/Humanity/devices/32/3floppy_unmount.svg
+/usr/share/icons/Humanity/devices/32/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/32/cdwriter_unmount.svg
+/usr/share/icons/Humanity/devices/32/dvd_unmount.svg
+/usr/share/icons/Humanity/devices/32/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/48/3floppy_unmount.svg
+/usr/share/icons/Humanity/devices/48/camera_unmount.svg
+/usr/share/icons/Humanity/devices/48/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/48/cdwriter_unmount.svg
+/usr/share/icons/Humanity/devices/48/dvd_unmount.svg
+/usr/share/icons/Humanity/devices/48/hdd_unmount.svg
+/usr/share/icons/Humanity/devices/48/ipod_mount.svg
+/usr/share/icons/Humanity/devices/48/usbpendrive_unmount.svg
+/usr/share/icons/Humanity/devices/64/cdrom_unmount.svg
+/usr/share/icons/Humanity/devices/64/hdd_unmount.svg
+/usr/share/initramfs-tools/scripts/init-premount
+/usr/share/initramfs-tools/scripts/local-premount
+/usr/share/initramfs-tools/scripts/init-premount/brltty
+/usr/share/initramfs-tools/scripts/init-premount/plymouth
+/usr/share/initramfs-tools/scripts/local-premount/fixrtc
+/usr/share/initramfs-tools/scripts/local-premount/ntfs_3g
+/usr/share/initramfs-tools/scripts/local-premount/resume
+/usr/share/lintian/overrides/mount
+/usr/share/man/man1/fusermount.1.gz
+/usr/share/man/man1/gnome-disk-image-mounter.1.gz
+/usr/share/man/man1/grub-mount.1.gz
+/usr/share/man/man1/gvfs-mount.1.gz
+/usr/share/man/man1/mmount.1.gz
+/usr/share/man/man1/mountpoint.1.gz
+/usr/share/man/man1/systemd-mount.1.gz
+/usr/share/man/man1/systemd-umount.1.gz
+/usr/share/man/man2/mount.2.gz
+/usr/share/man/man2/umount.2.gz
+/usr/share/man/man2/umount2.2.gz
+/usr/share/man/man5/systemd.automount.5.gz
+/usr/share/man/man5/systemd.mount.5.gz
+/usr/share/man/man7/mount_namespaces.7.gz
+/usr/share/man/man8/mount.8.gz
+/usr/share/man/man8/mount.fuse.8.gz
+/usr/share/man/man8/mount.lowntfs-3g.8.gz
+/usr/share/man/man8/mount.ntfs-3g.8.gz
+/usr/share/man/man8/mount.ntfs.8.gz
+/usr/share/man/man8/systemd-remount-fs.8.gz
+/usr/share/man/man8/systemd-remount-fs.service.8.gz
+/usr/share/man/man8/umount.8.gz
+/usr/share/man/man8/umount.udisks2.8.gz
+/usr/share/mime/inode/mount-point.xml
+/usr/share/pixmaps/faces/mountain.jpg
+/usr/share/systemd/tmp.mount
+/usr/src/linux-headers-5.4.0-42/include/linux/mount.h
+/usr/src/linux-headers-5.4.0-42/include/uapi/linux/mount.h
+/usr/src/linux-headers-5.4.0-42/include/uapi/linux/nfs4_mount.h
+/usr/src/linux-headers-5.4.0-42/include/uapi/linux/nfs_mount.h
+/usr/src/linux-headers-5.4.0-42/include/uapi/linux/cifs/cifs_mount.h
+/usr/src/linux-headers-5.4.0-42/tools/perf/trace/beauty/fsmount.sh
+/usr/src/linux-headers-5.4.0-42/tools/perf/trace/beauty/mount_flags.sh
+/usr/src/linux-headers-5.4.0-42/tools/perf/trace/beauty/move_mount_flags.sh
+/usr/src/linux-headers-5.4.0-42/tools/testing/selftests/mount
+/usr/src/linux-headers-5.4.0-42/tools/testing/selftests/mount/Makefile
+/usr/src/linux-headers-5.4.0-42/tools/testing/selftests/mount/run_tests.sh
+/usr/src/linux-headers-5.4.0-42-generic/include/config/devtmpfs/mount.h
+/usr/src/linux-headers-5.4.0-42-generic/include/config/exfat/dont/mount
+/usr/src/linux-headers-5.4.0-42-generic/include/config/exfat/dont/mount/vfat.h
+/usr/src/linux-headers-5.4.0-42-generic/include/config/hid/penmount.h
+/usr/src/linux-headers-5.4.0-42-generic/include/config/touchscreen/penmount.h
+/usr/src/linux-headers-5.8.0-38-generic/include/config/devtmpfs/mount.h
+/usr/src/linux-headers-5.8.0-38-generic/include/config/hid/penmount.h
+/usr/src/linux-headers-5.8.0-38-generic/include/config/touchscreen/penmount.h
+/usr/src/linux-headers-5.8.0-40-generic/include/config/devtmpfs/mount.h
+/usr/src/linux-headers-5.8.0-40-generic/include/config/hid/penmount.h
+/usr/src/linux-headers-5.8.0-40-generic/include/config/touchscreen/penmount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/include/linux/mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/include/uapi/linux/mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/include/uapi/linux/nfs4_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/include/uapi/linux/nfs_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/include/uapi/linux/cifs/cifs_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/perf/trace/beauty/fsmount.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/perf/trace/beauty/mount_flags.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/perf/trace/beauty/move_mount_flags.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/testing/selftests/mount
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/testing/selftests/mount/Makefile
+/usr/src/linux-hwe-5.8-headers-5.8.0-38/tools/testing/selftests/mount/run_tests.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/include/linux/mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/include/uapi/linux/mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/include/uapi/linux/nfs4_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/include/uapi/linux/nfs_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/include/uapi/linux/cifs/cifs_mount.h
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/perf/trace/beauty/fsmount.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/perf/trace/beauty/mount_flags.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/perf/trace/beauty/move_mount_flags.sh
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/testing/selftests/mount
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/testing/selftests/mount/Makefile
+/usr/src/linux-hwe-5.8-headers-5.8.0-40/tools/testing/selftests/mount/run_tests.sh
+/var/lib/app-info/icons/ubuntu-focal-universe/48x48/zulumount-gui_zuluMount.png
+/var/lib/dpkg/info/libmount1:amd64.list
+/var/lib/dpkg/info/libmount1:amd64.md5sums
+/var/lib/dpkg/info/libmount1:amd64.shlibs
+/var/lib/dpkg/info/libmount1:amd64.symbols
+/var/lib/dpkg/info/libmount1:amd64.triggers
+/var/lib/dpkg/info/mount.list
+/var/lib/dpkg/info/mount.md5sums
+/var/lib/snapd/mount
+/var/lib/snapd/features/robust-mount-namespace-updates
+/var/lib/snapd/mount/snap.snap-store.fstab
+/var/lib/snapd/mount/snap.snap-store.user-fstab
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ apropos crontab
+anacrontab (5)       - configuration file for anacron
+crontab (1)          - maintain crontab files for individual users (Vixie Cron)
+crontab (5)          - tables for driving cron
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man man
+[?1049h[22;0;0t[?1h=MAN(1)                        Manual pager utils                        MAN(1)[m
+[m
+[1mNAME[0m[m
+       man - an interface to the system reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman[0m [[4mman[24m [4moptions[24m] [[[4msection[24m] [4mpage[24m ...] ...[m
+       [1mman[0m [1m-k[0m [[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman[0m [1m-K[0m [[4mman[24m [4moptions[24m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman[0m [1m-f[0m [[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman[0m [1m-l[0m [[4mman[24m [4moptions[24m] [4mfile[24m ...[m
+       [1mman[0m [1m-w[0m|[1m-W[0m [[4mman[24m [4moptions[24m] [4mpage[24m ...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mman[0m  is  the system's manual pager.  Each [4mpage[24m argument given to [1mman[0m is[m
+       normally the name of a program, utility or function.  The  [4mmanual[24m  [4mpage[24m[m
+       associated with each of these arguments is then found and displayed.  A[m
+       [4msection[24m, if provided, will direct [1mman[0m to look only in that  [4msection[24m  of[m
+       the  manual.   The  default action is to search in all of the available[m
+       [4msections[24m following a pre-defined order (see [1mDEFAULTS[0m), and to show only[m
+       the first [4mpage[24m found, even if [4mpage[24m exists in several [4msections[24m.[m
+[m
+       The table below shows the [4msection[24m numbers of the manual followed by the[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man 5 crontab
+[?1049h[22;0;0t[?1h=CRONTAB(5)                    File Formats Manual                   CRONTAB(5)[m
+[m
+[1mNAME[0m[m
+       crontab - tables for driving cron[m
+[m
+[1mDESCRIPTION[0m[m
+       A  [4mcrontab[24m file contains instructions to the [4mcron[24m(8) daemon of the gen‐[m
+       eral form: ``run this command at this time on this date''.   Each  user[m
+       has  their  own crontab, and commands in any given crontab will be exe‐[m
+       cuted as the user who owns the crontab.  Uucp  and  News  will  usually[m
+       have  their  own  crontabs, eliminating the need for explicitly running[m
+       [4msu[24m(1) as part of a cron command.[m
+[m
+       Blank lines and leading spaces and tabs are ignored.  Lines whose first[m
+       non-space  character  is a hash-sign (#) are comments, and are ignored.[m
+       Note that comments are not allowed on the same line as  cron  commands,[m
+       since  they  will  be taken to be part of the command.  Similarly, com‐[m
+       ments are not allowed on the same line  as  environment  variable  set‐[m
+       tings.[m
+[m
+       An  active line in a crontab will be either an environment setting or a[m
+       cron command.  The crontab file is parsed from top to  bottom,  so  any[m
+       environment  settings  will affect only the cron commands below them in[m
+[7m Manual page crontab(5) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man crontab
+[?1049h[22;0;0t[?1h=CRONTAB(1)                  General Commands Manual                 CRONTAB(1)[m
+[m
+[1mNAME[0m[m
+       crontab - maintain crontab files for individual users (Vixie Cron)[m
+[m
+[1mSYNOPSIS[0m[m
+       crontab [ -u user ] file[m
+       crontab [ -u user ] [ -i ] { -e | -l | -r }[m
+[m
+[1mDESCRIPTION[0m[m
+       [4mcrontab[24m  is  the  program used to install, deinstall or list the tables[m
+       used to drive the [4mcron[24m(8) daemon in Vixie Cron.   Each  user  can  have[m
+       their    own    crontab,    and    though    these    are    files   in[m
+       /var/spool/cron/crontabs, they are not intended to be edited directly.[m
+[m
+       If the [4m/etc/cron.allow[24m file exists, then you must be listed  (one  user[m
+       per  line)  therein in order to be allowed to use this command.  If the[m
+       [4m/etc/cron.allow[24m file does not exist but the  [4m/etc/cron.deny[24m  file  does[m
+       exist,  then you must [1mnot[0m be listed in the [4m/etc/cron.deny[24m file in order[m
+       to use this command.[m
+[m
+       If neither of these files exists, then depending on site-dependent con‐[m
+       figuration  parameters, only the super user will be allowed to use this[m
+[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[Kqq[K[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ apropos route
+ip-mroute (8)        - multicast routing cache management
+ip-route (8)         - routing table management
+route (8)            - show / manipulate the IP routing table
+routef (8)           - flush routes
+routel (8)           - list routes with pretty output format
+tc-route (8)         - route traffic control filter
+traceroute6 (8)      - traces path to a network host
+traceroute6.iputils (8) - traces path to a network host
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ whatis route
+route (8)            - show / manipulate the IP routing table
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ info ls
+[?1h=[?1049h[22;0;0t[H[2J[24;1HWelcome to Info version 6.7.  Type H for help, h for tutorial.[24;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[24;1HWelcome to Info version 6.7.  Type H for help, h for tutorial.[23;1H[7m-----Info: (coreutils)ls invocation, 57 lines --Top-----------------------------[0m[1;1HNext: dir invocation,  Up: Directory listing[3;1H10.1 ‘ls’: List directory contents[4;1H==================================[6;1HThe ‘ls’ program lists information about files (of any type, including[7;1Hdirectories).  Options and file arguments can be intermixed arbitrarily,[8;1Has usual.[10;1H   For non-option command-line arguments that are directories, by[11;1Hdefault ‘ls’ lists the contents of directories, not recursively, and[12;1Homitting files with names beginning with ‘.’.  For other non-option[13;1Harguments, by default ‘ls’ lists just the file name.  If no non-option[14;1Hargument is specified, ‘ls’ operates on the current directory, acting as[15;1Hif it had been invoked with a single argument of ‘.’.[17;1H   By default, the output is sorted alphabetically, according to the[18;1Hlocale settings in effect.(1)  If standard output is a terminal, the[19;1Houtput is in columns (sorted vertically) and control characters are[20;1Houtput as question marks; otherwise, the output is listed one per line[21;1Hand control characters are output as-is.[1;1H[1;1H[24;1H[K[24;1H[K[?1l>[?1049l[23;0;0t[24;1H[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ exit
+exit
+
+Script done on 2021-02-10 21:19:26+09:00 [COMMAND_EXIT_CODE="0"]

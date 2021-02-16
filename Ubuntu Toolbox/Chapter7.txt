@@ -1,0 +1,1909 @@
+Script started on 2021-02-14 09:01:26+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ sudo fsd[K[Kdisk -l
+[sudo] password for bok_suh: 
+Sorry, try again.
+[sudo] password for bok_suh: 
+[1mDisk /dev/loop0: 55.39 MiB, 58073088 bytes, 113424 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop1: 255.58 MiB, 267980800 bytes, 523400 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop2: 218.102 MiB, 229629952 bytes, 448496 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop3: 55.48 MiB, 58159104 bytes, 113592 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop4: 62.9 MiB, 65105920 bytes, 127160 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop5: 64.79 MiB, 67915776 bytes, 132648 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop6: 49.8 MiB, 52203520 bytes, 101960 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop7: 31.9 MiB, 32595968 bytes, 63664 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/sda: 32 GiB, 34359738368 bytes, 67108864 sectors
+[0mDisk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x313a401a
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2       1052670 64995327 63942658 30.5G  5 Extended
+/dev/sda5       1052672 60801023 59748352 28.5G 83 Linux
+
+
+[1mDisk /dev/loop8: 51.4 MiB, 53522432 bytes, 104536 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop9: 31.9 MiB, 32600064 bytes, 63672 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ sudo fdisk -l /dev/sdb
+fdisk: cannot open /dev/sdb: No such file or directory
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ sud f[K[Ko fdisk /dev/sda
+[32m
+Welcome to fdisk (util-linux 2.34).
+[0mChanges will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): m
+
+Help:
+[1m
+  DOS (MBR)
+[0m   a   toggle a bootable flag
+   b   edit nested BSD disklabel
+   c   toggle the dos compatibility flag
+[1m
+  Generic
+[0m   d   delete a partition
+   F   list free unpartitioned space
+   l   list known partition types
+   n   add a new partition
+   p   print the partition table
+   t   change a partition type
+   v   verify the partition table
+   i   print information about a partition
+[1m
+  Misc
+[0m   m   print this menu
+   u   change display/entry units
+   x   extra functionality (experts only)
+[1m
+  Script
+[0m   I   load disk layout from sfdisk script file
+   O   dump disk layout to sfdisk script file
+[1m
+  Save & Exit
+[0m   w   write table to disk and exit
+   q   quit without saving changes
+[1m
+  Create a new label
+[0m   g   create a new empty GPT partition table
+   G   create a new empty SGI (IRIX) partition table
+   o   create a new empty DOS partition table
+   s   create a new empty Sun partition table
+
+
+Command (m for help): p
+[1mDisk /dev/sda: 32 GiB, 34359738368 bytes, 67108864 sectors
+[0mDisk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x313a401a
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2       1052670 64995327 63942658 30.5G  5 Extended
+/dev/sda5       1052672 60801023 59748352 28.5G 83 Linux
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 1 extended, 2 free)
+   l   logical (numbered from 5)
+Select (default p): p
+Partition number (3,4, default 3): 
+First sector (64995328-67108863, default 64995328): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (64995328-67108863, default 67108863): 
+
+Created a new partition 3 of type 'Linux' and of size 1 GiB.
+
+Command (m for help): m
+
+Help:
+[1m
+  DOS (MBR)
+[0m   a   toggle a bootable flag
+   b   edit nested BSD disklabel
+   c   toggle the dos compatibility flag
+[1m
+  Generic
+[0m   d   delete a partition
+   F   list free unpartitioned space
+   l   list known partition types
+   n   add a new partition
+   p   print the partition table
+   t   change a partition type
+   v   verify the partition table
+   i   print information about a partition
+[1m
+  Misc
+[0m   m   print this menu
+   u   change display/entry units
+   x   extra functionality (experts only)
+[1m
+  Script
+[0m   I   load disk layout from sfdisk script file
+   O   dump disk layout to sfdisk script file
+[1m
+  Save & Exit
+[0m   w   write table to disk and exit
+   q   quit without saving changes
+[1m
+  Create a new label
+[0m   g   create a new empty GPT partition table
+   G   create a new empty SGI (IRIX) partition table
+   o   create a new empty DOS partition table
+   s   create a new empty Sun partition table
+
+
+Command (m for help): p
+[1mDisk /dev/sda: 32 GiB, 34359738368 bytes, 67108864 sectors
+[0mDisk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x313a401a
+
+[1mDevice[0m     [1mBoot[0m [1m   Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *        2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2        1052670 64995327 63942658 30.5G  5 Extended
+/dev/sda3       64995328 67108863  2113536    1G 83 Linux
+/dev/sda5        1052672 60801023 59748352 28.5G 83 Linux
+
+Partition table entries are not in disk order.
+
+Command (m for help): d
+Partition number (1-3,5, default 5): ^[  3
+
+Partition 3 has been deleted.
+
+Command (m for help): p
+[1mDisk /dev/sda: 32 GiB, 34359738368 bytes, 67108864 sectors
+[0mDisk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x313a401a
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2       1052670 64995327 63942658 30.5G  5 Extended
+/dev/sda5       1052672 60801023 59748352 28.5G 83 Linux
+
+Command (m for help): a
+Partition number (1,2,5, default 5): 1
+
+The bootable flag on partition 1 is disabled now.
+
+Command (m for help): a
+Partition number (1,2,5, default 5): 1
+
+The bootable flag on partition 1 is enabled now.
+
+Command (m for help): m
+
+Help:
+[1m
+  DOS (MBR)
+[0m   a   toggle a bootable flag
+   b   edit nested BSD disklabel
+   c   toggle the dos compatibility flag
+[1m
+  Generic
+[0m   d   delete a partition
+   F   list free unpartitioned space
+   l   list known partition types
+   n   add a new partition
+   p   print the partition table
+   t   change a partition type
+   v   verify the partition table
+   i   print information about a partition
+[1m
+  Misc
+[0m   m   print this menu
+   u   change display/entry units
+   x   extra functionality (experts only)
+[1m
+  Script
+[0m   I   load disk layout from sfdisk script file
+   O   dump disk layout to sfdisk script file
+[1m
+  Save & Exit
+[0m   w   write table to disk and exit
+   q   quit without saving changes
+[1m
+  Create a new label
+[0m   g   create a new empty GPT partition table
+   G   create a new empty SGI (IRIX) partition table
+   o   create a new empty DOS partition table
+   s   create a new empty Sun partition table
+
+
+Command (m for help): q
+
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ sudo sfdisk -d /dev/sda > sda-[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo sfdisk -d /dev/sda ?[K> sda-table
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo sdf[K[Kfdisk /dev/sda < sda-table
+Checking that no-one is using this disk right now ... FAILED
+
+[31mThis disk is currently in use - repartitioning is probably a bad idea.
+Umount all file systems, and swapoff all swap partitions on this disk.
+Use the --no-reread flag to suppress this check.
+[0m
+sfdisk: Use the --force flag to overrule all checks.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo sfdisk -d /dev/sda | sfdisk /dev/d[Ksdb
+sfdisk: cannot open /dev/sdb: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo parted /dev/sda print
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sda: 34.4GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags: 
+
+Number  Start   End     Size    Type      File system  Flags
+ 1      1049kB  538MB   537MB   primary   fat32        boot
+ 2      539MB   33.3GB  32.7GB  extended
+ 5      539MB   31.1GB  30.6GB  logical   ext4
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo parted /dev/sdc
+Error: Could not stat device /dev/sdc - No such file or directory.
+                                                                                                                                                    Retry/Cancel? c
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo apt-get install parted
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 41%Reading package lists... 41%Reading package lists... 57%Reading package lists... 57%Reading package lists... 74%Reading package lists... 74%Reading package lists... 76%Reading package lists... 76%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+parted is already the newest version (3.3-4ubuntu0.20.04.1).
+parted set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo parted
+GNU Parted 3.3
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+                                                                          (parted) help
+  align-check TYPE N                       check partition N for TYPE(min|opt)
+        alignment
+  help [COMMAND]                           print general help, or help on
+        COMMAND
+  mklabel,mktable LABEL-TYPE               create a new disklabel (partition
+        table)
+  mkpart PART-TYPE [FS-TYPE] START END     make a partition
+  name NUMBER NAME                         name partition NUMBER as NAME
+  print [devices|free|list,all|NUMBER]     display the partition table,
+        available devices, free space, all found partitions, or a particular
+        partition
+  quit                                     exit program
+  rescue START END                         rescue a lost partition near START
+        and END
+  resizepart NUMBER END                    resize partition NUMBER
+  rm NUMBER                                delete partition NUMBER
+  select DEVICE                            choose the device to edit
+  disk_set FLAG STATE                      change the FLAG on selected device
+  disk_toggle [FLAG]                       toggle the state of FLAG on selected
+        device
+  set NUMBER FLAG STATE                    change the FLAG on partition NUMBER
+  toggle [NUMBER [FLAG]]                   toggle the state of FLAG on partition
+        NUMBER
+  unit UNIT                                set the default unit to UNIT
+  version                                  display the version number and
+        copyright information of GNU Parted
+                                                                          (parted) quit
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo e2label /dev/sda2
+e2label: Attempt to read block from filesystem resulted in short read while trying to open /dev/sda2
+Couldn't find valid filesystem superblock.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo ab[Kpt-get install e2label
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package e2label
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo e2label /dev/sda2 mypartition
+e2label: Attempt to read block from filesystem resulted in short read while trying to open /dev/sda2
+Couldn't find valid filesystem superblock.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkfs -t ext4 /dev/sdb1
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/sdb1 does not exist and no size was specified.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkfs -t ext4 /dev/sdb1[K[Ka
+mke2fs 1.45.5 (07-Jan-2020)
+Found a dos partition table in /dev/sda
+Proceed anyway? (y,N) n
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dd if-/dev/zero of=mydisk count=2048000
+dd: unrecognized operand ‘if-/dev/zero’
+Try 'dd --help' for more information.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dd if-/dev/zero of=mydisk count=2048000[C[1P[1@=
+du -sh mydisk
+
+c
+q
+^C1838851+0 records in
+1838850+0 records out
+941491200 bytes (941 MB, 898 MiB) copied, 16.8312 s, 55.9 MB/s
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ mkfs -t ext54[K[K4 mydisk
+mke2fs 1.45.5 (07-Jan-2020)
+Discarding device blocks:   4096/229376             done                            
+Creating filesystem with 229376 4k blocks and 57568 inodes
+Filesystem UUID: 8e7fd362-6d17-431b-bbe8-fbeb8f1598cc
+Superblock backups stored on blocks: 
+	32768, 98304, 163840
+
+Allocating group tables: 0/7   done                            
+Writing inode tables: 0/7   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/7   done
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkdir /mnt/image
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mount -0[Ko loop mydisk /mnt/image
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo cd /mnt/image
+sudo: cd: command not found
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cd /mnt/image
+]0;bok_suh@Bok: /mnt/image[01;32mbok_suh@Bok[00m:[01;34m/mnt/image[00m$ mkdir test
+mkdir: cannot create directory ‘test’: Permission denied
+]0;bok_suh@Bok: /mnt/image[01;32mbok_suh@Bok[00m:[01;34m/mnt/image[00m$ cp /etc/hosts
+cp: missing destination file operand after '/etc/hosts'
+Try 'cp --help' for more information.
+]0;bok_suh@Bok: /mnt/image[01;32mbok_suh@Bok[00m:[01;34m/mnt/image[00m$ cd
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo umount /mnt/m[Kimage
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo tune2fs -l /dev/sda1 | less
+[?1049h[22;0;0t[?1h=tune2fs: Bad magic number in super-block while trying to open /dev/sda1
+tune2fs 1.45.5 (07-Jan-2020)
+/dev/sda1 contains a vfat file system
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo dumpe2fs -h /dev/sda1
+dumpe2fs 1.45.5 (07-Jan-2020)
+dumpe2fs: Bad magic number in super-block while trying to open /dev/sda1
+Couldn't find valid filesystem superblock.
+/dev/sda1 contains a vfat file system
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo dumpe2fs -h /dev/sda1[K
+dumpe2fs 1.45.5 (07-Jan-2020)
+dumpe2fs: Bad magic number in super-block while trying to open /dev/sda
+Couldn't find valid filesystem superblock.
+Found a dos partition table in /dev/sda
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo tune2fs -c 31 /dev/sda1
+tune2fs 1.45.5 (07-Jan-2020)
+tune2fs: Bad magic number in super-block while trying to open /dev/sda1
+/dev/sda1 contains a vfat file system
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkd[Kswap /dev/sda6
+mkswap: cannot open /dev/sda6: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkswap /dev/sda6[K
+mkswap: cannot open /dev/sda: Device or resource busy
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo swapon /dev/sda1
+swapon: /dev/sda1: read swap header failed
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo swapon -v /dev/sda1
+swapon: /dev/sda1: read swap header failed
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mkswap -c /dev/sda1
+mkswap: error: /dev/sda1 is mounted; will not make swapspace
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ swapon -s
+Filename				Type		Size	Used	Priority
+/swapfile                              	file    	459260	0	-2
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ mount
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,noexec,relatime,size=12141196k,nr_inodes=3035299,mode=755)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=2434076k,mode=755)
+/dev/sda5 on / type ext4 (rw,relatime,errors=remount-ro)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=17653)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+/var/lib/snapd/snaps/gnome-3-34-1804_36.snap on /snap/gnome-3-34-1804/36 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-34-1804_66.snap on /snap/gnome-3-34-1804/66 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1506.snap on /snap/gtk-common-themes/1506 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1988.snap on /snap/core18/1988 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1514.snap on /snap/gtk-common-themes/1514 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1944.snap on /snap/core18/1944 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/snap-store_467.snap on /snap/snap-store/467 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/snapd_11036.snap on /snap/snapd/11036 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/snap-store_518.snap on /snap/snap-store/518 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/snapd_10707.snap on /snap/snapd/10707 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/dev/sda1 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=2434072k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/sr0 on /media/bok_suh/VBox_GAs_6.1.16 type iso9660 (ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,uhelper=udisks2)
+/dev/fuse on /run/user/1000/doc type fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+tmpfs on /run/snapd/ns type tmpfs (rw,nosuid,nodev,noexec,relatime,size=2434076k,mode=755)
+nsfs on /run/snapd/ns/snap-store.mnt type nsfs (rw)
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ mount -t ext4
+/dev/sda5 on / type ext4 (rw,relatime,errors=remount-ro)
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ mount -t ext4 -l
+/dev/sda5 on / type ext4 (rw,relatime,errors=remount-ro)
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo mount /dev/sdb1 m[K/mnt/mymount/
+mount: /mnt/mymount/: mount point does not exist.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo badblocks /dev/sda
+q^C
+
+Interrupted at block 12397632
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo badblk[Kocks -v /dev[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd /dev
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ dir
+adsp		 lightnvm      rtc0	 tty22	tty5	   ttyS18     vcs1
+autofs		 log	       sda	 tty23	tty50	   ttyS19     vcs2
+block		 loop0	       sda1	 tty24	tty51	   ttyS2      vcs3
+bsg		 loop1	       sda2	 tty25	tty52	   ttyS20     vcs4
+btrfs-control	 loop10        sda5	 tty26	tty53	   ttyS21     vcs5
+bus		 loop2	       sg0	 tty27	tty54	   ttyS22     vcs6
+cdrom		 loop3	       sg1	 tty28	tty55	   ttyS23     vcsa
+char		 loop4	       shm	 tty29	tty56	   ttyS24     vcsa1
+console		 loop5	       snapshot  tty3	tty57	   ttyS25     vcsa2
+core		 loop6	       snd	 tty30	tty58	   ttyS26     vcsa3
+cpu_dma_latency  loop7	       sr0	 tty31	tty59	   ttyS27     vcsa4
+cuse		 loop8	       stderr	 tty32	tty6	   ttyS28     vcsa5
+disk		 loop9	       stdin	 tty33	tty60	   ttyS29     vcsa6
+dma_heap	 loop-control  stdout	 tty34	tty61	   ttyS3      vcsu
+dri		 mapper        tty	 tty35	tty62	   ttyS30     vcsu1
+dsp		 mcelog        tty0	 tty36	tty63	   ttyS31     vcsu2
+dvd		 mem	       tty1	 tty37	tty7	   ttyS4      vcsu3
+ecryptfs	 mixer	       tty10	 tty38	tty8	   ttyS5      vcsu4
+fb0		 mqueue        tty11	 tty39	tty9	   ttyS6      vcsu5
+fd		 net	       tty12	 tty4	ttyprintk  ttyS7      vcsu6
+full		 null	       tty13	 tty40	ttyS0	   ttyS8      vfio
+fuse		 nvram	       tty14	 tty41	ttyS1	   ttyS9      vga_arbiter
+hidraw0		 port	       tty15	 tty42	ttyS10	   udmabuf    vhci
+hpet		 ppp	       tty16	 tty43	ttyS11	   uhid       vhost-net
+hugepages	 psaux	       tty17	 tty44	ttyS12	   uinput     vhost-vsock
+hwrng		 ptmx	       tty18	 tty45	ttyS13	   urandom    zero
+i2c-0		 pts	       tty19	 tty46	ttyS14	   userio     zfs
+initctl		 random        tty2	 tty47	ttyS15	   vboxguest
+input		 rfkill        tty20	 tty48	ttyS16	   vboxuser
+kmsg		 rtc	       tty21	 tty49	ttyS17	   vcs
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ ls
+[0m[40;33;01madsp[0m             [01;34mlightnvm[0m      [40;33;01mrtc0[0m      [40;33;01mtty22[0m  [40;33;01mtty5[0m       [40;33;01mttyS18[0m     [40;33;01mvcs1[0m
+[40;33;01mautofs[0m           [01;36mlog[0m           [40;33;01msda[0m       [40;33;01mtty23[0m  [40;33;01mtty50[0m      [40;33;01mttyS19[0m     [40;33;01mvcs2[0m
+[01;34mblock[0m            [40;33;01mloop0[0m         [40;33;01msda1[0m      [40;33;01mtty24[0m  [40;33;01mtty51[0m      [40;33;01mttyS2[0m      [40;33;01mvcs3[0m
+[01;34mbsg[0m              [40;33;01mloop1[0m         [40;33;01msda2[0m      [40;33;01mtty25[0m  [40;33;01mtty52[0m      [40;33;01mttyS20[0m     [40;33;01mvcs4[0m
+[40;33;01mbtrfs-control[0m    [40;33;01mloop10[0m        [40;33;01msda5[0m      [40;33;01mtty26[0m  [40;33;01mtty53[0m      [40;33;01mttyS21[0m     [40;33;01mvcs5[0m
+[01;34mbus[0m              [40;33;01mloop2[0m         [40;33;01msg0[0m       [40;33;01mtty27[0m  [40;33;01mtty54[0m      [40;33;01mttyS22[0m     [40;33;01mvcs6[0m
+[01;36mcdrom[0m            [40;33;01mloop3[0m         [40;33;01msg1[0m       [40;33;01mtty28[0m  [40;33;01mtty55[0m      [40;33;01mttyS23[0m     [40;33;01mvcsa[0m
+[01;34mchar[0m             [40;33;01mloop4[0m         [30;42mshm[0m       [40;33;01mtty29[0m  [40;33;01mtty56[0m      [40;33;01mttyS24[0m     [40;33;01mvcsa1[0m
+[40;33;01mconsole[0m          [40;33;01mloop5[0m         [40;33;01msnapshot[0m  [40;33;01mtty3[0m   [40;33;01mtty57[0m      [40;33;01mttyS25[0m     [40;33;01mvcsa2[0m
+[01;36mcore[0m             [40;33;01mloop6[0m         [01;34msnd[0m       [40;33;01mtty30[0m  [40;33;01mtty58[0m      [40;33;01mttyS26[0m     [40;33;01mvcsa3[0m
+[40;33;01mcpu_dma_latency[0m  [40;33;01mloop7[0m         [40;33;01msr0[0m       [40;33;01mtty31[0m  [40;33;01mtty59[0m      [40;33;01mttyS27[0m     [40;33;01mvcsa4[0m
+[40;33;01mcuse[0m             [40;33;01mloop8[0m         [01;36mstderr[0m    [40;33;01mtty32[0m  [40;33;01mtty6[0m       [40;33;01mttyS28[0m     [40;33;01mvcsa5[0m
+[01;34mdisk[0m             [40;33;01mloop9[0m         [01;36mstdin[0m     [40;33;01mtty33[0m  [40;33;01mtty60[0m      [40;33;01mttyS29[0m     [40;33;01mvcsa6[0m
+[01;34mdma_heap[0m         [40;33;01mloop-control[0m  [01;36mstdout[0m    [40;33;01mtty34[0m  [40;33;01mtty61[0m      [40;33;01mttyS3[0m      [40;33;01mvcsu[0m
+[01;34mdri[0m              [01;34mmapper[0m        [40;33;01mtty[0m       [40;33;01mtty35[0m  [40;33;01mtty62[0m      [40;33;01mttyS30[0m     [40;33;01mvcsu1[0m
+[40;33;01mdsp[0m              [40;33;01mmcelog[0m        [40;33;01mtty0[0m      [40;33;01mtty36[0m  [40;33;01mtty63[0m      [40;33;01mttyS31[0m     [40;33;01mvcsu2[0m
+[01;36mdvd[0m              [40;33;01mmem[0m           [40;33;01mtty1[0m      [40;33;01mtty37[0m  [40;33;01mtty7[0m       [40;33;01mttyS4[0m      [40;33;01mvcsu3[0m
+[40;33;01mecryptfs[0m         [40;33;01mmixer[0m         [40;33;01mtty10[0m     [40;33;01mtty38[0m  [40;33;01mtty8[0m       [40;33;01mttyS5[0m      [40;33;01mvcsu4[0m
+[40;33;01mfb0[0m              [30;42mmqueue[0m        [40;33;01mtty11[0m     [40;33;01mtty39[0m  [40;33;01mtty9[0m       [40;33;01mttyS6[0m      [40;33;01mvcsu5[0m
+[01;36mfd[0m               [01;34mnet[0m           [40;33;01mtty12[0m     [40;33;01mtty4[0m   [40;33;01mttyprintk[0m  [40;33;01mttyS7[0m      [40;33;01mvcsu6[0m
+[40;33;01mfull[0m             [40;33;01mnull[0m          [40;33;01mtty13[0m     [40;33;01mtty40[0m  [40;33;01mttyS0[0m      [40;33;01mttyS8[0m      [01;34mvfio[0m
+[40;33;01mfuse[0m             [40;33;01mnvram[0m         [40;33;01mtty14[0m     [40;33;01mtty41[0m  [40;33;01mttyS1[0m      [40;33;01mttyS9[0m      [40;33;01mvga_arbiter[0m
+[40;33;01mhidraw0[0m          [40;33;01mport[0m          [40;33;01mtty15[0m     [40;33;01mtty42[0m  [40;33;01mttyS10[0m     [40;33;01mudmabuf[0m    [40;33;01mvhci[0m
+[40;33;01mhpet[0m             [40;33;01mppp[0m           [40;33;01mtty16[0m     [40;33;01mtty43[0m  [40;33;01mttyS11[0m     [40;33;01muhid[0m       [40;33;01mvhost-net[0m
+[01;34mhugepages[0m        [40;33;01mpsaux[0m         [40;33;01mtty17[0m     [40;33;01mtty44[0m  [40;33;01mttyS12[0m     [40;33;01muinput[0m     [40;33;01mvhost-vsock[0m
+[40;33;01mhwrng[0m            [40;33;01mptmx[0m          [40;33;01mtty18[0m     [40;33;01mtty45[0m  [40;33;01mttyS13[0m     [40;33;01murandom[0m    [40;33;01mzero[0m
+[40;33;01mi2c-0[0m            [01;34mpts[0m           [40;33;01mtty19[0m     [40;33;01mtty46[0m  [40;33;01mttyS14[0m     [40;33;01muserio[0m     [40;33;01mzfs[0m
+[01;36minitctl[0m          [40;33;01mrandom[0m        [40;33;01mtty2[0m      [40;33;01mtty47[0m  [40;33;01mttyS15[0m     [40;33;01mvboxguest[0m
+[01;34minput[0m            [40;33;01mrfkill[0m        [40;33;01mtty20[0m     [40;33;01mtty48[0m  [40;33;01mttyS16[0m     [40;33;01mvboxuser[0m
+[40;33;01mkmsg[0m             [01;36mrtc[0m           [40;33;01mtty21[0m     [40;33;01mtty49[0m  [40;33;01mttyS17[0m     [40;33;01mvcs[0m
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -v /dev/sda5
+Checking blocks 0 to 29874175
+Checking for bad blocks (read-only test): done
+^C
+
+Interrupted at block 4918016
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -v /dd[Kev/sda3
+badblocks: No such file or directory while trying to determine device size
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -v /dev/sda3[K2
+Checking blocks 0 to 0
+Checking for bad blocks (read-only test): done                                                 
+Pass completed, 0 bad blocks found. (0/0/0 errors)
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -v /dev/sda235[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kdircd /devsudo badblocks /dev/sda3[K2
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -vsn /dev/sda2
+Checking for bad blocks in non-destructive read-write mode
+From block 0 to 0
+Checking for bad blocks (non-destructive read-write test)
+Testing with random pattern: done                                                 
+Pass completed, 0 bad blocks found. (0/0/0 errors)
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -vsn /dev/sda2[K5
+/dev/sda5 is mounted; it's not safe to run badblocks!
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -vsn /dev/sda5[K1
+/dev/sda1 is mounted; it's not safe to run badblocks!
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo badblocks -vsn /dev/sda1[K
+/dev/sda is apparently in use by the system; it's not safe to run badblocks!
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo tail -f /var/log/messages
+tail: cannot open '/var/log/messages' for reading: No such file or directory
+tail: no files remaining
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ mkdir /var/log/messages
+mkdir: cannot create directory ‘/var/log/messages’: Permission denied
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo mkdir /var/log/messea[K[Kages
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo tail -f /var/log [K/messages
+tail: error reading '/var/log/messages': Is a directory
+tail: /var/log/messages: cannot follow end of this type of file; giving up on this name
+tail: no files remaining
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo apt-get install mdadm
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  finalrd
+Suggested packages:
+  default-mta | mail-transport-agent dracut-core
+The following NEW packages will be installed:
+  finalrd mdadm
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 424 kB of archives.
+After this operation, 1,285 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Connecting to kr.archive.ubuntu.com (91.189.88.142)]                                                        0% [Waiting for headers]                        Get:1 http://kr.archive.ubuntu.com/ubuntu focal-updates/main amd64 finalrd all 6~ubuntu20.04.1 [6,852 B]
+0% [1 finalrd 1,180 B/6,852 B 17%]                                  11% [Working]             Get:2 http://kr.archive.ubuntu.com/ubuntu focal-updates/main amd64 mdadm amd64 4.1-5ubuntu1.2 [417 kB]
+12% [2 mdadm 2,637 B/417 kB 1%]24% [2 mdadm 65.4 kB/417 kB 16%]                                48% [2 mdadm 192 kB/417 kB 46%]72% [2 mdadm 321 kB/417 kB 77%]                               100% [Working]              Fetched 424 kB in 3s (132 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package finalrd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 281379 files and directories currently installed.)
+Preparing to unpack .../finalrd_6~ubuntu20.04.1_all.deb ...
+Unpacking finalrd (6~ubuntu20.04.1) ...
+Selecting previously unselected package mdadm.
+Preparing to unpack .../mdadm_4.1-5ubuntu1.2_amd64.deb ...
+Unpacking mdadm (4.1-5ubuntu1.2) ...
+Setting up finalrd (6~ubuntu20.04.1) ...
+Created symlink /etc/systemd/system/sysinit.target.wants/finalrd.service → /lib/systemd/system/finalrd.service.
+Setting up mdadm (4.1-5ubuntu1.2) ...
+Generating mdadm.conf... done.
+update-initramfs: deferring update (trigger activated)
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.8.0-43-generic
+Found initrd image: /boot/initrd.img-5.8.0-43-generic
+Found linux image: /boot/vmlinuz-5.8.0-40-generic
+Found initrd image: /boot/initrd.img-5.8.0-40-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+done
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdcheck_continue.timer → /lib/systemd/system/mdcheck_continue.timer.
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdcheck_start.timer → /lib/systemd/system/mdcheck_start.timer.
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdmonitor-oneshot.timer → /lib/systemd/system/mdmonitor-oneshot.timer.
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.3) ...
+update-initramfs: Generating /boot/initrd.img-5.8.0-43-generic
+libdvd-pkg: Checking orig.tar integrity...
+/usr/src/libdvd-pkg/libdvdcss_1.4.2.orig.tar.bz2: OK
+libdvd-pkg: `apt-get check` failed, you may have broken packages. Aborting...
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo mdadm 0[K-Q /dev/md1
+mdadm: cannot open /dev/md1: No such file or directory
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ man mdadm
+[?1049h[22;0;0t[?1h=MDADM(8)                     System Manager's Manual                    MDADM(8)[m
+[m
+[1mNAME[0m[m
+       mdadm - manage MD devices [4maka[24m Linux Software RAID[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmdadm[0m [4m[mode][24m [4m<raiddevice>[24m [4m[options][24m [4m<component-devices>[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       RAID  devices are virtual devices created from two or more real block de‐[m
+       vices.  This allows multiple devices (typically disk drives or partitions[m
+       thereof) to be combined into a single device to hold (for example) a sin‐[m
+       gle filesystem.  Some RAID levels include redundancy and so  can  survive[m
+       some degree of device failure.[m
+[m
+       Linux  Software RAID devices are implemented through the md (Multiple De‐[m
+       vices) device driver.[m
+[m
+       Currently, Linux supports [1mLINEAR[0m  md  devices,  [1mRAID0[0m  (striping),  [1mRAID1[0m[m
+       (mirroring),  [1mRAID4[0m,  [1mRAID5[0m,  [1mRAID6[0m,  [1mRAID10[0m, [1mMULTIPATH[0m, [1mFAULTY[0m, and [1mCON‐[0m[m
+       [1mTAINER[0m.[m
+[m
+       [1mMULTIPATH[0m is not a Software RAID mechanism, but does involve multiple de‐[m
+       vices:  each device is a path to one common physical storage device.  New[m
+       installations should not use md/multipath as it is not well supported and[m
+       has  no ongoing development.  Use the Device Mapper based multipath-tools[m
+       instead.[m
+[m
+       [1mFAULTY[0m is also not true RAID, and it only involves one device.   It  pro‐[m
+[7m Manual page mdadm(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ df =[K-h
+Filesystem      Size  Used Avail Use% Mounted on
+udev             12G     0   12G   0% /dev
+tmpfs           2.4G  1.4M  2.4G   1% /run
+/dev/sda5        28G  8.8G   19G  33% /
+tmpfs            12G     0   12G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            12G     0   12G   0% /sys/fs/cgroup
+/dev/loop1      256M  256M     0 100% /snap/gnome-3-34-1804/36
+/dev/loop2      219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop4       63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop3       56M   56M     0 100% /snap/core18/1988
+/dev/loop5       65M   65M     0 100% /snap/gtk-common-themes/1514
+/dev/loop0       56M   56M     0 100% /snap/core18/1944
+/dev/loop6       50M   50M     0 100% /snap/snap-store/467
+/dev/loop7       32M   32M     0 100% /snap/snapd/11036
+/dev/loop8       52M   52M     0 100% /snap/snap-store/518
+/dev/loop9       32M   32M     0 100% /snap/snapd/10707
+/dev/sda1       511M  4.0K  511M   1% /boot/efi
+tmpfs           2.4G   28K  2.4G   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/bok_suh/VBox_GAs_6.1.16
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ df -hi
+Filesystem     Inodes IUsed IFree IUse% Mounted on
+udev             2.9M   467  2.9M    1% /dev
+tmpfs            3.0M   847  3.0M    1% /run
+/dev/sda5        1.8M  302K  1.5M   17% /
+tmpfs            3.0M     1  3.0M    1% /dev/shm
+tmpfs            3.0M     5  3.0M    1% /run/lock
+tmpfs            3.0M    18  3.0M    1% /sys/fs/cgroup
+/dev/loop1        24K   24K     0  100% /snap/gnome-3-34-1804/36
+/dev/loop2        19K   19K     0  100% /snap/gnome-3-34-1804/66
+/dev/loop4        61K   61K     0  100% /snap/gtk-common-themes/1506
+/dev/loop3        11K   11K     0  100% /snap/core18/1988
+/dev/loop5        63K   63K     0  100% /snap/gtk-common-themes/1514
+/dev/loop0        11K   11K     0  100% /snap/core18/1944
+/dev/loop6        16K   16K     0  100% /snap/snap-store/467
+/dev/loop7        470   470     0  100% /snap/snapd/11036
+/dev/loop8        16K   16K     0  100% /snap/snap-store/518
+/dev/loop9        472   472     0  100% /snap/snapd/10707
+/dev/sda1           0     0     0     - /boot/efi
+tmpfs            3.0M    88  3.0M    1% /run/user/1000
+/dev/sr0            0     0     0     - /media/bok_suh/VBox_GAs_6.1.16
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ df h[K-hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   12G     0   12G   0% /dev
+tmpfs          tmpfs     2.4G  1.4M  2.4G   1% /run
+/dev/sda5      ext4       28G  8.8G   19G  33% /
+tmpfs          tmpfs      12G     0   12G   0% /dev/shm
+tmpfs          tmpfs     5.0M     0  5.0M   0% /run/lock
+tmpfs          tmpfs      12G     0   12G   0% /sys/fs/cgroup
+/dev/loop1     squashfs  256M  256M     0 100% /snap/gnome-3-34-1804/36
+/dev/loop2     squashfs  219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop4     squashfs   63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop3     squashfs   56M   56M     0 100% /snap/core18/1988
+/dev/loop5     squashfs   65M   65M     0 100% /snap/gtk-common-themes/1514
+/dev/loop0     squashfs   56M   56M     0 100% /snap/core18/1944
+/dev/loop6     squashfs   50M   50M     0 100% /snap/snap-store/467
+/dev/loop7     squashfs   32M   32M     0 100% /snap/snapd/11036
+/dev/loop8     squashfs   52M   52M     0 100% /snap/snap-store/518
+/dev/loop9     squashfs   32M   32M     0 100% /snap/snapd/10707
+/dev/sda1      vfat      511M  4.0K  511M   1% /boot/efi
+tmpfs          tmpfs     2.4G   28K  2.4G   1% /run/user/1000
+/dev/sr0       iso9660    59M   59M     0 100% /media/bok_suh/VBox_GAs_6.1.16
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ df -[K[K[K[Kdu -h /home/
+8.0K	/home/bok_suh/.dbus/session-bus
+12K	/home/bok_suh/.dbus
+4.0K	/home/bok_suh/Templates
+428K	/home/bok_suh/Logs
+4.0K	/home/bok_suh/Desktop
+32K	/home/bok_suh/.presage
+172M	/home/bok_suh/Music
+1.3M	/home/bok_suh/Pictures/small
+3.4M	/home/bok_suh/Pictures
+56K	/home/bok_suh/.config/fcitx/conf
+8.0K	/home/bok_suh/.config/fcitx/dbus
+8.0K	/home/bok_suh/.config/fcitx/clipboard
+4.0K	/home/bok_suh/.config/fcitx/log
+4.0K	/home/bok_suh/.config/fcitx/data
+144K	/home/bok_suh/.config/fcitx
+4.0K	/home/bok_suh/.config/menus/applications-merged
+8.0K	/home/bok_suh/.config/menus
+8.0K	/home/bok_suh/.config/ibus/bus
+12K	/home/bok_suh/.config/ibus
+8.0K	/home/bok_suh/.config/totem
+4.0K	/home/bok_suh/.config/gnome-session/saved-session
+8.0K	/home/bok_suh/.config/gnome-session
+8.0K	/home/bok_suh/.config/session
+8.0K	/home/bok_suh/.config/google-chrome/CertificateRevocation/6418/_metadata
+48K	/home/bok_suh/.config/google-chrome/CertificateRevocation/6418
+52K	/home/bok_suh/.config/google-chrome/CertificateRevocation
+924K	/home/bok_suh/.config/google-chrome/GrShaderCache/GPUCache
+928K	/home/bok_suh/.config/google-chrome/GrShaderCache
+8.0K	/home/bok_suh/.config/google-chrome/TLSDeprecationConfig/4/_metadata
+24K	/home/bok_suh/.config/google-chrome/TLSDeprecationConfig/4
+28K	/home/bok_suh/.config/google-chrome/TLSDeprecationConfig
+8.0K	/home/bok_suh/.config/google-chrome/WidevineCdm
+16M	/home/bok_suh/.config/google-chrome/Safe Browsing
+4.0K	/home/bok_suh/.config/google-chrome/Floc
+8.0K	/home/bok_suh/.config/google-chrome/OriginTrials/1.0.0.6/_metadata
+20K	/home/bok_suh/.config/google-chrome/OriginTrials/1.0.0.6
+24K	/home/bok_suh/.config/google-chrome/OriginTrials
+4.0K	/home/bok_suh/.config/google-chrome/Webstore Downloads
+52K	/home/bok_suh/.config/google-chrome/Default/Local Storage/leveldb
+56K	/home/bok_suh/.config/google-chrome/Default/Local Storage
+4.0K	/home/bok_suh/.config/google-chrome/Default/blob_storage/02735c2f-c75e-47ff-83ce-6c92ec22b0ef
+8.0K	/home/bok_suh/.config/google-chrome/Default/blob_storage
+24K	/home/bok_suh/.config/google-chrome/Default/Local Extension Settings/gphhapmejobijbbhgpjhcjognlahblep
+20K	/home/bok_suh/.config/google-chrome/Default/Local Extension Settings/ghbmnnjooekpmoecnnnilnnbdlolhkhi
+48K	/home/bok_suh/.config/google-chrome/Default/Local Extension Settings
+28K	/home/bok_suh/.config/google-chrome/Default/Sync Data/LevelDB
+36K	/home/bok_suh/.config/google-chrome/Default/Sync Data
+24K	/home/bok_suh/.config/google-chrome/Default/Extension State
+20K	/home/bok_suh/.config/google-chrome/Default/File System/000/t/Paths
+28K	/home/bok_suh/.config/google-chrome/Default/File System/000/t
+32K	/home/bok_suh/.config/google-chrome/Default/File System/000
+20K	/home/bok_suh/.config/google-chrome/Default/File System/Origins
+56K	/home/bok_suh/.config/google-chrome/Default/File System
+24K	/home/bok_suh/.config/google-chrome/Default/Extension Rules
+20K	/home/bok_suh/.config/google-chrome/Default/Platform Notifications
+24K	/home/bok_suh/.config/google-chrome/Default/GCM Store/Encryption
+44K	/home/bok_suh/.config/google-chrome/Default/GCM Store
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/hr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/he
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/en
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales/ko
+316K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_locales
+12K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0/_metadata
+340K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_0
+344K	/home/bok_suh/.config/google-chrome/Default/Extensions/blpcfgokakmgnkcojhhkbfbldkacnbeo
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ms
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/he
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/en_US
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales/ko
+340K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_locales
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0/_metadata
+380K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap/1.2_0
+384K	/home/bok_suh/.config/google-chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/hr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/eu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ms
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/he
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/en_US
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales/ko
+356K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_locales
+12K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0/_metadata
+380K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf/14.5_0
+384K	/home/bok_suh/.config/google-chrome/Default/Extensions/apdfllckaahabafndbhieahigkjlhalf
+28K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/icons
+288K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/include/external
+352K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/include
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/et
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/gd
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/sv
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/hr
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/fr
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/pt_BR
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/nb
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/sk
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/tr
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/pt_PT
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/nl
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/id
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/ca
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/hu
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/sr
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/de
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/pl
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/fi
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/cs
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/da
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/oc
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/sl
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/es
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/ru
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/el
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/gl
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/en
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/it
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales/ko
+468K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_locales
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/_metadata
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0/css
+932K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep/10.1_0
+936K	/home/bok_suh/.config/google-chrome/Default/Extensions/gphhapmejobijbbhgpjhcjognlahblep
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/hr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/se
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/en
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales/ko
+308K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_locales
+12K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0/_metadata
+332K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia/8.3_0
+336K	/home/bok_suh/.config/google-chrome/Default/Extensions/pjkljhegncpnkpknbcohdijeoejaedia
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ms
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/he
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/en_US
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales/ko
+340K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_locales
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0/_metadata
+380K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake/0.10_0
+384K	/home/bok_suh/.config/google-chrome/Default/Extensions/aohghmighlieiainnegkcijnfilokake
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/zh
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/et
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/sv
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/iw
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/hr
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/fr
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/fil
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/nb
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/sk
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/tr
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/th
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/kn
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/sw
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/mr
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/am
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/nl
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/gu
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/id
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ms
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ca
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/bn
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/hu
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/vi
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/bg
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/sr
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/de
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ar
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/zh_TW
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/pl
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/hi
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/lv
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/fa
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/te
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ro
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/fi
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ja
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ta
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/cs
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/da
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/uk
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/sl
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/es
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ru
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/el
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/pt
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/en
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/lt
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/it
+20K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ko
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales/ml
+1.1M	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_locales
+44K	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0/_metadata
+3.1M	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/8820.1109.0.1_0
+3.1M	/home/bok_suh/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm
+108K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/nb
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/en
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ko
+324K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales
+24K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_metadata
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/css
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/html
+1.3M	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0
+1.3M	/home/bok_suh/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/kk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/iw
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/hr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/km
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/af
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/kn
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/sw
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/eu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/mr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/am
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/gu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ms
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/bn
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/is
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/cy
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ka
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/hy
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/zu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/si
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/mn
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/be
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/fa
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/zh_HK
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/te
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/en_US
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ur
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/fr_CA
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/lo
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ta
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/az
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/my
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/gl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/en
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ne
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/pa
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ko
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales/ml
+604K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_locales
+28K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0/_metadata
+724K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.21.0_0
+728K	/home/bok_suh/.config/google-chrome/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/et
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/sv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/fr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/fil
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/pt_BR
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/sk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/tr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/th
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/pt_PT
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/nl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/es_419
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/id
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ms
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ca
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/he
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/hu
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/vi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/en_GB
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/bg
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/sr
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/de
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ar
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/zh_TW
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/pl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/hi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/lv
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ro
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/en_US
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/fi
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ja
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/cs
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/da
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/uk
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/sl
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/es
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ru
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/el
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/no
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/lt
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/it
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/zh_CN
+8.0K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales/ko
+340K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_locales
+16K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0/_metadata
+380K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek/0.10_0
+384K	/home/bok_suh/.config/google-chrome/Default/Extensions/aapocclcgogkmnckokdopfmhonfmgoek
+8.2M	/home/bok_suh/.config/google-chrome/Default/Extensions
+4.0K	/home/bok_suh/.config/google-chrome/Default/AutofillStrikeDatabase
+16K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage/leveldb
+20K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Local Storage
+16K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Platform Notifications
+300K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache
+20K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Session Storage
+364K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def
+368K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl
+20K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb
+24K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage
+20K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Platform Notifications
+300K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache
+24K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage
+376K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def
+380K	/home/bok_suh/.config/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda
+752K	/home/bok_suh/.config/google-chrome/Default/Storage/ext
+756K	/home/bok_suh/.config/google-chrome/Default/Storage
+20K	/home/bok_suh/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb
+24K	/home/bok_suh/.config/google-chrome/Default/IndexedDB
+24K	/home/bok_suh/.config/google-chrome/Default/shared_proto_db/metadata
+48K	/home/bok_suh/.config/google-chrome/Default/shared_proto_db
+300K	/home/bok_suh/.config/google-chrome/Default/GPUCache
+4.0K	/home/bok_suh/.config/google-chrome/Default/BudgetDatabase
+8.0K	/home/bok_suh/.config/google-chrome/Default/Accounts/Avatar Images
+12K	/home/bok_suh/.config/google-chrome/Default/Accounts
+4.0K	/home/bok_suh/.config/google-chrome/Default/Feature Engagement Tracker/AvailabilityDB
+4.0K	/home/bok_suh/.config/google-chrome/Default/Feature Engagement Tracker/EventDB
+12K	/home/bok_suh/.config/google-chrome/Default/Feature Engagement Tracker
+24K	/home/bok_suh/.config/google-chrome/Default/Session Storage
+20K	/home/bok_suh/.config/google-chrome/Default/Service Worker/Database
+8.0K	/home/bok_suh/.config/google-chrome/Default/Service Worker/ScriptCache/index-dir
+252K	/home/bok_suh/.config/google-chrome/Default/Service Worker/ScriptCache
+8.0K	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/f63322a0-9cc5-4e84-a01a-368e4d86c8b8/index-dir
+4.4M	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/f63322a0-9cc5-4e84-a01a-368e4d86c8b8
+8.0K	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/1540cff8-56f5-412a-898f-fdf6add1d7ae/index-dir
+3.9M	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/1540cff8-56f5-412a-898f-fdf6add1d7ae
+8.0K	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/82400f33-5d19-489f-88d6-d59756f00243/index-dir
+108K	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/82400f33-5d19-489f-88d6-d59756f00243
+8.3M	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac
+8.3M	/home/bok_suh/.config/google-chrome/Default/Service Worker/CacheStorage
+8.6M	/home/bok_suh/.config/google-chrome/Default/Service Worker
+20K	/home/bok_suh/.config/google-chrome/Default/data_reduction_proxy_leveldb
+280K	/home/bok_suh/.config/google-chrome/Default/Sessions
+24K	/home/bok_suh/.config/google-chrome/Default/Site Characteristics Database
+20K	/home/bok_suh/.config/google-chrome/Default/Sync Extension Settings/gphhapmejobijbbhgpjhcjognlahblep
+20K	/home/bok_suh/.config/google-chrome/Default/Sync Extension Settings/pkedcjkdefgpdelpbcmbmeomcjbeemfm
+44K	/home/bok_suh/.config/google-chrome/Default/Sync Extension Settings
+20K	/home/bok_suh/.config/google-chrome/Default/databases/https_mail.google.com_0
+52K	/home/bok_suh/.config/google-chrome/Default/databases
+20M	/home/bok_suh/.config/google-chrome/Default
+4.0K	/home/bok_suh/.config/google-chrome/NativeMessagingHosts
+12K	/home/bok_suh/.config/google-chrome/hyphen-data/90.0.4414.0/_metadata
+1.4M	/home/bok_suh/.config/google-chrome/hyphen-data/90.0.4414.0
+1.4M	/home/bok_suh/.config/google-chrome/hyphen-data
+8.0K	/home/bok_suh/.config/google-chrome/SafetyTips/2564/_metadata
+44K	/home/bok_suh/.config/google-chrome/SafetyTips/2564
+48K	/home/bok_suh/.config/google-chrome/SafetyTips
+4.1M	/home/bok_suh/.config/google-chrome/BrowserMetrics
+8.0K	/home/bok_suh/.config/google-chrome/Subresource Filter/Unindexed Rules/9.18.0/_metadata
+212K	/home/bok_suh/.config/google-chrome/Subresource Filter/Unindexed Rules/9.18.0
+216K	/home/bok_suh/.config/google-chrome/Subresource Filter/Unindexed Rules
+236K	/home/bok_suh/.config/google-chrome/Subresource Filter/Indexed Rules/27/9.18.0
+240K	/home/bok_suh/.config/google-chrome/Subresource Filter/Indexed Rules/27
+244K	/home/bok_suh/.config/google-chrome/Subresource Filter/Indexed Rules
+464K	/home/bok_suh/.config/google-chrome/Subresource Filter
+448K	/home/bok_suh/.config/google-chrome/Dictionaries
+300K	/home/bok_suh/.config/google-chrome/ShaderCache/GPUCache
+304K	/home/bok_suh/.config/google-chrome/ShaderCache
+4.0K	/home/bok_suh/.config/google-chrome/MEIPreload
+28K	/home/bok_suh/.config/google-chrome/AutofillStates/2020.11.2.164946/_metadata
+976K	/home/bok_suh/.config/google-chrome/AutofillStates/2020.11.2.164946
+980K	/home/bok_suh/.config/google-chrome/AutofillStates
+8.0K	/home/bok_suh/.config/google-chrome/ZxcvbnData/1/_metadata
+808K	/home/bok_suh/.config/google-chrome/ZxcvbnData/1
+812K	/home/bok_suh/.config/google-chrome/ZxcvbnData
+8.0K	/home/bok_suh/.config/google-chrome/OnDeviceHeadSuggestModel/20210126.355969659/_metadata
+1.4M	/home/bok_suh/.config/google-chrome/OnDeviceHeadSuggestModel/20210126.355969659
+1.4M	/home/bok_suh/.config/google-chrome/OnDeviceHeadSuggestModel
+8.0K	/home/bok_suh/.config/google-chrome/Crowd Deny/2021.2.1.1201/_metadata
+44K	/home/bok_suh/.config/google-chrome/Crowd Deny/2021.2.1.1201
+48K	/home/bok_suh/.config/google-chrome/Crowd Deny
+8.0K	/home/bok_suh/.config/google-chrome/FileTypePolicies/43/_metadata
+28K	/home/bok_suh/.config/google-chrome/FileTypePolicies/43
+32K	/home/bok_suh/.config/google-chrome/FileTypePolicies
+8.0K	/home/bok_suh/.config/google-chrome/SSLErrorAssistant/7/_metadata
+24K	/home/bok_suh/.config/google-chrome/SSLErrorAssistant/7
+28K	/home/bok_suh/.config/google-chrome/SSLErrorAssistant
+18M	/home/bok_suh/.config/google-chrome/pnacl/0.57.44.2492/_platform_specific/x86_64
+18M	/home/bok_suh/.config/google-chrome/pnacl/0.57.44.2492/_platform_specific
+8.0K	/home/bok_suh/.config/google-chrome/pnacl/0.57.44.2492/_metadata
+18M	/home/bok_suh/.config/google-chrome/pnacl/0.57.44.2492
+18M	/home/bok_suh/.config/google-chrome/pnacl
+4.0K	/home/bok_suh/.config/google-chrome/Crash Reports
+68M	/home/bok_suh/.config/google-chrome
+16K	/home/bok_suh/.config/dconf
+8.0K	/home/bok_suh/.config/eog
+4.0K	/home/bok_suh/.config/nautilus
+4.0K	/home/bok_suh/.config/enchant
+8.0K	/home/bok_suh/.config/gedit
+84K	/home/bok_suh/.config/pulse
+4.0K	/home/bok_suh/.config/update-notifier
+16K	/home/bok_suh/.config/evolution/sources
+20K	/home/bok_suh/.config/evolution
+4.0K	/home/bok_suh/.config/goa-1.0
+8.0K	/home/bok_suh/.config/gtk-3.0
+68M	/home/bok_suh/.config
+4.0K	/home/bok_suh/.thunderbird/Pending Pings
+8.0K	/home/bok_suh/.thunderbird/c8vlnrup.default
+4.0K	/home/bok_suh/.thunderbird/oofq0gqv.default-release/crashes/events
+8.0K	/home/bok_suh/.thunderbird/oofq0gqv.default-release/crashes
+4.0K	/home/bok_suh/.thunderbird/oofq0gqv.default-release/minidumps
+4.0K	/home/bok_suh/.thunderbird/oofq0gqv.default-release/extensions
+1.5M	/home/bok_suh/.thunderbird/oofq0gqv.default-release
+4.0K	/home/bok_suh/.thunderbird/Crash Reports/events
+12K	/home/bok_suh/.thunderbird/Crash Reports
+1.6M	/home/bok_suh/.thunderbird
+72K	/home/bok_suh/.pki/nssdb
+76K	/home/bok_suh/.pki
+4.0K	/home/bok_suh/.gnupg/private-keys-v1.d
+16K	/home/bok_suh/.gnupg
+4.0K	/home/bok_suh/.ssh
+8.0K	/home/bok_suh/.cache/ubuntu-report
+5.0M	/home/bok_suh/.cache/tracker
+20K	/home/bok_suh/.cache/ibus/bus
+24K	/home/bok_suh/.cache/ibus
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/41
+16K	/home/bok_suh/.cache/mesa_shader_cache/79
+12K	/home/bok_suh/.cache/mesa_shader_cache/9c
+28K	/home/bok_suh/.cache/mesa_shader_cache/02
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/45
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d8
+16K	/home/bok_suh/.cache/mesa_shader_cache/14
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d9
+12K	/home/bok_suh/.cache/mesa_shader_cache/b7
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/99
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/1e
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/a5
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/c7
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/5d
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/10
+12K	/home/bok_suh/.cache/mesa_shader_cache/60
+20K	/home/bok_suh/.cache/mesa_shader_cache/5b
+16K	/home/bok_suh/.cache/mesa_shader_cache/b4
+20K	/home/bok_suh/.cache/mesa_shader_cache/c8
+24K	/home/bok_suh/.cache/mesa_shader_cache/13
+16K	/home/bok_suh/.cache/mesa_shader_cache/dc
+12K	/home/bok_suh/.cache/mesa_shader_cache/34
+20K	/home/bok_suh/.cache/mesa_shader_cache/2b
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/b1
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/8b
+16K	/home/bok_suh/.cache/mesa_shader_cache/af
+24K	/home/bok_suh/.cache/mesa_shader_cache/d6
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/9e
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/b3
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/75
+16K	/home/bok_suh/.cache/mesa_shader_cache/62
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/e7
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/ec
+12K	/home/bok_suh/.cache/mesa_shader_cache/69
+16K	/home/bok_suh/.cache/mesa_shader_cache/04
+16K	/home/bok_suh/.cache/mesa_shader_cache/4e
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/80
+12K	/home/bok_suh/.cache/mesa_shader_cache/40
+12K	/home/bok_suh/.cache/mesa_shader_cache/39
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/89
+16K	/home/bok_suh/.cache/mesa_shader_cache/c6
+12K	/home/bok_suh/.cache/mesa_shader_cache/e8
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/ed
+12K	/home/bok_suh/.cache/mesa_shader_cache/86
+20K	/home/bok_suh/.cache/mesa_shader_cache/72
+20K	/home/bok_suh/.cache/mesa_shader_cache/cc
+12K	/home/bok_suh/.cache/mesa_shader_cache/30
+20K	/home/bok_suh/.cache/mesa_shader_cache/c0
+12K	/home/bok_suh/.cache/mesa_shader_cache/a7
+16K	/home/bok_suh/.cache/mesa_shader_cache/31
+16K	/home/bok_suh/.cache/mesa_shader_cache/0e
+16K	/home/bok_suh/.cache/mesa_shader_cache/f9
+12K	/home/bok_suh/.cache/mesa_shader_cache/aa
+16K	/home/bok_suh/.cache/mesa_shader_cache/fc
+12K	/home/bok_suh/.cache/mesa_shader_cache/6d
+12K	/home/bok_suh/.cache/mesa_shader_cache/7e
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/db
+12K	/home/bok_suh/.cache/mesa_shader_cache/8d
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/e1
+16K	/home/bok_suh/.cache/mesa_shader_cache/87
+12K	/home/bok_suh/.cache/mesa_shader_cache/e3
+16K	/home/bok_suh/.cache/mesa_shader_cache/ee
+24K	/home/bok_suh/.cache/mesa_shader_cache/61
+12K	/home/bok_suh/.cache/mesa_shader_cache/2c
+12K	/home/bok_suh/.cache/mesa_shader_cache/7b
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/67
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/cd
+12K	/home/bok_suh/.cache/mesa_shader_cache/3f
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/06
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/0a
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/27
+12K	/home/bok_suh/.cache/mesa_shader_cache/5a
+16K	/home/bok_suh/.cache/mesa_shader_cache/b5
+16K	/home/bok_suh/.cache/mesa_shader_cache/ca
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/c3
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/bf
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/f8
+20K	/home/bok_suh/.cache/mesa_shader_cache/20
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/09
+16K	/home/bok_suh/.cache/mesa_shader_cache/a6
+12K	/home/bok_suh/.cache/mesa_shader_cache/7d
+16K	/home/bok_suh/.cache/mesa_shader_cache/33
+12K	/home/bok_suh/.cache/mesa_shader_cache/2f
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/88
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/bb
+12K	/home/bok_suh/.cache/mesa_shader_cache/ab
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/18
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/55
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/98
+16K	/home/bok_suh/.cache/mesa_shader_cache/df
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d0
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/82
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/73
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/64
+16K	/home/bok_suh/.cache/mesa_shader_cache/c2
+20K	/home/bok_suh/.cache/mesa_shader_cache/f1
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/8a
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d2
+12K	/home/bok_suh/.cache/mesa_shader_cache/9b
+20K	/home/bok_suh/.cache/mesa_shader_cache/f4
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/dd
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/97
+20K	/home/bok_suh/.cache/mesa_shader_cache/19
+12K	/home/bok_suh/.cache/mesa_shader_cache/ea
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/f0
+20K	/home/bok_suh/.cache/mesa_shader_cache/4b
+12K	/home/bok_suh/.cache/mesa_shader_cache/c5
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/49
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/12
+16K	/home/bok_suh/.cache/mesa_shader_cache/68
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/e9
+12K	/home/bok_suh/.cache/mesa_shader_cache/de
+12K	/home/bok_suh/.cache/mesa_shader_cache/cb
+20K	/home/bok_suh/.cache/mesa_shader_cache/11
+12K	/home/bok_suh/.cache/mesa_shader_cache/59
+20K	/home/bok_suh/.cache/mesa_shader_cache/f2
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/bd
+12K	/home/bok_suh/.cache/mesa_shader_cache/d4
+16K	/home/bok_suh/.cache/mesa_shader_cache/35
+16K	/home/bok_suh/.cache/mesa_shader_cache/ac
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d5
+12K	/home/bok_suh/.cache/mesa_shader_cache/3d
+12K	/home/bok_suh/.cache/mesa_shader_cache/85
+20K	/home/bok_suh/.cache/mesa_shader_cache/fd
+16K	/home/bok_suh/.cache/mesa_shader_cache/03
+12K	/home/bok_suh/.cache/mesa_shader_cache/90
+12K	/home/bok_suh/.cache/mesa_shader_cache/76
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/28
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/8f
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/3b
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/52
+12K	/home/bok_suh/.cache/mesa_shader_cache/cf
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/be
+24K	/home/bok_suh/.cache/mesa_shader_cache/0c
+16K	/home/bok_suh/.cache/mesa_shader_cache/bc
+12K	/home/bok_suh/.cache/mesa_shader_cache/22
+12K	/home/bok_suh/.cache/mesa_shader_cache/3e
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/17
+16K	/home/bok_suh/.cache/mesa_shader_cache/0b
+12K	/home/bok_suh/.cache/mesa_shader_cache/fa
+12K	/home/bok_suh/.cache/mesa_shader_cache/0d
+16K	/home/bok_suh/.cache/mesa_shader_cache/c9
+12K	/home/bok_suh/.cache/mesa_shader_cache/92
+12K	/home/bok_suh/.cache/mesa_shader_cache/2a
+12K	/home/bok_suh/.cache/mesa_shader_cache/ef
+16K	/home/bok_suh/.cache/mesa_shader_cache/9f
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/e4
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/70
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/8e
+16K	/home/bok_suh/.cache/mesa_shader_cache/38
+20K	/home/bok_suh/.cache/mesa_shader_cache/1b
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/eb
+16K	/home/bok_suh/.cache/mesa_shader_cache/c4
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/7f
+12K	/home/bok_suh/.cache/mesa_shader_cache/71
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/f3
+12K	/home/bok_suh/.cache/mesa_shader_cache/6c
+12K	/home/bok_suh/.cache/mesa_shader_cache/d7
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/a4
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/53
+16K	/home/bok_suh/.cache/mesa_shader_cache/6e
+12K	/home/bok_suh/.cache/mesa_shader_cache/24
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/6b
+12K	/home/bok_suh/.cache/mesa_shader_cache/9a
+16K	/home/bok_suh/.cache/mesa_shader_cache/e2
+16K	/home/bok_suh/.cache/mesa_shader_cache/07
+12K	/home/bok_suh/.cache/mesa_shader_cache/54
+12K	/home/bok_suh/.cache/mesa_shader_cache/f7
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/4f
+12K	/home/bok_suh/.cache/mesa_shader_cache/16
+12K	/home/bok_suh/.cache/mesa_shader_cache/da
+16K	/home/bok_suh/.cache/mesa_shader_cache/1f
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/4c
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/21
+12K	/home/bok_suh/.cache/mesa_shader_cache/8c
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/08
+12K	/home/bok_suh/.cache/mesa_shader_cache/78
+16K	/home/bok_suh/.cache/mesa_shader_cache/66
+12K	/home/bok_suh/.cache/mesa_shader_cache/74
+12K	/home/bok_suh/.cache/mesa_shader_cache/56
+16K	/home/bok_suh/.cache/mesa_shader_cache/23
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/ba
+16K	/home/bok_suh/.cache/mesa_shader_cache/77
+12K	/home/bok_suh/.cache/mesa_shader_cache/37
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/d1
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/a8
+20K	/home/bok_suh/.cache/mesa_shader_cache/42
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/a2
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/58
+12K	/home/bok_suh/.cache/mesa_shader_cache/2e
+16K	/home/bok_suh/.cache/mesa_shader_cache/50
+12K	/home/bok_suh/.cache/mesa_shader_cache/5c
+12K	/home/bok_suh/.cache/mesa_shader_cache/00
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/05
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/6f
+24K	/home/bok_suh/.cache/mesa_shader_cache/94
+12K	/home/bok_suh/.cache/mesa_shader_cache/81
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/ae
+12K	/home/bok_suh/.cache/mesa_shader_cache/b9
+12K	/home/bok_suh/.cache/mesa_shader_cache/43
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/36
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/fb
+12K	/home/bok_suh/.cache/mesa_shader_cache/a0
+20K	/home/bok_suh/.cache/mesa_shader_cache/51
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/63
+16K	/home/bok_suh/.cache/mesa_shader_cache/84
+12K	/home/bok_suh/.cache/mesa_shader_cache/01
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/ff
+16K	/home/bok_suh/.cache/mesa_shader_cache/c1
+16K	/home/bok_suh/.cache/mesa_shader_cache/9d
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/e6
+20K	/home/bok_suh/.cache/mesa_shader_cache/26
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/25
+16K	/home/bok_suh/.cache/mesa_shader_cache/a9
+8.0K	/home/bok_suh/.cache/mesa_shader_cache/48
+2.9M	/home/bok_suh/.cache/mesa_shader_cache
+4.0K	/home/bok_suh/.cache/totem/stream-buffer
+8.0K	/home/bok_suh/.cache/totem
+12K	/home/bok_suh/.cache/google-chrome/Default/Cache/index-dir
+11M	/home/bok_suh/.cache/google-chrome/Default/Cache
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Code Cache/js/index-dir
+920K	/home/bok_suh/.cache/google-chrome/Default/Code Cache/js
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Code Cache/wasm/index-dir
+16K	/home/bok_suh/.cache/google-chrome/Default/Code Cache/wasm
+940K	/home/bok_suh/.cache/google-chrome/Default/Code Cache
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js/index-dir
+16K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/js
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm/index-dir
+16K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache/wasm
+36K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/Code Cache
+40K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def
+44K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/js/index-dir
+16K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/js
+8.0K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/wasm/index-dir
+16K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/wasm
+36K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache
+40K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def
+44K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda
+92K	/home/bok_suh/.cache/google-chrome/Default/Storage/ext
+96K	/home/bok_suh/.cache/google-chrome/Default/Storage
+12M	/home/bok_suh/.cache/google-chrome/Default
+12M	/home/bok_suh/.cache/google-chrome
+12K	/home/bok_suh/.cache/rhythmbox/album-art
+8.0K	/home/bok_suh/.cache/rhythmbox/alternate-toolbar
+24K	/home/bok_suh/.cache/rhythmbox
+4.0K	/home/bok_suh/.cache/ibus-table
+860K	/home/bok_suh/.cache/fontconfig
+1.9M	/home/bok_suh/.cache/thumbnails/large
+660K	/home/bok_suh/.cache/thumbnails/normal
+100K	/home/bok_suh/.cache/thumbnails/fail/gnome-thumbnail-factory
+104K	/home/bok_suh/.cache/thumbnails/fail
+2.6M	/home/bok_suh/.cache/thumbnails
+4.0K	/home/bok_suh/.cache/libgweather
+12K	/home/bok_suh/.cache/update-manager-core
+4.0K	/home/bok_suh/.cache/evolution/calendar/trash
+8.0K	/home/bok_suh/.cache/evolution/calendar
+4.0K	/home/bok_suh/.cache/evolution/mail/trash
+8.0K	/home/bok_suh/.cache/evolution/mail
+4.0K	/home/bok_suh/.cache/evolution/tasks/trash
+8.0K	/home/bok_suh/.cache/evolution/tasks
+4.0K	/home/bok_suh/.cache/evolution/memos/trash
+8.0K	/home/bok_suh/.cache/evolution/memos
+4.0K	/home/bok_suh/.cache/evolution/addressbook/trash
+8.0K	/home/bok_suh/.cache/evolution/addressbook
+4.0K	/home/bok_suh/.cache/evolution/sources/trash
+8.0K	/home/bok_suh/.cache/evolution/sources
+52K	/home/bok_suh/.cache/evolution
+22M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/startupCache
+7.4M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/safebrowsing/google4
+9.3M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/safebrowsing
+40K	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/thumbnails
+16K	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/settings/main/ms-language-packs
+20K	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/settings/main
+24K	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/settings
+4.0K	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/cache2/doomed
+42M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/cache2/entries
+42M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release/cache2
+72M	/home/bok_suh/.cache/mozilla/firefox/ri706x6l.default-release
+4.0K	/home/bok_suh/.cache/mozilla/firefox/wzxqw37b.default
+72M	/home/bok_suh/.cache/mozilla/firefox
+72M	/home/bok_suh/.cache/mozilla
+4.0K	/home/bok_suh/.cache/thunderbird/c8vlnrup.default
+3.1M	/home/bok_suh/.cache/thunderbird/oofq0gqv.default-release/startupCache
+4.0K	/home/bok_suh/.cache/thunderbird/oofq0gqv.default-release/cache2/doomed
+4.0K	/home/bok_suh/.cache/thunderbird/oofq0gqv.default-release/cache2/entries
+12K	/home/bok_suh/.cache/thunderbird/oofq0gqv.default-release/cache2
+3.1M	/home/bok_suh/.cache/thunderbird/oofq0gqv.default-release
+3.1M	/home/bok_suh/.cache/thunderbird
+772K	/home/bok_suh/.cache/gstreamer-1.0
+109M	/home/bok_suh/.cache
+8.0K	/home/bok_suh/.gnome/apps
+12K	/home/bok_suh/.gnome
+4.0K	/home/bok_suh/Public
+26M	/home/bok_suh/Videos
+988K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/odrs
+816K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/icons
+280K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/cssresource
+4.3M	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/appstream
+560K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/fwupd/remotes.d/lvfs
+564K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/fwupd/remotes.d
+568K	/home/bok_suh/snap/snap-store/common/.cache/gnome-software/fwupd
+6.9M	/home/bok_suh/snap/snap-store/common/.cache/gnome-software
+68K	/home/bok_suh/snap/snap-store/common/.cache/immodules
+444K	/home/bok_suh/snap/snap-store/common/.cache/fontconfig
+24K	/home/bok_suh/snap/snap-store/common/.cache/gio-modules
+7.4M	/home/bok_suh/snap/snap-store/common/.cache
+7.4M	/home/bok_suh/snap/snap-store/common
+8.0K	/home/bok_suh/snap/snap-store/518/.config/autostart
+4.0K	/home/bok_suh/snap/snap-store/518/.config/ibus
+4.0K	/home/bok_suh/snap/snap-store/518/.config/gtk-2.0
+4.0K	/home/bok_suh/snap/snap-store/518/.config/dconf
+8.0K	/home/bok_suh/snap/snap-store/518/.config/fontconfig
+4.0K	/home/bok_suh/snap/snap-store/518/.config/gtk-3.0
+52K	/home/bok_suh/snap/snap-store/518/.config
+324K	/home/bok_suh/snap/snap-store/518/.local/share/icons/Humanity
+92K	/home/bok_suh/snap/snap-store/518/.local/share/icons/ubuntu-mono-light
+8.0K	/home/bok_suh/snap/snap-store/518/.local/share/icons/LoginIcons
+84K	/home/bok_suh/snap/snap-store/518/.local/share/icons/ubuntu-mono-dark
+44K	/home/bok_suh/snap/snap-store/518/.local/share/icons/Humanity-Dark
+44K	/home/bok_suh/snap/snap-store/518/.local/share/icons/Adwaita
+8.0K	/home/bok_suh/snap/snap-store/518/.local/share/icons/hicolor
+608K	/home/bok_suh/snap/snap-store/518/.local/share/icons
+188K	/home/bok_suh/snap/snap-store/518/.local/share/glib-2.0/schemas
+192K	/home/bok_suh/snap/snap-store/518/.local/share/glib-2.0
+804K	/home/bok_suh/snap/snap-store/518/.local/share
+808K	/home/bok_suh/snap/snap-store/518/.local
+868K	/home/bok_suh/snap/snap-store/518
+8.3M	/home/bok_suh/snap/snap-store
+8.3M	/home/bok_suh/snap
+816K	/home/bok_suh/.local/share/tracker/data
+820K	/home/bok_suh/.local/share/tracker
+8.0K	/home/bok_suh/.local/share/icons/hicolor/16x16/apps
+12K	/home/bok_suh/.local/share/icons/hicolor/16x16
+12K	/home/bok_suh/.local/share/icons/hicolor/128x128/apps
+16K	/home/bok_suh/.local/share/icons/hicolor/128x128
+32K	/home/bok_suh/.local/share/icons/hicolor
+36K	/home/bok_suh/.local/share/icons
+4.0K	/home/bok_suh/.local/share/icc
+44K	/home/bok_suh/.local/share/kactivitymanagerd/resources
+48K	/home/bok_suh/.local/share/kactivitymanagerd
+112K	/home/bok_suh/.local/share/gvfs-metadata
+12K	/home/bok_suh/.local/share/applications
+4.0K	/home/bok_suh/.local/share/flatpak/db
+8.0K	/home/bok_suh/.local/share/flatpak
+4.0K	/home/bok_suh/.local/share/sounds
+4.0K	/home/bok_suh/.local/share/backgrounds
+4.0K	/home/bok_suh/.local/share/totem
+4.0K	/home/bok_suh/.local/share/nano
+12K	/home/bok_suh/.local/share/keyrings
+16K	/home/bok_suh/.local/share/rhythmbox
+4.0K	/home/bok_suh/.local/share/ibus-table
+8.0K	/home/bok_suh/.local/share/gnome-shell
+4.0K	/home/bok_suh/.local/share/nautilus/scripts
+8.0K	/home/bok_suh/.local/share/nautilus
+23M	/home/bok_suh/.local/share/Trash/files
+232K	/home/bok_suh/.local/share/Trash/info
+23M	/home/bok_suh/.local/share/Trash
+4.0K	/home/bok_suh/.local/share/kate/sessions
+12K	/home/bok_suh/.local/share/kate
+60K	/home/bok_suh/.local/share/grilo-plugins
+4.0K	/home/bok_suh/.local/share/gnome-settings-daemon
+8.0K	/home/bok_suh/.local/share/evolution/calendar/system
+4.0K	/home/bok_suh/.local/share/evolution/calendar/trash
+16K	/home/bok_suh/.local/share/evolution/calendar
+4.0K	/home/bok_suh/.local/share/evolution/mail/trash
+8.0K	/home/bok_suh/.local/share/evolution/mail
+8.0K	/home/bok_suh/.local/share/evolution/tasks/system
+4.0K	/home/bok_suh/.local/share/evolution/tasks/trash
+16K	/home/bok_suh/.local/share/evolution/tasks
+4.0K	/home/bok_suh/.local/share/evolution/memos/trash
+8.0K	/home/bok_suh/.local/share/evolution/memos
+4.0K	/home/bok_suh/.local/share/evolution/addressbook/system/photos
+92K	/home/bok_suh/.local/share/evolution/addressbook/system
+4.0K	/home/bok_suh/.local/share/evolution/addressbook/trash
+100K	/home/bok_suh/.local/share/evolution/addressbook
+152K	/home/bok_suh/.local/share/evolution
+56K	/home/bok_suh/.local/share/xorg
+25M	/home/bok_suh/.local/share
+25M	/home/bok_suh/.local
+8.0K	/home/bok_suh/Documents
+4.0K	/home/bok_suh/Downloads
+4.0K	/home/bok_suh/.mozilla/systemextensionsdev
+4.0K	/home/bok_suh/.mozilla/firefox/Pending Pings
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/crashes/events
+12K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/crashes
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/minidumps
+1.4M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/gmp-gmpopenh264/1.8.1.1
+1.4M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/gmp-gmpopenh264
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++7fe289ad-7eb1-4251-a256-a45c22d6749a^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+52K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++7fe289ad-7eb1-4251-a256-a45c22d6749a^userContextId=4294967295/idb
+60K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++7fe289ad-7eb1-4251-a256-a45c22d6749a^userContextId=4294967295
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++c86ea87b-d8bd-4391-b7b6-958943842a29^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+52K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++c86ea87b-d8bd-4391-b7b6-958943842a29^userContextId=4294967295/idb
+60K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default/moz-extension+++c86ea87b-d8bd-4391-b7b6-958943842a29^userContextId=4294967295
+124K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/default
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+15M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome/idb
+15M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent/chrome
+15M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/permanent
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage/temporary
+15M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/storage
+8.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting/glean/db
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting/glean/events
+16K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting/glean
+104K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting/archived/2021-01
+108K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting/archived
+136K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/datareporting
+20K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/sessionstore-backups
+4.4M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/security_state
+128K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/saved-telemetry-pings
+4.0K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/bookmarkbackups
+212K	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release/extensions
+33M	/home/bok_suh/.mozilla/firefox/ri706x6l.default-release
+8.0K	/home/bok_suh/.mozilla/firefox/wzxqw37b.default
+4.0K	/home/bok_suh/.mozilla/firefox/Crash Reports/events
+16K	/home/bok_suh/.mozilla/firefox/Crash Reports
+33M	/home/bok_suh/.mozilla/firefox
+4.0K	/home/bok_suh/.mozilla/extensions
+33M	/home/bok_suh/.mozilla
+8.0K	/home/bok_suh/.mplayer
+464M	/home/bok_suh
+464M	/home/
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ du -sh /home
+464M	/home
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du -sh /home
+464M	/home
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du -sch /home /var
+464M	/home
+1.9G	/var
+2.3G	total
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du --sh --exclude-'*.iso' /home/bok_suh
+du: unrecognized option '--sh'
+du: unrecognized option '--exclude-*.iso'
+Try 'du --help' for more information.
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du --sh --exclude-'*.iso' /home/bok_suh[1P
+du: unrecognized option '--exclude-*.iso'
+Try 'du --help' for more information.
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du -sh --exclude-'*.iso' /home/bok_suh[1P[1@=
+464M	/home/bok_suh
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du -h --max-dept = [K[K[K[Kth=1 /home
+464M	/home/bok_suh
+464M	/home
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo du -h --max-depth-[K=2 /home
+12K	/home/bok_suh/.dbus
+4.0K	/home/bok_suh/Templates
+520K	/home/bok_suh/Logs
+4.0K	/home/bok_suh/Desktop
+32K	/home/bok_suh/.presage
+172M	/home/bok_suh/Music
+3.4M	/home/bok_suh/Pictures
+68M	/home/bok_suh/.config
+1.6M	/home/bok_suh/.thunderbird
+76K	/home/bok_suh/.pki
+16K	/home/bok_suh/.gnupg
+4.0K	/home/bok_suh/.ssh
+109M	/home/bok_suh/.cache
+12K	/home/bok_suh/.gnome
+4.0K	/home/bok_suh/Public
+26M	/home/bok_suh/Videos
+8.3M	/home/bok_suh/snap
+25M	/home/bok_suh/.local
+8.0K	/home/bok_suh/Documents
+4.0K	/home/bok_suh/Downloads
+33M	/home/bok_suh/.mozilla
+8.0K	/home/bok_suh/.mplayer
+464M	/home/bok_suh
+464M	/home
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo fdisk /dev/sdc
+[32m
+Welcome to fdisk (util-linux 2.34).
+[0mChanges will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open /dev/sdc: No such file or directory
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo pvs
+sudo: pvs: command not found
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo vgs
+sudo: vgs: command not found
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo mkdir /mnt/u1[Kl[K1
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ sudo km[K[Kmount -t ext4 /dev/mapper/vgusb-lvm_u1 /mnt/u1
+mount: /mnt/u1: special device /dev/mapper/vgusb-lvm_u1 does not exist.
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ df -m /mnt/u1
+Filesystem     1M-blocks  Used Available Use% Mounted on
+/dev/sda5          28653  8936     18437  33% /
+]0;bok_suh@Bok: /dev[01;32mbok_suh@Bok[00m:[01;34m/dev[00m$ cd
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo umount /dev/vgusb/lvm_u1
+umount: /dev/vgusb/lvm_u1: no mount point specified.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sud [Ko vgremove vgusb
+sudo: vgremove: command not found
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  mydosfile.txt    myunixfile.txt  sda-table
+[0m[01;34mDesktop[0m    [01;34mLogs[0m        myfile           output.txt      [01;34msnap[0m
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  patchfile.txt   [01;34mTemplates[0m
+[01;34mDownloads[0m  memo.txt~   [01;36mmyfile-symlink[0m   [01;34mPictures[0m        [01;32mtestscript.sh[0m
+f2.txt     [01;34mMusic[0m       mynewfile.txt    pkg.txt         [01;34mVideos[0m
+fi.txt     mydisk      [40;33mmypipe[0m           [01;34mPublic[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-02-14 09:45:51+09:00 [COMMAND_EXIT_CODE="0"]

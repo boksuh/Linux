@@ -1,0 +1,3344 @@
+Script started on 2021-02-13 15:20:58+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ ##[K[Ksj[Kudo apt=[K-=[Kget install joe
+[sudo] password for bok_suh: 
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 41%Reading package lists... 41%Reading package lists... 57%Reading package lists... 57%Reading package lists... 74%Reading package lists... 74%Reading package lists... 76%Reading package lists... 76%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  joe
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 509 kB of archives.
+After this operation, 2,150 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]                        Get:1 http://kr.archive.ubuntu.com/ubuntu focal/universe amd64 joe amd64 4.6-1build2 [509 kB]
+1% [1 joe 8,477 B/509 kB 2%]7% [1 joe 43.5 kB/509 kB 9%]26% [1 joe 166 kB/509 kB 33%]46% [1 joe 295 kB/509 kB 58%]66% [1 joe 417 kB/509 kB 82%]                             100% [Working]              Fetched 509 kB in 3s (163 kB/s)
+Selecting previously unselected package joe.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 281142 files and directories currently installed.)
+Preparing to unpack .../joe_4.6-1build2_amd64.deb ...
+Unpacking joe (4.6-1build2) ...
+Setting up joe (4.6-1build2) ...
+update-alternatives: using /usr/bin/joe to provide /usr/bin/editor (editor) in auto mode
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+libdvd-pkg: Checking orig.tar integrity...
+/usr/src/libdvd-pkg/libdvdcss_1.4.2.orig.tar.bz2: OK
+libdvd-pkg: `apt-get check` failed, you may have broken packages. Aborting...
+]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ joe [K[K[K[Kcd
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ joe memo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2J[?2004h[0m[1;24r[H[7m    IW   memo.txt                                              Row 1    Col 1   
+[0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7m Joe's Own Editor 4.6 (utf-8) ** Type [1mCtrl-K Q[0m[7m to exit or [1mCtrl-K H[0m[7m for help **[0m[K[H
+New File[K[A[7m^K
+[0m[K[22B[K[H
+[22B[?2004l
+No modified files, so no updates needed.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dir
+Desktop    index.html  myfile		mypipe	    Public     testscript.sh
+Documents  Logs        myfile-hardlink	output.txt  snap       Videos
+Downloads  Music       myfile-symlink	Pictures    Templates
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ joe -wordmwrap memo.[K[K[K[K[K[K[K[K[K[K[Kwrap memo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2J[?2004h[0m[1;24r[H[7m    IW   memo.txt                                              Row 1    Col 1   
+[0m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7m Joe's Own Editor 4.6 (utf-8) ** Type [1mCtrl-K Q[0m[7m to exit or [1mCtrl-K H[0m[7m for help **[0m[K[H
+New File[Kh[1;19H[7m(Modified)[48C2
+[C[0m[K[22B[K[H
+[Ce[1;77H[7m3
+[2C[0m[Kl[1;77H[7m4
+[3C[0m[Ko[1;77H[7m5[5G
+[0m[K[1;77H[7m4
+[3C[0m[Kl[1;77H[7m5[5G
+[0m[Ko[1;77H[7m6[6G
+[0m[K [1;77H[7m7[7G
+[0m[Kt[1;77H[7m8[8G
+[0m[Kh[1;77H[7m9[9G
+[0m[Ki[1;77H[7m10
+[69D[0m[Ks[1;78H[7m1
+[68D[0m[K [1;78H[7m2
+[67D[0m[Ki[1;78H[7m3
+[66D[0m[Ks[1;78H[7m4
+[65D[0m[K [1;78H[7m5
+[64D[0m[Kn[1;78H[7m6
+[63D[0m[Ke[1;78H[7m7
+[62D[0m[Kw[1;78H[7m8
+[61D[0m[K [1;78H[7m9
+[60D[0m[Kf[1;77H[7m20
+[59D[0m[Ki[1;78H[7m1
+[58D[0m[Kl[1;78H[7m2
+[57D[0m[Ke[1;78H[7m3
+[56D[0m[K[H[7m^K
+[20C[22B[0mFile memo.txt has been modified.  Save it (y,n,^C)?[H[7m  [24;53H[0m[?2004l
+All modified files have been saved.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ joe -lmargin 5 -tab 5 memo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2J[?2004h[0m[1;24r[H[7m    IW   memo.txt                                              Row 1    Col 1   
+[0mhello this is new file[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7m Joe's Own Editor 4.6 (utf-8) ** Type [1mCtrl-K Q[0m[7m to exit or [1mCtrl-K H[0m[7m for help **[0m[K[H
+[A[7m^K[23B[0m[K[H
+[A[9T [4mREGION[8CGO TO[11CGO TO[11CDELETE[4CEXIT[7CSEARCH
+[C[0m[1m^Arrow[0m Select [1m^Z[0m Prev. word   [1m^U/^V[0m PgUp/PgDn [1m^D[0m Char.  [1m^KX[0m Save   [1m^KF[0m Find
+[C[1m^KB[0m Begin[5C[1m^X[0m Next word[4C[4mMISC[12C[0m[1m^Y[0m Line   [1m^C[0m  Abort  [1m^L[0m  Next
+[C[1m^KK[0m End[7C[1m^KU[0m Top of file [1m^KJ[0m Paragraph   [1m^W[0m >Word  [1m^KQ[0m All[4C[4mHELP
+[C[0m[1m^KC[0m Copy[6C[1m^KV[0m End of file [1m^KA[0m Center line [1m^O[0m Word<  [4mFILE[7C[0m[1mEsc .[0m Next
+[C[1m^KM[0m Move[6C[1m^A[0m Beg. of line [1m^K Space[0m Status [1m^J[0m >Line  [1m^KE[0m Edit   [1mEsc ,[0m Prev
+[C[1m^KW[0m File[6C[1m^E[0m End of line  [4mSPELL[11C[0m[1m^[O[0m Line< [1m^KR[0m Insert [1m^KH[0m Off
+[C[1m^KY[0m Delete[4C[1m^KL[0m To line no. [1mEsc N[0m Word[6C[1m^_[0m Undo   [1m^KD[0m Save   [1m^T[0m  Menu
+[C[1m^K/[0m Filter[4C[1m^G[0m  Matching (  [1mEsc L[0m File[6C[1m^^[0m Redo   [1m^K`[0m Revert
+[7m  
+[A^[
+[A  
+[0mq[A[17C[7m(Modified)[48C2
+[C[0mhello this is new file[K[C[A[75C[7m1
+[0mhello this is new file[K[A[7m^K
+[0m[13B[?2004l
+File memo.txt saved
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ nano memo.txt
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        memo.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mhello this is new file[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ nano -m memo.txt
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[?1000h[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        memo.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mhello this is new file[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22;33H  (B[0;7m[ Mark Set ](B[m[K[3d[?12l[?25h[?25l[?12l[?25h[?25l[2;17H(B[0;7mw file[17G(B[m[?12l[?25h[?25l[?12l[?25h[?25l[22;34H(B[0;7m[ Mark Unset ](B[m[2;17Hw file[17G[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h[?25l[2;20H[?12l[?25h[?25l[?12l[?25h[?25l[22;34H (B[0;7m[ Mark Set ](B[m[K[2;20H[?12l[?25h[?25l[?12l[?25h[?25l[6G(B[0;7m this is new f[6G(B[m[?12l[?25h[?25l[?12l[?25h[?25l[22;34H(B[0;7m[ Mark Unset ](B[m[2;6H this is new f[6G[?12l[?25h[?25l[22d[J[24d[?12l[?25h[?1000l[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ nano -m memo.txt
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[?1000h[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        memo.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mhello this is new file[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: memo.txt                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;79H[22;33H(B[0;7m[ Wrote 1 line ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: memo.txt                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;79H[22;33H(B[0;7m[ Wrote 1 line ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[?1000l[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat myfile.txt
+cat: myfile.txt: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat memo.tx[K[K[K[K[K[K[K[K[K[K[Knano memo.txt
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                        memo.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[mhello this is new file[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[4d[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25l.[?12l[?25h[?25lt[?12l[?25h[?25lx[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [22d[K[4;20H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25l.[?12l[?25h[?25lt[?12l[?25h[?25lx[?12l[?25h[?25lt[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: memo.txt                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 3 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4;22H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat myfile[K[K[K[K[K[Kmemo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat m[Kmemo.txt > copy.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dir
+copy.txt   index.html  Music		mypipe	    snap
+Desktop    Logs        myfile		output.txt  Templates
+Documents  memo.txt    myfile-hardlink	Pictures    testscript.sh
+Downloads  memo.txt~   myfile-symlink	Public	    Videos
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  [0m[01;34mMusic[0m            [40;33mmypipe[0m      [01;34msnap[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           output.txt  [01;34mTemplates[0m
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  [01;34mPictures[0m    [01;32mtestscript.sh[0m
+[01;34mDownloads[0m  memo.txt~   [01;36mmyfile-symlink[0m   [01;34mPublic[0m      [01;34mVideos[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat memo.txt >> copy.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat copy.txt
+hello this is new file
+
+this file is memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat -s memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat - [Kn memo.txt
+     1	hello this is new file
+     2	
+     3	this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat -b memo.txt
+     1	hello this is new file
+
+     2	this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ head memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat memo.txt | head
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ head -=[Kn 50 memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | head =-[K[K-n 15
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0 168136 11840 ?        Ss   15:20   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    15:20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/0:0H-kblockd]
+root           7  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/0:1-events]
+root           9  0.0  0.0      0     0 ?        I<   15:20   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    15:20   0:00 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    15:20   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/1]
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ head -50 memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | head -15
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0 168136 11840 ?        Ss   15:20   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    15:20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/0:0H-kblockd]
+root           7  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/0:1-events]
+root           9  0.0  0.0      0     0 ?        I<   15:20   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    15:20   0:00 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    15:20   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/1]
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tail -n 15 memot.[K[K.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tail -15 memoi.txt
+tail: cannot open 'memoi.txt' for reading: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | tail -n 15
+bok_suh     2782  0.0  0.0 231800  5756 ?        Sl   15:20   0:00 /usr/libexec/gsd-disk-utility-notify
+bok_suh     2786  0.6  0.8 1235696 201496 ?      Sl   15:20   0:05 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+bok_suh     2864  0.0  0.0 458820  6720 ?        Ssl  15:20   0:00 /usr/libexec/xdg-document-portal
+bok_suh     2934  0.0  0.0 238816  8364 ?        Sl   15:20   0:00 /usr/lib/ibus/ibus-engine-hangul --ibus
+root        2999  0.0  0.0 378904 23532 ?        Ssl  15:20   0:00 /usr/libexec/fwupd/fwupd
+bok_suh     3016  0.2  0.2 814716 50568 ?        Ssl  15:20   0:01 /usr/libexec/gnome-terminal-server
+bok_suh     3024  0.0  0.0  12056  5256 pts/0    Ss   15:20   0:00 bash
+bok_suh     4061  0.0  0.0   9512  2560 pts/0    S+   15:20   0:00 script Chapter5.txt
+bok_suh     4062  0.0  0.0  12056  5252 pts/1    Ss   15:20   0:00 bash -i
+bok_suh     5280  0.0  0.0 163544  6704 ?        Ssl  15:21   0:00 /usr/libexec/gvfsd-metadata
+bok_suh     5285  0.0  0.1 418240 28228 ?        Sl   15:21   0:00 update-notifier
+root       22790  0.0  0.0      0     0 ?        I    15:30   0:00 [kworker/0:0]
+root       23424  0.0  0.0      0     0 ?        I    15:31   0:00 [kworker/u8:0-events_power_efficient]
+bok_suh    28769  0.0  0.0  12800  3592 pts/1    R+   15:34   0:00 ps auwx
+bok_suh    28770  0.0  0.0   9424   580 pts/1    S+   15:34   0:00 tail -n 15
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ tail -f /var/log/messages
+tail: cannot open '/var/log/messages' for reading: No such file or directory
+tail: no files remaining
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | more
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0 168136 11840 ?        Ss   15:20   0:01 /sbin/init sp
+lash
+root           2  0.0  0.0      0     0 ?        S    15:20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/0:0H
+-kblockd]
+root           7  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/0:1-
+events]
+root           9  0.0  0.0      0     0 ?        I<   15:20   0:00 [mm_percpu_wq
+]
+root          10  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        R    15:20   0:00 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    15:20   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/
+0]
+root          14  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/
+1]
+root          17  0.1  0.0      0     0 ?        S    15:20   0:01 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/1]
+[7m--More--[27mroot          19  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/1:0-
+[7m--More--[27mevents][K
+[7m--More--[27m[K]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ q[Kmore memo.txt
+hello this is new file
+
+this file is memo.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | less
+[?1049h[22;0;0t[?1h=USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0 168136 11840 ?        Ss   15:20   0:01 /sbin/init sp lash
+root           2  0.0  0.0      0     0 ?        S    15:20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:20   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/0:0H -kblockd]
+root           7  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/0:1- events]
+root           9  0.0  0.0      0     0 ?        I<   15:20   0:00 [mm_percpu_wq ]
+root          10  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    15:20   0:00 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    15:20   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/ 0]
+root          14  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/ 1]
+root          17  0.1  0.0      0     0 ?        S    15:20   0:01 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/1]
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[Kroot          19  0.0  0.0      0     0 ?        I    15:20   0:00 [kworker/1:0- :[K[K [KESCESC[KOO[KBB[Kevents]
+:[K[K [KESCESC[KOO[KBB[Kroot          20  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/1:0H :[K[K [KESCESC[KOO[KBB[K-kblockd]
+:[K[K [KESCESC[KOO[KBB[Kroot          21  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/2]
+:[K[K [KESCESC[KOO[KBB[Kroot          22  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/ :[K[K [KESCESC[KOO[KBB[K2]
+:[K[K [KESCESC[KOO[KBB[Kroot          23  0.1  0.0      0     0 ?        S    15:20   0:01 [migration/2]
+:[K[K [KESCESC[KOO[KBB[Kroot          24  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/2]
+:[K[K [KESCESC[KOO[KBB[Kroot          26  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/2:0H :[K[K [KESCESC[KOO[KBB[K-kblockd]
+:[K[K [KESCESC[KOO[KBB[Kroot          27  0.0  0.0      0     0 ?        S    15:20   0:00 [cpuhp/3]
+:[K[K [KESCESC[KOO[KBB[Kroot          28  0.0  0.0      0     0 ?        S    15:20   0:00 [idle_inject/ :[K[K [KESCESC[KOO[KBB[K3]
+:[K[K [KESCESC[KOO[KBB[Kroot          29  0.1  0.0      0     0 ?        S    15:20   0:01 [migration/3]
+:[K[K [KESCESC[KOO[KBB[Kroot          30  0.0  0.0      0     0 ?        S    15:20   0:00 [ksoftirqd/3]
+:[K[K [KESCESC[KOO[KBB[Kroot          32  0.0  0.0      0     0 ?        I<   15:20   0:00 [kworker/3:0H :[K[K [KESCESC[KOO[KBB[K-kblockd]
+:[K[K [KESCESC[KOO[KBB[Kroot          33  0.0  0.0      0     0 ?        S    15:20   0:00 [kdevtmpfs]
+:[K[K [KESCESC[KOO[KBB[Kroot          34  0.0  0.0      0     0 ?        I<   15:20   0:00 [netns]
+:[K[K [KESCESC[KOO[KBB[Kroot          35  0.0  0.0      0     0 ?        S    15:20   0:00 [rcu_tasks_kt :[K[K [KESCESC[KOO[KBB[Khre]
+:[K[K [KESCESC[KOO[KBB[Kroot          36  0.0  0.0      0     0 ?        S    15:20   0:00 [rcu_tasks_ru :[K[K [KESCESC[KOO[KBB[Kde_]
+:[K[K [KESCESC[KOO[KBB[Kroot          37  0.0  0.0      0     0 ?        S    15:20   0:00 [rcu_tasks_tr :[K[Kace]
+:[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ lees[K[Kss memo.txt
+[?1049h[22;0;0t[?1h=hello this is new file
+
+this file is memo.txt
+[7mmemo.txt (END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dpkg-query -l | sort | pr --column=2 | less
+[?1049h[22;0;0t[?1h=
+
+2021-02-13 15:43                                                  Page 1
+
+
++++-=============================== ii  binutils-x86-64-linux-gnu
+Desired=Unknown/Install/Remove/Purg ii  bluez
+|/ Err?=(none)/Reinst-required (Sta ii  bluez-cups
+ii  accountsservice                 ii  bluez-obexd
+ii  acl                             ii  bolt
+ii  acpid                           ii  branding-ubuntu
+ii  acpi-support                    ii  brltty
+ii  adduser                         ii  bsdmainutils
+ii  adwaita-icon-theme              ii  bsdutils
+ii  aisleriot                       ii  bubblewrap
+ii  alsa-oss                        ii  build-essential
+ii  alsa-topology-conf              ii  busybox-initramfs
+ii  alsa-ucm-conf                   ii  busybox-static
+ii  alsa-utils                      ii  bzflag
+ii  amd64-microcode                 ii  bzflag-client
+ii  anacron                         ii  bzflag-data
+ii  apg                             ii  bzflag-server
+ii  apparmor                        ii  bzip2
+:[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dpkg-query -l | sort | pr --column2 <>[K[K> pkg.txt
+pr: unrecognized option '--column2'
+Try 'pr --help' for more information.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ dpkg-query -l | sort | pr --column2 > pkg.txt[C[1@=
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  [0m[01;34mMusic[0m            [40;33mmypipe[0m      [01;34mPublic[0m         [01;34mVideos[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           output.txt  [01;34msnap[0m
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  [01;34mPictures[0m    [01;34mTemplates[0m
+[01;34mDownloads[0m  memo.txt~   [01;36mmyfile-symlink[0m   pkg.txt     [01;32mtestscript.sh[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ nano pkg.txt
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;31H(B[0;7m[ Read 1254 lines ](B[m[H(B[0;7m  GNU nano 4.8                        pkg.txt                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4d[39;49m(B[m2021-02-13 15:44[4;67HPage 1[7d+++-=============================== ii  binutils-x86-64-linux-gnu[8dDesired=Unknown/Install/Remove/Purg ii  bluez[9d|/ Err?=(none)/Reinst-required (Sta ii  bluez-cups[10dii  accountsservice[10;37Hii  bluez-obexd[11dii  acl[11;37Hii  bolt[12dii  acpid[12;37Hii  branding-ubuntu[13dii  acpi-support[13;37Hii  brltty[14dii  adduser[14;37Hii  bsdmainutils[15dii  adwaita-icon-theme[15;37Hii  bsdutils[16dii  aisleriot[16;37Hii  bubblewrap[17dii  alsa-oss[17;37Hii  build-essential[18dii  alsa-topology-conf[18;37Hii  busybox-initramfs[19dii  alsa-ucm-conf[19;37Hii  busybox-static[20dii  alsa-utils[20;37Hii  bzflag[21dii  amd64-microcode[21;37Hii  bzflag-client[2d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ p[Knano pkg.txtls[Kdpkg-query -l | sort | pr --column=2 > pkg.txt[K[K[K[K[K[K[K[K[K| lpr
+lpr: Error - No default destination.
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ grep Remote /etc/services
+ssh		22/tcp				# SSH [01;31m[KRemote[m[K Login Protocol
+asf-rmcp	623/udp		# ASF [01;31m[KRemote[m[K Management and Control Protocol
+remctl		4373/tcp		# [01;31m[KRemote[m[K Authenticated Command Service
+nrpe		5666/tcp			# Nagios [01;31m[KRemote[m[K Plugin Executor
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ #grep sudo /var/log/auth.log
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ #
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | grep init
+root           1  0.0  0.0 168136 11840 ?        Ss   15:20   0:01 /sbin/[01;31m[Kinit[m[K splash
+bok_suh    48899  0.0  0.0  10340  2976 pts/1    S+   15:45   0:00 grep --color=auto [01;31m[Kinit[m[K
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | grep "\[*\["
+root           2  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Krcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Krcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/0:0H-kblockd]
+root           7  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/0:1-events]
+root           9  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kmm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Krcu_sched]
+root          12  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kmigration/0]
+root          13  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kidle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kcpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kcpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kidle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    15:20   0:01 [01;31m[K[[m[Kmigration/1]
+root          18  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kksoftirqd/1]
+root          19  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/1:0-events]
+root          20  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kcpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kidle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    15:20   0:01 [01;31m[K[[m[Kmigration/2]
+root          24  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/2:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kcpuhp/3]
+root          28  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kidle_inject/3]
+root          29  0.0  0.0      0     0 ?        S    15:20   0:01 [01;31m[K[[m[Kmigration/3]
+root          30  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kksoftirqd/3]
+root          32  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/3:0H-kblockd]
+root          33  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkdevtmpfs]
+root          34  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Knetns]
+root          35  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Krcu_tasks_kthre]
+root          36  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Krcu_tasks_rude_]
+root          37  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Krcu_tasks_trace]
+root          38  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkauditd]
+root          39  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkhungtaskd]
+root          40  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Koom_reaper]
+root          41  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kwriteback]
+root          42  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkcompactd0]
+root          43  0.0  0.0      0     0 ?        SN   15:20   0:00 [01;31m[K[[m[Kksmd]
+root          44  0.0  0.0      0     0 ?        SN   15:20   0:00 [01;31m[K[[m[Kkhugepaged]
+root          91  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkintegrityd]
+root          92  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkblockd]
+root          93  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kblkcg_punt_bio]
+root          94  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Ktpm_dev_wq]
+root          95  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kata_sff]
+root          96  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kmd]
+root          97  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kedac-poller]
+root          98  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kdevfreq_wq]
+root          99  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/2:1-events]
+root         100  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kwatchdogd]
+root         102  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kpm_wq]
+root         104  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kkswapd0]
+root         105  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kecryptfs-kthrea]
+root         107  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkthrotld]
+root         108  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kacpi_thermal_pm]
+root         109  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kscsi_eh_0]
+root         110  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kscsi_tmf_0]
+root         111  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kscsi_eh_1]
+root         112  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kscsi_tmf_1]
+root         114  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kvfio-irqfd-clea]
+root         115  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/u8:3-events_power_efficient]
+root         116  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/3:1-events]
+root         117  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kipv6_addrconf]
+root         126  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkstrp]
+root         129  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kzswap-shrink]
+root         130  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/u9:0]
+root         135  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kcharger_manager]
+root         183  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/3:2-events]
+root         185  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kscsi_eh_2]
+root         186  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kscsi_tmf_2]
+root         189  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/0:1H-kblockd]
+root         208  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/1:1H-kblockd]
+root         210  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/3:1H-kblockd]
+root         211  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kjbd2/sda5-8]
+root         212  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kext4-rsv-conver]
+root         213  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kkworker/2:1H-kblockd]
+root         290  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop0]
+root         298  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop1]
+root         299  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop2]
+root         300  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop3]
+root         301  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop4]
+root         324  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop5]
+root         330  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop6]
+root         331  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop7]
+root         332  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop8]
+root         334  0.0  0.0      0     0 ?        S<   15:20   0:00 [01;31m[K[[m[Kloop9]
+root         335  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kiprt-VBoxWQueue]
+root         346  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kcryptd]
+root         361  0.0  0.0      0     0 ?        S    15:20   0:00 [01;31m[K[[m[Kirq/18-vmwgfx]
+root         362  0.0  0.0      0     0 ?        I<   15:20   0:00 [01;31m[K[[m[Kttm_swap]
+avahi        585  0.0  0.0   8536  3512 ?        Ss   15:20   0:00 avahi-daemon: running [01;31m[K[[m[KBok.local]
+root         676  0.0  0.0      0     0 ?        I    15:20   0:00 [01;31m[K[[m[Kkworker/1:4-events]
+root        2204  0.0  0.0 168544  9672 ?        Sl   15:20   0:00 gdm-session-worker [01;31m[K[[m[Kpam/gdm-autologin]
+bok_suh     2455  0.0  0.0      0     0 tty2     Z+   15:20   0:00 [01;31m[K[[m[Kfcitx] <defunct>
+root       22790  0.0  0.0      0     0 ?        I    15:30   0:00 [01;31m[K[[m[Kkworker/0:0-cgroup_destroy]
+root       29364  0.0  0.0      0     0 ?        I    15:34   0:00 [01;31m[K[[m[Kkworker/2:0-events]
+root       32929  0.0  0.0      0     0 ?        I    15:36   0:00 [01;31m[K[[m[Kkworker/u8:1-events_unbound]
+root       41816  0.0  0.0      0     0 ?        I    15:41   0:00 [01;31m[K[[m[Kkworker/u8:0-events_unbound]
+bok_suh    49493  0.0  0.0  10340   728 pts/1    S+   15:45   0:00 grep --color=auto \[01;31m[K[[m[K*\[01;31m[K[[m[K
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ grep -R Virtual [KHost /etc/apache2/conf.d /etc/apache2/sites-enable d
+grep: /etc/apache2/conf.d: No such file or directory
+grep: /etc/apache2/sites-enabled: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ wc /var/log/dmesg
+  618  5739 46099 /var/log/dmesg
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ wc /var/log/*.log
+    12    161   2109 /var/log/alternatives.log
+   215   2706  22385 /var/log/auth.log
+wc: /var/log/boot.log: Permission denied
+  1361   7182 104003 /var/log/bootstrap.log
+  1810  10833 142827 /var/log/dpkg.log
+   143   1066  11295 /var/log/fontconfig.log
+    36    146   1162 /var/log/gpu-manager.log
+  1811  24733 187996 /var/log/kern.log
+wc: /var/log/preload.log: Permission denied
+wc: /var/log/ubuntu-advantage.log: Permission denied
+    12     73    629 /var/log/vboxadd-install.log
+     3     21    157 /var/log/vboxadd-setup.log
+  5403  46921 472563 total
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat /etc/services | sort
+
+
+
+
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#=========================================================================
+#=========================================================================
+acr-nema	104/tcp		dicom		# Digital Imag. & Comm. 300
+afbackup	2988/tcp			# Afbackup system
+afbackup	2988/udp
+afmbackup	2989/tcp			# Afmbackup system
+afmbackup	2989/udp
+afpovertcp	548/tcp				# AFP over TCP
+afs3-bos	7007/tcp			# basic overseer process
+afs3-bos	7007/udp
+afs3-callback	7001/tcp			# callbacks to cache managers
+afs3-callback	7001/udp
+afs3-errors	7006/tcp			# error interpretation service
+afs3-errors	7006/udp
+afs3-fileserver 7000/tcp	bbs		# file server itself
+afs3-fileserver 7000/udp	bbs
+afs3-kaserver	7004/tcp			# AFS/Kerberos authentication
+afs3-kaserver	7004/udp
+afs3-prserver	7002/tcp			# users & groups database
+afs3-prserver	7002/udp
+afs3-rmtsys	7009/tcp			# remote cache manager service
+afs3-rmtsys	7009/udp
+afs3-update	7008/tcp			# server-to-server updater
+afs3-update	7008/udp
+afs3-vlserver	7003/tcp			# volume location database
+afs3-vlserver	7003/udp
+afs3-volser	7005/tcp			# volume managment server
+afs3-volser	7005/udp
+amanda		10080/tcp			# amanda backup services
+amandaidx	10082/tcp			# amanda backup services
+amidxtape	10083/tcp			# amanda backup services
+amqp		5672/sctp
+amqp		5672/tcp
+amqp		5672/udp
+amqps		5671/tcp			# AMQP protocol over TLS/SSL
+asf-rmcp	623/udp		# ASF Remote Management and Control Protocol
+asp		27374/tcp			# Address Search Protocol
+asp		27374/udp
+auth		113/tcp		authentication tap ident
+babel		6696/udp			# Babel Routing Protocol
+bacula-dir	9101/tcp			# Bacula Director
+bacula-fd	9102/tcp			# Bacula File Daemon
+bacula-sd	9103/tcp			# Bacula Storage Daemon
+bgp		179/tcp				# Border Gateway Protocol
+bgpd		2605/tcp			# bgpd vty (zebra)
+bgpsim		5675/tcp			# MRT Routing Simulator
+biff		512/udp		comsat
+binkp		24554/tcp			# binkp fidonet protocol
+bootpc		68/udp
+bootps		67/udp
+# by IANA and used in the real-world or are needed by a debian package.
+#> can be used by ordinary user processes or programs executed by ordinary
+canna		5680/tcp			# cannaserver
+cfengine	5308/tcp
+cfinger		2003/tcp			# GNU Finger
+chargen		19/tcp		ttytst source
+chargen		19/udp		ttytst source
+cisco-sccp	2000/tcp			# Cisco SCCP
+clc-build-daemon 8990/tcp			# Common lisp build daemon
+clearcase	371/udp		Clearcase
+cmip-agent	164/tcp
+cmip-agent	164/udp
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-man	163/udp
+codaauth2	370/tcp
+codaauth2	370/udp				# Coda authentication server
+codasrv		2432/tcp			# not used
+codasrv		2432/udp			# server port
+codasrv-se	2433/tcp			# tcp side effects
+codasrv-se	2433/udp			# udp sftp side effect
+#> community.
+#> connections which carry long term conversations.  For the purpose of
+#> contact port.  While the IANA can not control uses of these ports it
+csync2		30865/tcp			# cluster synchronization tool
+cvspserver	2401/tcp			# CVS client/server operations
+daap		3689/tcp			# Digital Audio Access Protocol
+daap		3689/udp
+# Datagram Delivery Protocol services
+datametrics	1645/tcp	old-radius
+datametrics	1645/udp	old-radius
+daytime		13/tcp
+daytime		13/udp
+db-lsp		17500/tcp			# Dropbox LanSync Protocol
+dcap		22125/tcp			# dCache Access Protocol
+#> defined.  This list specifies the port used by the server process as its
+dhcpv6-client	546/udp
+dhcpv6-server	547/udp
+dicom		11112/tcp
+dict		2628/tcp			# Dictionary server
+dircproxy	57000/tcp			# Detachable IRC Proxy
+discard		9/tcp		sink null
+discard		9/udp		sink null
+distcc		3632/tcp			# distributed compiler
+distcc		3632/udp
+distmp3		4600/tcp			# distmp3host daemon
+#> does register or list uses of these ports as a convienence to the
+domain		53/tcp				# Domain Name Server
+domain		53/udp
+domain-s	853/tcp				# DNS over TLS [RFC7858]
+domain-s	853/udp				# DNS over DTLS [RFC8094]
+echo		4/ddp			# AppleTalk Echo Protocol
+echo		7/tcp
+echo		7/udp
+enbd-cstatd	5051/tcp			# ENBD client statd
+enbd-sstatd	5052/tcp			# ENBD server statd
+epmap		135/tcp		loc-srv		# DCE endpoint resolution
+epmd		4369/tcp			# Erlang Port Mapper Daemon
+epmd		4369/udp
+# even if the protocol doesn't support UDP operations.
+exec		512/tcp
+f5-globalsite	2792/tcp
+f5-iquery	4353/tcp			# F5 iQuery
+f5-iquery	4353/udp
+fax		4557/tcp			# FAX transmission service (old)
+fido		60179/tcp			# fidonet EMSI over TCP
+finger		79/tcp
+font-service	7100/tcp	xfs		# X Font Service
+freeciv		5556/tcp	rptp		# Freeciv gameplay
+# From ``Assigned Numbers'':
+frox		2121/tcp			# frox: caching ftp proxy
+fsp		21/udp		fspd
+ftp		21/tcp
+ftp-data	20/tcp
+ftps		990/tcp
+ftps-data	989/tcp				# FTP over SSL (data)
+gdomap		538/tcp				# GNUstep distributed objects
+gdomap		538/udp
+gds-db		3050/tcp	gds_db		# InterBase server
+git		9418/tcp			# Git Version Control System
+gnunet		2086/tcp
+gnunet		2086/udp
+gnutella-rtr	6347/tcp			# gnutella
+gnutella-rtr	6347/udp
+gnutella-svc	6346/tcp			# gnutella
+gnutella-svc	6346/udp
+gopher		70/tcp				# Internet Gopher
+gpsd		2947/tcp
+gris		2135/tcp		# Grid Resource Information Server
+groupwise	1677/tcp
+gsidcap		22128/tcp			# GSI dCache Access Protocol
+gsiftp		2811/tcp
+gsigatekeeper	2119/tcp
+hkp		11371/tcp			# OpenPGP HTTP Keyserver
+hostmon		5355/tcp			# hostmon uses TCP (nocol)
+hostmon		5355/udp			# hostmon uses UDP (nocol)
+http		80/tcp		www		# WorldWideWeb HTTP
+http-alt	8080/tcp	webcache	# WWW caching service
+https		443/tcp				# http protocol over TLS/SSL
+hylafax		4559/tcp			# HylaFAX client-server protocol (new)
+iax		4569/tcp			# Inter-Asterisk eXchange
+iax		4569/udp
+icpv2		3130/tcp	icp		# Internet Cache Protocol
+icpv2		3130/udp	icp
+# If you need a huge list of used numbers please install the nmap package.
+imap2		143/tcp		imap		# Interim Mail Access P 2 and 4
+imaps		993/tcp				# IMAP over SSL
+ingreslock	1524/tcp
+ipp		631/tcp				# Internet Printing Protocol
+iprop		2121/tcp			# incremental propagation
+ipsec-nat-t	4500/udp			# IPsec NAT-Traversal [RFC3947]
+ipx		213/udp				# IPX [RFC1234]
+ircd		6667/tcp			# Internet Relay Chat
+ircs-u		6697/tcp		# Internet Relay Chat via TLS/SSL
+isakmp		500/udp				# IPSEC key management
+iscsi-target	3260/tcp
+isdnlog		20011/tcp			# isdn logging system
+isdnlog		20011/udp
+isisd		2608/tcp			# ISISd vty (zebra)
+isns		3205/tcp			# iSNS Server Port
+isns		3205/udp			# iSNS Server Port
+iso-tsap	102/tcp		tsap		# part of ISODE
+kamanda		10081/tcp			# amanda backup services (Kerberos)
+kerberos4	750/tcp		kerberos-iv kdc
+kerberos4	750/udp		kerberos-iv kdc	# Kerberos (server)
+kerberos	88/tcp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos	88/udp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos-adm	749/tcp				# Kerberos `kadmin' (v5)
+kerberos-master	751/tcp
+kerberos-master	751/udp		kerberos_master	# Kerberos authentication
+# Kerberos (Project Athena/MIT) services
+kermit		1649/tcp
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+kpasswd		464/tcp
+kpasswd		464/udp
+krb-prop	754/tcp		krb_prop krb5_prop hprop # Kerberos slave propagation
+kshell		544/tcp		krcmd		# Kerberized `rsh' (v5)
+l2f		1701/udp	l2tp
+ldap		389/tcp			# Lightweight Directory Access Protocol
+ldap		389/udp
+ldaps		636/tcp				# LDAP over SSL
+ldaps		636/udp
+# Local services
+login		513/tcp
+lotusnote	1352/tcp	lotusnotes	# Lotus Note
+mailq		174/tcp			# Mailer transport queue for Zmailer
+mandelspawn	9359/udp	mandelbrot	# network mandelbrot
+mdns		5353/udp			# Multicast DNS
+microsoft-ds	445/tcp				# Microsoft Naked CIFS
+microsoft-ds	445/udp
+moira-db	775/tcp		moira_db	# Moira database
+moira-update	777/tcp		moira_update	# Moira update protocol
+moira-ureg	779/udp		moira_ureg	# Moira user registration
+mon		2583/tcp			# MON traps
+mon		2583/udp
+mrtd		5674/tcp			# MRT Routing Daemon
+ms-sql-m	1434/tcp			# Microsoft SQL Monitor
+ms-sql-m	1434/udp
+ms-sql-s	1433/tcp			# Microsoft SQL Server
+ms-sql-s	1433/udp
+ms-wbt-server	3389/tcp
+mtn		4691/tcp			# monotone Netsync Protocol
+mtn		4691/udp
+munin		4949/tcp	lrrd		# Munin
+mysql		3306/tcp
+mysql-proxy	6446/tcp			# MySQL Proxy
+nbd		10809/tcp			# Linux Network Block Device
+nbp		2/ddp			# Name Binding Protocol
+netbios-dgm	138/tcp				# NETBIOS Datagram Service
+netbios-dgm	138/udp
+netbios-ns	137/tcp				# NETBIOS Name Service
+netbios-ns	137/udp
+netbios-ssn	139/tcp				# NETBIOS session service
+netbios-ssn	139/udp
+netstat		15/tcp
+# Network services, Internet style
+# New ports will be added on request if they have been officially assigned
+nfs		2049/tcp			# Network File System
+nfs		2049/udp			# Network File System
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+nntps		563/tcp		snntp		# NNTP over SSL
+noclog		5354/tcp			# noclogd with TCP (nocol)
+noclog		5354/udp			# noclogd with UDP (nocol)
+# Note that it is presently the policy of IANA to assign a single well-known
+nqs		607/tcp				# Network Queuing system
+nrpe		5666/tcp			# Nagios Remote Plugin Executor
+nsca		5667/tcp			# Nagios Agent - NSCA
+ntalk		518/udp
+ntp		123/udp				# Network Time Protocol
+nut		3493/tcp			# Network UPS Tools
+nut		3493/udp
+omniorb		8088/tcp			# OmniORB
+omniorb		8088/udp
+openvpn		1194/tcp
+openvpn		1194/udp
+ospf6d		2606/tcp			# ospf6d vty (zebra)
+ospfapi		2607/tcp			# OSPF-API
+ospfd		2604/tcp			# ospfd vty (zebra)
+passwd-server	752/udp		passwd_server	# Kerberos passwd server
+pawserv		345/tcp				# Perf Analysis Workbench
+pcrd		5151/tcp			# PCR-1000 Daemon
+pop3		110/tcp		pop-3		# POP version 3
+pop3s		995/tcp				# POP-3 over SSL
+poppassd	106/tcp				# Eudora
+poppassd	106/udp
+# port number for both TCP and UDP; hence, officially ports have two entries
+#> Ports are used in the TCP [45,106] to name the ends of logical
+postgresql	5432/tcp	postgres	# PostgreSQL Database
+predict		1210/udp			# predict -- satellite tracking
+printer		515/tcp		spooler		# line printer spooler
+proofd		1093/tcp
+#> providing services to unknown callers, a service contact port is
+ptp-event	319/udp
+ptp-general	320/udp
+puppet		8140/tcp			# The Puppet master service
+qmqp		628/tcp
+qmtp		209/tcp				# Quick Mail Transfer Protocol
+qotd		17/tcp		quote
+radius		1812/tcp
+radius		1812/udp
+radius-acct	1813/tcp	radacct		# Radius Accounting
+radius-acct	1813/udp	radacct
+radmin-port	4899/tcp			# RAdmin Port
+radmin-port	4899/udp
+remctl		4373/tcp		# Remote Authenticated Command Service
+remctl		4373/udp
+ripd		2602/tcp			# ripd vty (zebra)
+ripngd		2603/tcp			# ripngd vty (zebra)
+rmiregistry	1099/tcp			# Java RMI Registry
+rmtcfg		1236/tcp			# Gracilis Packeten remote config server
+rootd		1094/tcp
+route		520/udp		router routed	# RIP
+rpc2portmap	369/tcp
+rpc2portmap	369/udp				# Coda portmapper
+rplay		5555/udp			# RPlay audio service
+rsync		873/tcp
+rtcm-sc104	2101/tcp			# RTCM SC-104 IANA 1/29/99
+rtcm-sc104	2101/udp
+rtmp		1/ddp			# Routing Table Maintenance Protocol
+rtsp		554/tcp			# Real Time Stream Control Protocol
+rtsp		554/udp
+saft		487/tcp			# Simple Asynchronous File Transfer
+sa-msg-port	1646/tcp	old-radacct
+sa-msg-port	1646/udp	old-radacct
+sane-port	6566/tcp	sane saned	# SANE network scanner daemon
+# Services added for the Debian GNU/Linux distribution
+sge-execd	6445/tcp	sge_execd	# Grid Engine Execution Service
+sge-qmaster	6444/tcp	sge_qmaster	# Grid Engine Qmaster Service
+sgi-cad		17004/tcp			# Cluster Admin daemon
+sgi-cmsd	17001/udp		# Cluster membership services daemon
+sgi-crsd	17002/udp
+sgi-gcd		17003/udp			# SGI Group membership daemon
+shell		514/tcp		cmd syslog	# no passwords used
+sieve		4190/tcp			# ManageSieve Protocol
+silc		706/tcp
+sip		5060/tcp			# Session Initiation Protocol
+sip		5060/udp
+sip-tls		5061/tcp
+sip-tls		5061/udp
+skkserv		1178/tcp			# skk jisho server port
+smsqp		11201/tcp			# Alamin SMS gateway
+smsqp		11201/udp
+smtp		25/tcp		mail
+smux		199/tcp				# SNMP Unix Multiplexer
+snmp		161/tcp				# Simple Net Mgmt Protocol
+snmp		161/udp
+snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+snmp-trap	162/udp		snmptrap
+snpp		444/tcp				# Simple Network Paging Protocol
+socks		1080/tcp			# socks proxy server
+spamd		783/tcp				# spamassassin daemon
+ssh		22/tcp				# SSH Remote Login Protocol
+submission	587/tcp				# Submission [RFC4409]
+submissions	465/tcp		ssmtp smtps urd # Submission over TLS [RFC8314]
+sunrpc		111/tcp		portmapper	# RPC 4.0 portmapper
+sunrpc		111/udp		portmapper
+supfiledbg	1127/tcp		# Software Upgrade Protocol debugging
+supfilesrv	871/tcp			# Software Upgrade Protocol server
+support		1529/tcp			# GNATS
+suucp		4031/tcp			# UUCP over SSL
+suucp		4031/udp
+svn		3690/tcp	subversion	# Subversion protocol
+svn		3690/udp	subversion
+svrloc		427/tcp				# Server Location
+svrloc		427/udp
+syslog		514/udp
+syslog-tls	6514/tcp			# Syslog over TLS [RFC5425]
+sysrqd		4094/tcp			# sysrq daemon
+sysrqd		4094/udp
+systat		11/tcp		users
+tacacs		49/tcp				# Login Host Protocol (TACACS)
+tacacs		49/udp
+talk		517/udp
+tcpmux		1/tcp				# TCP port service multiplexer
+telnet		23/tcp
+telnets		992/tcp				# Telnet over SSL
+tfido		60177/tcp			# fidonet EMSI over telnet
+tftp		69/udp
+#> The Registered Ports are not controlled by the IANA and on most systems
+# The remaining port numbers are not as allocated by IANA.
+time		37/tcp		timserver
+time		37/udp		timserver
+tinc		655/tcp				# tinc control port
+tinc		655/udp
+tproxy		8081/tcp			# Transparent Proxy
+# UNIX specific services
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#> users.
+uucp		540/tcp		uucpd		# uucp daemon
+vboxd		20012/tcp			# voice box system
+vboxd		20012/udp
+venus		2430/tcp			# codacon port
+venus		2430/udp			# Venus callback/wbc interface
+venus-se	2431/tcp			# tcp side effects
+venus-se	2431/udp			# udp sftp side effect
+webmin		10000/tcp
+who		513/udp		whod
+whois		43/tcp		nicname
+wnn6		22273/tcp			# wnn6
+x11-1		6001/tcp
+x11-2		6002/tcp
+x11-3		6003/tcp
+x11-4		6004/tcp
+x11-5		6005/tcp
+x11		6000/tcp	x11-0		# X Window System
+x11-6		6006/tcp
+x11-7		6007/tcp
+xdmcp		177/udp			# X Display Manager Control Protocol
+xinetd		9098/tcp
+xmms2		9667/tcp	# Cross-platform Music Multiplexing System
+xmpp-client	5222/tcp	jabber-client	# Jabber Client Connection
+xmpp-server	5269/tcp	jabber-server	# Jabber Server Connection
+xpilot		15345/tcp			# XPilot Contact Port
+xpilot		15345/udp
+xtel		1313/tcp			# french minitel
+xtelw		1314/tcp			# french minitel
+z3950		210/tcp		wais		# NISO Z39.50 database
+zabbix-agent	10050/tcp			# Zabbix Agent
+zabbix-trapper	10051/tcp			# Zabbix Trapper
+zebra		2601/tcp			# zebra vty
+zebrasrv	2600/tcp			# zebra service
+zephyr-clt	2103/udp			# Zephyr serv-hm connection
+zephyr-hm	2104/udp			# Zephyr hostmanager
+zephyr-srv	2102/udp			# Zephyr server
+zip		6/ddp			# Zone Information Protocol
+zope		9673/tcp			# zope server
+zope-ftp	8021/tcp			# zope management by ftp
+zserv		346/tcp				# Zebra server
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat /etc/services | sort -r
+zserv		346/tcp				# Zebra server
+zope-ftp	8021/tcp			# zope management by ftp
+zope		9673/tcp			# zope server
+zip		6/ddp			# Zone Information Protocol
+zephyr-srv	2102/udp			# Zephyr server
+zephyr-hm	2104/udp			# Zephyr hostmanager
+zephyr-clt	2103/udp			# Zephyr serv-hm connection
+zebrasrv	2600/tcp			# zebra service
+zebra		2601/tcp			# zebra vty
+zabbix-trapper	10051/tcp			# Zabbix Trapper
+zabbix-agent	10050/tcp			# Zabbix Agent
+z3950		210/tcp		wais		# NISO Z39.50 database
+xtelw		1314/tcp			# french minitel
+xtel		1313/tcp			# french minitel
+xpilot		15345/udp
+xpilot		15345/tcp			# XPilot Contact Port
+xmpp-server	5269/tcp	jabber-server	# Jabber Server Connection
+xmpp-client	5222/tcp	jabber-client	# Jabber Client Connection
+xmms2		9667/tcp	# Cross-platform Music Multiplexing System
+xinetd		9098/tcp
+xdmcp		177/udp			# X Display Manager Control Protocol
+x11-7		6007/tcp
+x11-6		6006/tcp
+x11		6000/tcp	x11-0		# X Window System
+x11-5		6005/tcp
+x11-4		6004/tcp
+x11-3		6003/tcp
+x11-2		6002/tcp
+x11-1		6001/tcp
+wnn6		22273/tcp			# wnn6
+whois		43/tcp		nicname
+who		513/udp		whod
+webmin		10000/tcp
+venus-se	2431/udp			# udp sftp side effect
+venus-se	2431/tcp			# tcp side effects
+venus		2430/udp			# Venus callback/wbc interface
+venus		2430/tcp			# codacon port
+vboxd		20012/udp
+vboxd		20012/tcp			# voice box system
+uucp		540/tcp		uucpd		# uucp daemon
+#> users.
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+# UNIX specific services
+tproxy		8081/tcp			# Transparent Proxy
+tinc		655/udp
+tinc		655/tcp				# tinc control port
+time		37/udp		timserver
+time		37/tcp		timserver
+# The remaining port numbers are not as allocated by IANA.
+#> The Registered Ports are not controlled by the IANA and on most systems
+tftp		69/udp
+tfido		60177/tcp			# fidonet EMSI over telnet
+telnets		992/tcp				# Telnet over SSL
+telnet		23/tcp
+tcpmux		1/tcp				# TCP port service multiplexer
+talk		517/udp
+tacacs		49/udp
+tacacs		49/tcp				# Login Host Protocol (TACACS)
+systat		11/tcp		users
+sysrqd		4094/udp
+sysrqd		4094/tcp			# sysrq daemon
+syslog-tls	6514/tcp			# Syslog over TLS [RFC5425]
+syslog		514/udp
+svrloc		427/udp
+svrloc		427/tcp				# Server Location
+svn		3690/udp	subversion
+svn		3690/tcp	subversion	# Subversion protocol
+suucp		4031/udp
+suucp		4031/tcp			# UUCP over SSL
+support		1529/tcp			# GNATS
+supfilesrv	871/tcp			# Software Upgrade Protocol server
+supfiledbg	1127/tcp		# Software Upgrade Protocol debugging
+sunrpc		111/udp		portmapper
+sunrpc		111/tcp		portmapper	# RPC 4.0 portmapper
+submissions	465/tcp		ssmtp smtps urd # Submission over TLS [RFC8314]
+submission	587/tcp				# Submission [RFC4409]
+ssh		22/tcp				# SSH Remote Login Protocol
+spamd		783/tcp				# spamassassin daemon
+socks		1080/tcp			# socks proxy server
+snpp		444/tcp				# Simple Network Paging Protocol
+snmp-trap	162/udp		snmptrap
+snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+snmp		161/udp
+snmp		161/tcp				# Simple Net Mgmt Protocol
+smux		199/tcp				# SNMP Unix Multiplexer
+smtp		25/tcp		mail
+smsqp		11201/udp
+smsqp		11201/tcp			# Alamin SMS gateway
+skkserv		1178/tcp			# skk jisho server port
+sip-tls		5061/udp
+sip-tls		5061/tcp
+sip		5060/udp
+sip		5060/tcp			# Session Initiation Protocol
+silc		706/tcp
+sieve		4190/tcp			# ManageSieve Protocol
+shell		514/tcp		cmd syslog	# no passwords used
+sgi-gcd		17003/udp			# SGI Group membership daemon
+sgi-crsd	17002/udp
+sgi-cmsd	17001/udp		# Cluster membership services daemon
+sgi-cad		17004/tcp			# Cluster Admin daemon
+sge-qmaster	6444/tcp	sge_qmaster	# Grid Engine Qmaster Service
+sge-execd	6445/tcp	sge_execd	# Grid Engine Execution Service
+# Services added for the Debian GNU/Linux distribution
+sane-port	6566/tcp	sane saned	# SANE network scanner daemon
+sa-msg-port	1646/udp	old-radacct
+sa-msg-port	1646/tcp	old-radacct
+saft		487/tcp			# Simple Asynchronous File Transfer
+rtsp		554/udp
+rtsp		554/tcp			# Real Time Stream Control Protocol
+rtmp		1/ddp			# Routing Table Maintenance Protocol
+rtcm-sc104	2101/udp
+rtcm-sc104	2101/tcp			# RTCM SC-104 IANA 1/29/99
+rsync		873/tcp
+rplay		5555/udp			# RPlay audio service
+rpc2portmap	369/udp				# Coda portmapper
+rpc2portmap	369/tcp
+route		520/udp		router routed	# RIP
+rootd		1094/tcp
+rmtcfg		1236/tcp			# Gracilis Packeten remote config server
+rmiregistry	1099/tcp			# Java RMI Registry
+ripngd		2603/tcp			# ripngd vty (zebra)
+ripd		2602/tcp			# ripd vty (zebra)
+remctl		4373/udp
+remctl		4373/tcp		# Remote Authenticated Command Service
+radmin-port	4899/udp
+radmin-port	4899/tcp			# RAdmin Port
+radius-acct	1813/udp	radacct
+radius-acct	1813/tcp	radacct		# Radius Accounting
+radius		1812/udp
+radius		1812/tcp
+qotd		17/tcp		quote
+qmtp		209/tcp				# Quick Mail Transfer Protocol
+qmqp		628/tcp
+puppet		8140/tcp			# The Puppet master service
+ptp-general	320/udp
+ptp-event	319/udp
+#> providing services to unknown callers, a service contact port is
+proofd		1093/tcp
+printer		515/tcp		spooler		# line printer spooler
+predict		1210/udp			# predict -- satellite tracking
+postgresql	5432/tcp	postgres	# PostgreSQL Database
+#> Ports are used in the TCP [45,106] to name the ends of logical
+# port number for both TCP and UDP; hence, officially ports have two entries
+poppassd	106/udp
+poppassd	106/tcp				# Eudora
+pop3s		995/tcp				# POP-3 over SSL
+pop3		110/tcp		pop-3		# POP version 3
+pcrd		5151/tcp			# PCR-1000 Daemon
+pawserv		345/tcp				# Perf Analysis Workbench
+passwd-server	752/udp		passwd_server	# Kerberos passwd server
+ospfd		2604/tcp			# ospfd vty (zebra)
+ospfapi		2607/tcp			# OSPF-API
+ospf6d		2606/tcp			# ospf6d vty (zebra)
+openvpn		1194/udp
+openvpn		1194/tcp
+omniorb		8088/udp
+omniorb		8088/tcp			# OmniORB
+nut		3493/udp
+nut		3493/tcp			# Network UPS Tools
+ntp		123/udp				# Network Time Protocol
+ntalk		518/udp
+nsca		5667/tcp			# Nagios Agent - NSCA
+nrpe		5666/tcp			# Nagios Remote Plugin Executor
+nqs		607/tcp				# Network Queuing system
+# Note that it is presently the policy of IANA to assign a single well-known
+noclog		5354/udp			# noclogd with UDP (nocol)
+noclog		5354/tcp			# noclogd with TCP (nocol)
+nntps		563/tcp		snntp		# NNTP over SSL
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+nfs		2049/udp			# Network File System
+nfs		2049/tcp			# Network File System
+# New ports will be added on request if they have been officially assigned
+# Network services, Internet style
+netstat		15/tcp
+netbios-ssn	139/udp
+netbios-ssn	139/tcp				# NETBIOS session service
+netbios-ns	137/udp
+netbios-ns	137/tcp				# NETBIOS Name Service
+netbios-dgm	138/udp
+netbios-dgm	138/tcp				# NETBIOS Datagram Service
+nbp		2/ddp			# Name Binding Protocol
+nbd		10809/tcp			# Linux Network Block Device
+mysql-proxy	6446/tcp			# MySQL Proxy
+mysql		3306/tcp
+munin		4949/tcp	lrrd		# Munin
+mtn		4691/udp
+mtn		4691/tcp			# monotone Netsync Protocol
+ms-wbt-server	3389/tcp
+ms-sql-s	1433/udp
+ms-sql-s	1433/tcp			# Microsoft SQL Server
+ms-sql-m	1434/udp
+ms-sql-m	1434/tcp			# Microsoft SQL Monitor
+mrtd		5674/tcp			# MRT Routing Daemon
+mon		2583/udp
+mon		2583/tcp			# MON traps
+moira-ureg	779/udp		moira_ureg	# Moira user registration
+moira-update	777/tcp		moira_update	# Moira update protocol
+moira-db	775/tcp		moira_db	# Moira database
+microsoft-ds	445/udp
+microsoft-ds	445/tcp				# Microsoft Naked CIFS
+mdns		5353/udp			# Multicast DNS
+mandelspawn	9359/udp	mandelbrot	# network mandelbrot
+mailq		174/tcp			# Mailer transport queue for Zmailer
+lotusnote	1352/tcp	lotusnotes	# Lotus Note
+login		513/tcp
+# Local services
+ldaps		636/udp
+ldaps		636/tcp				# LDAP over SSL
+ldap		389/udp
+ldap		389/tcp			# Lightweight Directory Access Protocol
+l2f		1701/udp	l2tp
+kshell		544/tcp		krcmd		# Kerberized `rsh' (v5)
+krb-prop	754/tcp		krb_prop krb5_prop hprop # Kerberos slave propagation
+kpasswd		464/udp
+kpasswd		464/tcp
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+kermit		1649/tcp
+# Kerberos (Project Athena/MIT) services
+kerberos-master	751/udp		kerberos_master	# Kerberos authentication
+kerberos-master	751/tcp
+kerberos-adm	749/tcp				# Kerberos `kadmin' (v5)
+kerberos	88/udp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos	88/tcp		kerberos5 krb5 kerberos-sec	# Kerberos v5
+kerberos4	750/udp		kerberos-iv kdc	# Kerberos (server)
+kerberos4	750/tcp		kerberos-iv kdc
+kamanda		10081/tcp			# amanda backup services (Kerberos)
+iso-tsap	102/tcp		tsap		# part of ISODE
+isns		3205/udp			# iSNS Server Port
+isns		3205/tcp			# iSNS Server Port
+isisd		2608/tcp			# ISISd vty (zebra)
+isdnlog		20011/udp
+isdnlog		20011/tcp			# isdn logging system
+iscsi-target	3260/tcp
+isakmp		500/udp				# IPSEC key management
+ircs-u		6697/tcp		# Internet Relay Chat via TLS/SSL
+ircd		6667/tcp			# Internet Relay Chat
+ipx		213/udp				# IPX [RFC1234]
+ipsec-nat-t	4500/udp			# IPsec NAT-Traversal [RFC3947]
+iprop		2121/tcp			# incremental propagation
+ipp		631/tcp				# Internet Printing Protocol
+ingreslock	1524/tcp
+imaps		993/tcp				# IMAP over SSL
+imap2		143/tcp		imap		# Interim Mail Access P 2 and 4
+# If you need a huge list of used numbers please install the nmap package.
+icpv2		3130/udp	icp
+icpv2		3130/tcp	icp		# Internet Cache Protocol
+iax		4569/udp
+iax		4569/tcp			# Inter-Asterisk eXchange
+hylafax		4559/tcp			# HylaFAX client-server protocol (new)
+https		443/tcp				# http protocol over TLS/SSL
+http-alt	8080/tcp	webcache	# WWW caching service
+http		80/tcp		www		# WorldWideWeb HTTP
+hostmon		5355/udp			# hostmon uses UDP (nocol)
+hostmon		5355/tcp			# hostmon uses TCP (nocol)
+hkp		11371/tcp			# OpenPGP HTTP Keyserver
+gsigatekeeper	2119/tcp
+gsiftp		2811/tcp
+gsidcap		22128/tcp			# GSI dCache Access Protocol
+groupwise	1677/tcp
+gris		2135/tcp		# Grid Resource Information Server
+gpsd		2947/tcp
+gopher		70/tcp				# Internet Gopher
+gnutella-svc	6346/udp
+gnutella-svc	6346/tcp			# gnutella
+gnutella-rtr	6347/udp
+gnutella-rtr	6347/tcp			# gnutella
+gnunet		2086/udp
+gnunet		2086/tcp
+git		9418/tcp			# Git Version Control System
+gds-db		3050/tcp	gds_db		# InterBase server
+gdomap		538/udp
+gdomap		538/tcp				# GNUstep distributed objects
+ftps-data	989/tcp				# FTP over SSL (data)
+ftps		990/tcp
+ftp-data	20/tcp
+ftp		21/tcp
+fsp		21/udp		fspd
+frox		2121/tcp			# frox: caching ftp proxy
+# From ``Assigned Numbers'':
+freeciv		5556/tcp	rptp		# Freeciv gameplay
+font-service	7100/tcp	xfs		# X Font Service
+finger		79/tcp
+fido		60179/tcp			# fidonet EMSI over TCP
+fax		4557/tcp			# FAX transmission service (old)
+f5-iquery	4353/udp
+f5-iquery	4353/tcp			# F5 iQuery
+f5-globalsite	2792/tcp
+exec		512/tcp
+# even if the protocol doesn't support UDP operations.
+epmd		4369/udp
+epmd		4369/tcp			# Erlang Port Mapper Daemon
+epmap		135/tcp		loc-srv		# DCE endpoint resolution
+enbd-sstatd	5052/tcp			# ENBD server statd
+enbd-cstatd	5051/tcp			# ENBD client statd
+echo		7/udp
+echo		7/tcp
+echo		4/ddp			# AppleTalk Echo Protocol
+domain-s	853/udp				# DNS over DTLS [RFC8094]
+domain-s	853/tcp				# DNS over TLS [RFC7858]
+domain		53/udp
+domain		53/tcp				# Domain Name Server
+#> does register or list uses of these ports as a convienence to the
+distmp3		4600/tcp			# distmp3host daemon
+distcc		3632/udp
+distcc		3632/tcp			# distributed compiler
+discard		9/udp		sink null
+discard		9/tcp		sink null
+dircproxy	57000/tcp			# Detachable IRC Proxy
+dict		2628/tcp			# Dictionary server
+dicom		11112/tcp
+dhcpv6-server	547/udp
+dhcpv6-client	546/udp
+#> defined.  This list specifies the port used by the server process as its
+dcap		22125/tcp			# dCache Access Protocol
+db-lsp		17500/tcp			# Dropbox LanSync Protocol
+daytime		13/udp
+daytime		13/tcp
+datametrics	1645/udp	old-radius
+datametrics	1645/tcp	old-radius
+# Datagram Delivery Protocol services
+daap		3689/udp
+daap		3689/tcp			# Digital Audio Access Protocol
+cvspserver	2401/tcp			# CVS client/server operations
+csync2		30865/tcp			# cluster synchronization tool
+#> contact port.  While the IANA can not control uses of these ports it
+#> connections which carry long term conversations.  For the purpose of
+#> community.
+codasrv-se	2433/udp			# udp sftp side effect
+codasrv-se	2433/tcp			# tcp side effects
+codasrv		2432/udp			# server port
+codasrv		2432/tcp			# not used
+codaauth2	370/udp				# Coda authentication server
+codaauth2	370/tcp
+cmip-man	163/udp
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-agent	164/udp
+cmip-agent	164/tcp
+clearcase	371/udp		Clearcase
+clc-build-daemon 8990/tcp			# Common lisp build daemon
+cisco-sccp	2000/tcp			# Cisco SCCP
+chargen		19/udp		ttytst source
+chargen		19/tcp		ttytst source
+cfinger		2003/tcp			# GNU Finger
+cfengine	5308/tcp
+canna		5680/tcp			# cannaserver
+#> can be used by ordinary user processes or programs executed by ordinary
+# by IANA and used in the real-world or are needed by a debian package.
+bootps		67/udp
+bootpc		68/udp
+binkp		24554/tcp			# binkp fidonet protocol
+biff		512/udp		comsat
+bgpsim		5675/tcp			# MRT Routing Simulator
+bgpd		2605/tcp			# bgpd vty (zebra)
+bgp		179/tcp				# Border Gateway Protocol
+bacula-sd	9103/tcp			# Bacula Storage Daemon
+bacula-fd	9102/tcp			# Bacula File Daemon
+bacula-dir	9101/tcp			# Bacula Director
+babel		6696/udp			# Babel Routing Protocol
+auth		113/tcp		authentication tap ident
+asp		27374/udp
+asp		27374/tcp			# Address Search Protocol
+asf-rmcp	623/udp		# ASF Remote Management and Control Protocol
+amqps		5671/tcp			# AMQP protocol over TLS/SSL
+amqp		5672/udp
+amqp		5672/tcp
+amqp		5672/sctp
+amidxtape	10083/tcp			# amanda backup services
+amandaidx	10082/tcp			# amanda backup services
+amanda		10080/tcp			# amanda backup services
+afs3-volser	7005/udp
+afs3-volser	7005/tcp			# volume managment server
+afs3-vlserver	7003/udp
+afs3-vlserver	7003/tcp			# volume location database
+afs3-update	7008/udp
+afs3-update	7008/tcp			# server-to-server updater
+afs3-rmtsys	7009/udp
+afs3-rmtsys	7009/tcp			# remote cache manager service
+afs3-prserver	7002/udp
+afs3-prserver	7002/tcp			# users & groups database
+afs3-kaserver	7004/udp
+afs3-kaserver	7004/tcp			# AFS/Kerberos authentication
+afs3-fileserver 7000/udp	bbs
+afs3-fileserver 7000/tcp	bbs		# file server itself
+afs3-errors	7006/udp
+afs3-errors	7006/tcp			# error interpretation service
+afs3-callback	7001/udp
+afs3-callback	7001/tcp			# callbacks to cache managers
+afs3-bos	7007/udp
+afs3-bos	7007/tcp			# basic overseer process
+afpovertcp	548/tcp				# AFP over TCP
+afmbackup	2989/udp
+afmbackup	2989/tcp			# Afmbackup system
+afbackup	2988/udp
+afbackup	2988/tcp			# Afbackup system
+acr-nema	104/tcp		dicom		# Digital Imag. & Comm. 300
+#=========================================================================
+#=========================================================================
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+
+
+
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | sort -r -k 4,4 | less
+[?1049h[22;0;0t[?1h=USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+bok_suh     2552  0.6  1.4 4999468 349192 ?      Ssl  15:20   0:11 /usr/bin/gnom e-shell
+bok_suh     2786  0.2  0.8 1235696 201496 ?      Sl   15:20   0:05 /snap/snap-st ore/518/usr/bin/snap-store --gapplication-service
+root         252  0.0  0.2 125708 67020 ?        S<s  15:20   0:00 /lib/systemd/ systemd-journald
+bok_suh     3016  0.1  0.2 814888 50788 ?        Ssl  15:20   0:02 /usr/libexec/ gnome-terminal-server
+bok_suh     2776  0.0  0.2 711848 59476 ?        Sl   15:20   0:00 /usr/libexec/ evolution-data-server/evolution-alarm-notify
+bok_suh     2247  0.1  0.2 1122084 59640 tty2    Sl+  15:20   0:03 /usr/lib/xorg /Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -nor eset -keeptty -verbose 3
+root         641  0.0  0.1 1386964 37232 ?       Ssl  15:20   0:00 /usr/lib/snap d/snapd
+bok_suh     5285  0.0  0.1 418240 28228 ?        Sl   15:21   0:00 update-notifi er
+bok_suh     2769  0.0  0.1 343756 26088 ?        Ssl  15:20   0:00 /usr/libexec/ gsd-xsettings
+bok_suh     2694  0.0  0.1 490920 25640 ?        Ssl  15:20   0:00 /usr/libexec/ gsd-power
+bok_suh     2693  0.0  0.1 898160 27332 ?        Ssl  15:20   0:00 /usr/libexec/ :[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ lsmod | sort k[K-k 2, [K2n
+Module                  Size  Used by
+crc32_pclmul           16384  0
+crct10dif_pclmul       16384  1
+crypto_simd            16384  1 aesni_intel
+cuse                   16384  3
+fb_sys_fops            16384  1 drm_kms_helper
+ghash_clmulni_intel    16384  0
+glue_helper            16384  1 aesni_intel
+hid_generic            16384  0
+input_leds             16384  0
+mac_hid                16384  0
+nls_iso8859_1          16384  1
+nls_utf8               16384  1
+pata_acpi              16384  0
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+intel_rapl_msr         20480  0
+lp                     20480  0
+rapl                   20480  0
+sch_fq_codel           20480  2
+serio_raw              20480  0
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+joydev                 24576  0
+ppdev                  24576  0
+i2c_piix4              28672  0
+intel_rapl_common      28672  1 intel_rapl_msr
+ip_tables              32768  0
+libahci                36864  1 ahci
+vboxvideo              36864  0
+ahci                   40960  2
+autofs4                45056  2
+parport_pc             45056  0
+x_tables               45056  1 ip_tables
+isofs                  49152  1
+video                  49152  0
+cec                    53248  1 drm_kms_helper
+rc_core                57344  1 cec
+usbhid                 57344  0
+parport                65536  3 parport_pc,lp,ppdev
+ttm                   102400  2 vmwgfx,vboxvideo
+hid                   135168  2 usbhid,hid_generic
+e1000                 147456  0
+psmouse               155648  0
+drm_kms_helper        217088  2 vmwgfx,vboxvideo
+vmwgfx                315392  2
+vboxguest             364544  5
+aesni_intel           372736  0
+drm                   552960  6 vmwgfx,drm_kms_helper,vboxvideo,ttm
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ strings /bin/ls | grep -i libc
+[01;31m[Klibc[m[K.so.6
+__[01;31m[Klibc[m[K_start_main
+G[01;31m[KLIBC[m[K_2.14
+G[01;31m[KLIBC[m[K_2.4
+G[01;31m[KLIBC[m[K_2.17
+G[01;31m[KLIBC[m[K_2.3.4
+G[01;31m[KLIBC[m[K_2.2.5
+G[01;31m[KLIBC[m[K_2.3
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat /bin/ls s[K| strings
+/lib64/ld-linux-x86-64.so.2
+.j<c~
+MB#F-
+libselinux.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+fgetfilecon
+freecon
+lgetfilecon
+libc.so.6
+fflush
+strcpy
+gmtime_r
+__printf_chk
+fnmatch
+readdir
+setlocale
+mbrtowc
+strncmp
+optind
+strrchr
+fflush_unlocked
+dcgettext
+stpncpy
+getpwuid
+closedir
+getgrgid
+error
+signal
+mbstowcs
+sigprocmask
+__stack_chk_fail
+__lxstat
+iswprint
+realloc
+abort
+_exit
+strspn
+program_invocation_name
+strftime
+__assert_fail
+localtime_r
+__ctype_get_mb_cur_max
+isatty
+getpwnam
+calloc
+strlen
+sigemptyset
+memset
+localeconv
+__errno_location
+memcmp
+mempcpy
+unsetenv
+_setjmp
+__fprintf_chk
+sigaddset
+getgrnam
+wcswidth
+stdout
+lseek
+memcpy
+fclose
+strtoul
+malloc
+timegm
+raise
+mbsinit
+tzset
+nl_langinfo
+opendir
+__ctype_b_loc
+getenv
+_obstack_allocated_p
+optarg
+__freading
+stderr
+wcwidth
+ioctl
+_obstack_begin_1
+_obstack_newchunk
+__snprintf_chk
+readlink
+getopt_long
+__fxstat
+fileno
+gethostname
+_obstack_memory_used
+getcwd
+fwrite
+gettimeofday
+sigaction
+__memcpy_chk
+sigismember
+clock_gettime
+__fpending
+strchr
+iswcntrl
+mktime
+program_invocation_short_name
+wcstombs
+__ctype_toupper_loc
+__ctype_tolower_loc
+obstack_alloc_failed_handler
+__cxa_finalize
+__sprintf_chk
+__xstat
+getxattr
+memmove
+_obstack_begin
+bindtextdomain
+__fxstatat
+fwrite_unlocked
+strcmp
+tcgetpgrp
+__libc_start_main
+dirfd
+fseeko
+strcoll
+snprintf
+__overflow
+__strtoul_internal
+_obstack_free
+fputs_unlocked
+__progname
+__progname_full
+__cxa_atexit
+quote_quoting_options
+Version
+argmatch_die
+ls_mode
+_IO_stdin_used
+quoting_style_vals
+quoting_style_args
+exit_failure
+program_name
+version_etc_copyright
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.17
+GLIBC_2.3.4
+GLIBC_2.2.5
+GLIBC_2.3
+AWAVAUATA
+D$81
+l$ 1
+D$"f
+t&E1
+D$ H
+T$ H
+\$8dH3
+H[]A\A]A^A_
+D$5??
+D$ H
+T$6H
+D$ H
+Hc\$
+G(H9G0
+Hc\$
+D$ H
+Hc\$
+D$ H
+t$ 1
+u+UH
+HwuE
+?t"M
+AVAUATUSH
+|$0H
+D$@L
+t$(H
+u[E1
+D$(H9
+L;<$u
+[]A\A]A^A_
+L;4$t'M
+[]A\A]
+St"1
+AVAUATA
+[]A\A]A^
+AVAUD
+A\A]A^
+A\A]A^
+vEL9
+[]A\
+ATUSH
+G(H;G0s
+[]A\
+G(H;G0s7H
+AUATI
+[A\A]
+[A\A]
+FHH9GH
+G(H;G0s
+F`H9G`
+FhD+Ghu
+AUATUSH
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUI
+|$0L
+D$ L
+L$8dH
+D$X1
+D$/E
+,#H9
+t$8H
+D$ H
+D$0H
+D$XdH3
+[]A\A]A^A_
+l$PI
+|$LH
+L9l$
+L+t$
+AWAVAUATUSH
+D$0H
+|$(L
+L$'L
+C H)
+|$(H
+S H)
+D$(H
+G(H;G0
+|$(L9
+H;<$t
+D$'H
+[]A\A]A^A_
+D$(H
+G(H;G0
+G(H;G0
+|$(H
+AUATI
+[]A\A]A^A_
+t$0A
+AWAVAUATUSH
+D$hI
+T$`H
+D$(H
+T$ A
+AXAYH
+D$0%
+|$HL
+[]A\A]A^A_
+D$xI
+T$pH
+D$(H
+|$ H
+????????H
+D$(H
+l$0H
+t$ L
+L$ H
+L$(H9
+HcT$@H
+|$(H
+D$@H
+|$XL
+|$ H
+t$pH
+L$ L
+L$(H
+l$ H
+tOHc
+AUATU
+[]A\A]
+AWAVAUATUSH
+G(H;G0
+G(H;G0
+G(H;G0sgH
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUSH
+G(H;G0
+([]A\A]A^A_
+G(H;G0
+G(H;G0
+L;-a
+G(H;G0
+H9D$
+([]A\A]A^A_
+G(H;G0s1H
+[]A\A]A^A_
+OHH9HH
+FHH9GH
+FHH9GH
+FHH9GH
+OHH9HH
+H9VH
+H9VH
+4|"L
+FpH9Gp
+FxD+Gxu
+AVAUA
+[A\A]A^A_]
+AWAVI
+ATUSH
+L$(H
+[]A\A]A^A_
+\$(H
+L$ H)
+G(H;G0
+G(H;G0
+G(H;G0
+H9F`
+Gh+Fhu
+FpH9Gp
+Fx+Gxu
+H9Fp
+Gx+Fxu
+F`H9G`
+Fh+Ghu
+G`H9B`
+GhD+Bhu
+FpH9Gp
+FxD+Gxu
+4|"L
+GpH9Bp
+GxD+Bxu
+4|"L
+F`H9G`
+FhD+Ghu
+FpH9Gp
+Fx+Gxu
+H9Fp
+Gx+Fxu
+H9F`
+Gh+Fhu
+F`H9G`
+Fh+Ghu
+G`H9B`
+GhD+Bhu
+GpH9Bp
+GxD+Bxu
+4|"L
+<$[]A\
+[]A\
+<$[]A\
+[]A\
+ATUH
+;[]A\
+ATUH
+;[]A\
+ATUL
+]A\A]
+A\A]
+ATUL
+]A\A]
+A\A]
+AUATUSH
+[]A\A]
+[]A\A]
+D$x1
+D$ H
+L$0H
+\$@H
+D$(H
+D$8H
+D$HH
+L$PH
+D$XH
+?ATI
+xRL9
+[]A\A]A^A_
+AWAVI
+ATUH
+([]A\A]A^A_
+ATUH
+AVE1
+ATUH
+G(H;G0s
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUSL
+]A\A]A^
+AWAVAUATU
+l$$L
+D$#f
+</u f.
+w;L)
+[]A\A]A^A_
+D$$L
+l$@L
+D$X%
+t$(H
+t$(H
+t$pL
+H;L$8
+D$0H
+|$0L
+D$(I
+|$0H
+T$(H
+D$0H
+ATSH
+twAUI
+t-H9
+[]A\A]
+[]A\A]
+AWAVAUATI
+[]A\A]A^A_
+<.tN<Z
+AVAUATUH
+[]A\A]A^
+w	I9
+	vc@
+4:I)
+HiD$
+S0H9C
+L$HH
+T$H]A\A]A^
+[]A\A]A^
+L$HH
+T$H]A\A]A^
+	v6H
+AWAVI
+.H;n
+I9l$
+I9l$
+[]A\A]A^A_
+[]A\A]A^A_
+H9W 
+AUATE1
+[]A\
+AWAVAUATUSH
+7L9w
+[]A\A]A^A_
+ATUH
+|$(L
+l$0I
+\$8M
+t$@I
+[]A\A]A^A_
+ATUH
+'L;g
+tSH9
+T$@H
+,$H9
+I9l$
+\$HH
+AUATUH
+e(dH
+D$X1
+d$(H
+D$0H
+D$8H
+D$@H
+D$XdH3
+[]A\A]
+D$HH
+AUATUSH
+t.E1
+[]A\A]
+[]A\
+AWAVAUI
+ATUH
+T$@dH
+l$ M
+l$ H
+l$ H
+D$01
+|$4M
+|$ H
+l$ L9
+\$ H
+A^A_H
+T$@A
+D$01
+D$0H9
+D$HI
+|$PL
+\$DL
+d$8L
+D$HL
+t$ H
+l$8L
+AXAYH
+D$@%
+[]A\A]A^A_
+l$ H
+\$DH
+l$8I
+AZA[
+T$@1
+L$4E
+D$4E
+l$ L9
+D$@@
+ATUH
+[]A\A]
+[]A\
+ATUH
+t'D8c
+t'D8c
+[]A\
+[]A\
+ATUH
+t'D8c
+t'D8c
+[]A\
+gfffffff
+AWAVAUI
+ATUD
+D$(H
+[]A\A]A^A_
+D$ A
+T$ L
+D$ H
+|$ L
+H9D$
+H9D$
+T$ L
+AWAVI
+ATE1
+t H9
+[]A\A]A^A_
+AVAUATUH
+,7SH
+D$(1
+l$ L
+D$(dH3
+[]A\A]A^A_
+AWAVAUATUH
+8[]A\A]A^A_
+8[]A\A]A^A_
+D$(H
+L9l$
+H9D$
+|$ M
+L9d$
+H9D$ tAL
+A]A^A_
+D$ H
+T$ L
+[]A\
+[]A\
+AUATUSH
+D$+dH
+l$,L
+|$ L
+[]A\A]A^A_
+T$+E1
+-u"A
+Ot*E1
+zw5H
+sMIc
+L$PH)
+D$HL
+L$@I
+T$0A
+L$PL
+D$HL
+L$@D
+T$0L
+D$@H
+L$0E
+L$0L
+D$@I
+D$0D
+L$HD
+D$0H
+L$HD
+T$@E
+uHH9
+sCIc
+L$HH)
+D$@D
+T$0M
+L$HL
+D$@D
+T$0L
+D$@H
+L$0E
+L$0L
+D$@I
+D$0Hc
+D$0A
+|$HA
+D$@M
+|$HD9
+D$0+L
+L$@H
+vDIc
+L$XH
+\$PD
+T$HM
+L$XD
+\$PD
+D$0I
+\$PD
+T$HH
+L$0D
+\$PD
+T$HI
+L$@H
+uHI9
+sCIc
+L$HL)
+D$@D
+T$0M
+L$HL
+D$@D
+T$0L
+D$@L
+L$0E
+L$0L
+D$@M
+~%Ic
+D$0Hc
+t$pD
+)D$pH
+)d$0
+D$@I
+gfffffffH
+L$@H
+D$0Hc
+|$ D
+D$HD
+t$0H9
+tpI9
+T$@D
+D$Hs:Ic
+D$HM
+D$HD
+T$@H
+t$ L
+l$0I
+D$0)
+L$(H
+T$@D
+AZA[I
+D$@sBIc
+T$PL)
+\$HM
+D$@M
+T$PL
+\$HD
+T$@L
+L$(H
+AXAYL
+T$@L
+~(Ic
+~%Ic
+D$0Hc
+D$0-A
+vKIc
+L$`H
+D$XD
+\$PD
+T$HH
+T$0H
+L$`D
+D$XD
+\$PD
+T$HI
+L$@H
+D$@L
+D$@H
+D$@H
+L$0L
+T$0L
+D$@H
+v_Ic
+L$hH
+L$`I
+D$XH
+D$@D
+\$PD
+T$HA
+d$@L
+L$hH
+L$`L
+D$XD
+\$PD
+D$0I
+L$`D
+\$XD
+T$PH
+L$`D
+\$XD
+T$PI
+L$@I
+T$0L
+D$@L
+T$0L
+L$@L
+D$HH
+vJIc
+L$hH
+D$`D
+\$XD
+T$PH
+T$HH
+L$hL
+D$`D
+\$XD
+T$PI
+D$0I
+L$@H
+D$@L
+\$HL
+u4Ai
+gfffH
+D$01
+d$@D
+T$HD
+\$PL
+D$XH
+L$`L
+T$@D
+T$HD
+\$PH
+AQAPE1
+lu.A
+tu'A
+-u H
+AUATUSD
+D$(H
+D$xH
+L$dH
+D$pdH
+D$cA
+D$xH
+D$pH
+\$pD
+T$8E1
+\$0H
+\$PL
+\$0H
+D$ D
+D$ H
+T$HD
+D$@D
+L$8H
+T$HD
+D$@D
+L$8H
+T$0I
+T$ H
+t$PH
+T$HL
+\$@D
+D$8D
+L$0D
+\$@D
+t$(H
+t1M9
+T$HL
+\$@D
+D$8D
+L$0D
+\$@D
+T$HI
+t$xL
+T$8A
+[]A\A]A^A_
+u-E1
+"D$cA
+T$XL
+t$XA
+t$XI
+D$8I
+T$HD
+D$@D
+T$HD
+D$@D
+L$0I
+l$01
+D$HD
+d$8H
+\$@L
+D$@H
+|$HH
+|$0H
+|$0L
+l$0H
+\$@D
+l$0H
+l$cH
+t1M9
+\$@D
+\$@D
+D$PH
+t$@D
+T$8H
+t$X1
+AWAVAUI
+D$ D
+t$0H
+t$0H
+[]A\A]A^A_
+ATUH
+#[]A\
+s(PH
+8[]A\A]A^A_
+ATUH
+s(ARL
+T$8D
+T$0ARH
+t$(D
+L$4H
+D$0H
+[]A\A]A^A_
+[]A\
+D$81
+L$8dH3
+D$81
+T$8dH3
+D$81
+)T$ H
+|$8dH3<%(
+D$81
+L$8dH3
+D$81
+)T$ H
+t$(H
+T$0L
+L$8dH3
+H9D$
+]A\A]A^
+AUATUS
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATM
+T$ L
+T$(H
+L$(AQL
+D$(M
+L$(M
+8[]A\A]A^A_
+\$(L
+T$ L
+\$(H
+A\A]A^A_
+A\A]A^A_
+A\A]A^A_
+8[]A\A]A^A_
+8[]A\A]A^A_
+\$(L
+T$ L
+D$X1
+D$XdH3
+D$ L
+D$x1
+D$xdH3
+TUUUUUUU1
+SUUUUUUUH9
+[]A\A]A^A_
+AVAUI
+ATU1
+[]A\A]A^
+AWAVAUATUSH
+-tqH
+uGE1
+[]A\A]A^A_
+</w8H
+AUATUSL
+AWAVAUATUSH
+-tq1
+uEE1
+[]A\A]A^A_
+</w8H
+ATUH
+[]A\A]
+ATUSH
+[]A\
+AUATUSL
+H97L
+C7L9
+[]A\A]A^
+H90s
+[]A\
+[]A\
+t#SH
+AUATUH
+[]A\A]
+ATUSH
+|$	H
+[]A\
+[]A\
+AWAVAUATUSH
+]	tq
+u	I9
+[]A\A]A^A_
+[]A\A]A^A_
+vw/L
+ATUSH
+[]A\
+[]A\
+[]A\
+[]A\
+AUATUH
+]A\A]A^
+]A\A]A^
+]A\A]A^
+AUATUH
+D$H1
+L$HdH3
+P]A\A]
+3D$ 3T$$	
+ATUH
+[]A\
+ATUH
+u<[]A\
+[]A\
+G H9G(u
+[]A\A]A^A_
+dev_ino_pop
+sort_files
+posix-
+main
+?pcdb-lswd
+# Configuration file for dircolors, a utility to help you set the
+# LS_COLORS environment variable used by GNU ls with the --color option.
+# Copyright (C) 1996-2018 Free Software Foundation, Inc.
+# Copying and distribution of this file, with or without modification,
+# are permitted provided the copyright notice and this notice are preserved.
+# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the
+# slackware version of dircolors) are recognized but ignored.
+# Below are TERM entries, which can be a glob patterns, to match
+# against the TERM environment variable to determine if it is colorizable.
+TERM Eterm
+TERM ansi
+TERM *color*
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM gnome
+TERM hurd
+TERM jfbterm
+TERM konsole
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mlterm
+TERM putty
+TERM rxvt*
+TERM screen*
+TERM st
+TERM terminator
+TERM tmux*
+TERM vt100
+TERM xterm*
+# Below are the color init strings for the basic file types. A color init
+# string consists of one or more of the following numeric codes:
+# Attribute codes:
+# 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+# Text color codes:
+# 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+# Background color codes:
+# 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+#NORMAL 00 # no color code at all
+#FILE 00 # regular file: use no color at all
+RESET 0 # reset to "normal" color
+DIR 01;34 # directory
+LINK 01;36 # symbolic link. (If you set this to 'target' instead of a
+ # numerical value, the color is as for the file pointed to.)
+MULTIHARDLINK 00 # regular file with more than one link
+FIFO 40;33 # pipe
+SOCK 01;35 # socket
+DOOR 01;35 # door
+BLK 40;33;01 # block device driver
+CHR 40;33;01 # character device driver
+ORPHAN 40;31;01 # symlink to nonexistent file, or non-stat'able file ...
+MISSING 00 # ... and the files they point to
+SETUID 37;41 # file that is setuid (u+s)
+SETGID 30;43 # file that is setgid (g+s)
+CAPABILITY 30;41 # file with capability
+STICKY_OTHER_WRITABLE 30;42 # dir that is sticky and other-writable (+t,o+w)
+OTHER_WRITABLE 34;42 # dir that is other-writable (o+w) and not sticky
+STICKY 37;44 # dir with the sticky bit set (+t) and not other-writable
+# This is for files with execute permission:
+EXEC 01;32
+# List any file extensions like '.gz' or '.tar' that you would like ls
+# to colorize below. Put the extension, a space, and the color init string.
+# (and any comments you want to add after a '#')
+# If you use DOS-style suffixes, you may want to uncomment the following:
+#.cmd 01;32 # executables (bright green)
+#.exe 01;32
+#.com 01;32
+#.btm 01;32
+#.bat 01;32
+# Or if you want to colorize scripts even if they do not have the
+# executable bit actually set.
+#.sh 01;32
+#.csh 01;32
+ # archives or compressed (bright red)
+.tar 01;31
+.tgz 01;31
+.arc 01;31
+.arj 01;31
+.taz 01;31
+.lha 01;31
+.lz4 01;31
+.lzh 01;31
+.lzma 01;31
+.tlz 01;31
+.txz 01;31
+.tzo 01;31
+.t7z 01;31
+.zip 01;31
+.z 01;31
+.dz 01;31
+.gz 01;31
+.lrz 01;31
+.lz 01;31
+.lzo 01;31
+.xz 01;31
+.zst 01;31
+.tzst 01;31
+.bz2 01;31
+.bz 01;31
+.tbz 01;31
+.tbz2 01;31
+.tz 01;31
+.deb 01;31
+.rpm 01;31
+.jar 01;31
+.war 01;31
+.ear 01;31
+.sar 01;31
+.rar 01;31
+.alz 01;31
+.ace 01;31
+.zoo 01;31
+.cpio 01;31
+.7z 01;31
+.rz 01;31
+.cab 01;31
+.wim 01;31
+.swm 01;31
+.dwm 01;31
+.esd 01;31
+# image formats
+.jpg 01;35
+.jpeg 01;35
+.mjpg 01;35
+.mjpeg 01;35
+.gif 01;35
+.bmp 01;35
+.pbm 01;35
+.pgm 01;35
+.ppm 01;35
+.tga 01;35
+.xbm 01;35
+.xpm 01;35
+.tif 01;35
+.tiff 01;35
+.png 01;35
+.svg 01;35
+.svgz 01;35
+.mng 01;35
+.pcx 01;35
+.mov 01;35
+.mpg 01;35
+.mpeg 01;35
+.m2v 01;35
+.mkv 01;35
+.webm 01;35
+.ogm 01;35
+.mp4 01;35
+.m4v 01;35
+.mp4v 01;35
+.vob 01;35
+.qt 01;35
+.nuv 01;35
+.wmv 01;35
+.asf 01;35
+.rm 01;35
+.rmvb 01;35
+.flc 01;35
+.avi 01;35
+.fli 01;35
+.flv 01;35
+.gl 01;35
+.dl 01;35
+.xcf 01;35
+.xwd 01;35
+.yuv 01;35
+.cgm 01;35
+.emf 01;35
+# https://wiki.xiph.org/MIME_Types_and_File_Extensions
+.ogv 01;35
+.ogx 01;35
+# audio formats
+.aac 00;36
+.au 00;36
+.flac 00;36
+.m4a 00;36
+.mid 00;36
+.midi 00;36
+.mka 00;36
+.mp3 00;36
+.mpc 00;36
+.ogg 00;36
+.ra 00;36
+.wav 00;36
+# https://wiki.xiph.org/MIME_Types_and_File_Extensions
+.oga 00;36
+.opus 00;36
+.spx 00;36
+.xspf 00;36
+%.*s%s%s
+%%%02x
+src/ls.c
+sort_type != sort_version
+ %lu
+%*lu 
+]8;;file://%s%s%s
+]8;;
+%s %*s 
+%*s, %*s 
+ -> 
+error canonicalizing %s
+cannot access %s
+cannot read symbolic link %s
+unlabeled
+cannot open directory %s
+reading directory %s
+closing directory %s
+total
+vdir
+test invocation
+Multi-call invocation
+sha224sum
+sha2 utilities
+sha256sum
+sha384sum
+sha512sum
+%s online help: <%s>
+GNU coreutils
+full-iso
+/usr/share/locale
+QUOTING_STYLE
+COLUMNS
+TABSIZE
+invalid line width
+%s: %s
+invalid tab size
+--sort
+--time
+--format
+--color
+--hyperlink
+--indicator-style
+--quoting-style
+David MacKenzie
+Richard M. Stallman
+LS_BLOCK_SIZE
+*=>@|
+TIME_STYLE
+invalid time style format %s
+time style
+Valid arguments are:
+  - [posix-]%s
+%Y-%m-%d %H:%M:%S.%N %z
+%Y-%m-%d %H:%M
+%Y-%m-%d 
+LS_COLORS
+COLORTERM
+TERM 
+unrecognized prefix: %s
+target
+found
+//DIRED//
+//SUBDIRED//
+force
+never
+none
+auto
+if-tty
+atime
+ctime
+status
+extension
+verbose
+long
+commas
+horizontal
+across
+vertical
+single-column
+directory
+dired
+full-time
+group-directories-first
+human-readable
+inode
+kibibytes
+numeric-uid-gid
+no-group
+hide-control-chars
+reverse
+almost-all
+ignore-backups
+classify
+file-type
+dereference-command-line
+hide
+ignore
+dereference
+literal
+quote-name
+recursive
+show-control-chars
+tabsize
+time-style
+block-size
+context
+author
+help
+%b %e  %Y
+%b %e %H:%M
+01;34
+01;36
+01;35
+01;33
+01;32
+37;41
+30;43
+37;44
+34;42
+30;42
+30;41
+slash
+long-iso
+cannot determine device and inode of %s
+%s: not listing already-listed directory
+Try '%s --help' for more information.
+Usage: %s [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+https://www.gnu.org/software/coreutils/
+Report %s translation bugs to <https://translationproject.org/team/>
+Full documentation at: <%s%s>
+or available locally via: info '(coreutils) %s%s'
+ignoring invalid value of environment variable QUOTING_STYLE: %s
+ignoring invalid width in environment variable COLUMNS: %s
+ignoring invalid tab size in environment variable TABSIZE: %s
+abcdfghiklmnopqrstuvw:xABCDFGHI:LNQRST:UXZ1
+  - +FORMAT (e.g., +%H:%M) for a 'date'-style format
+dev_ino_size <= obstack_object_size (&dev_ino_obstack)
+//DIRED-OPTIONS// --quoting-style=%s
+hash_get_n_entries (active_dir_set) == 0
+unparsable value for LS_COLORS environment variable
+dereference-command-line-symlink-to-dir
+8.30
+invalid argument %s for %s
+ambiguous argument %s for %s
+Valid arguments are:
+  - %s
+, %s
+write error
+system.posix_acl_access
+system.posix_acl_default
+POSIX
+# entries:         %lu
+# buckets:         %lu
+max bucket length: %lu
+# buckets used:    %lu (%.2f%%)
+=fff?
+Y@%.0Lf
+%.1Lf
+BLOCKSIZE
+POSIXLY_CORRECT
+eEgGkKmMpPtTyYzZ0
+KMGTPEZY
+%H:%M:%S
+%m/%d/%y
+%Y-%m-%d
+A NULL argv[0] was passed through an exec system call.
+/.libs/
+shell
+shell-always
+shell-escape
+shell-escape-always
+c-maybe
+clocale
+%s (%s) %s
+%s %s
+Written by %s.
+Written by %s and %s.
+Written by %s, %s, and %s.
+Report bugs to: %s
+bug-coreutils@gnu.org
+%s home page: <%s>
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Written by %s, %s, %s,
+and %s.
+Written by %s, %s, %s,
+%s, and %s.
+Written by %s, %s, %s,
+%s, %s, and %s.
+Written by %s, %s, %s,
+%s, %s, %s, and %s.
+Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+General help using GNU software: <https://www.gnu.org/gethelp/>
+Copyright %s %d Free Software Foundation, Inc.
+memory exhausted
+lib/xstrtol.c
+0 <= strtol_base && strtol_base <= 36
+xstrtoul
+invalid suffix in %s%s argument '%s'
+%s%s argument '%s' too large
+invalid %s%s argument '%s'
+xstrtoumax
+ASCII
+:*3$"
+15ad836be3339dec0e2e6a3c637e08e48aacbd.debug
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat /etc/servie[Kces | sed s/tcp/TEST/ | head =n[K[K-n 20
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+TESTmux		1/tcp				# TCP port service multiplexer
+echo		7/TEST
+echo		7/udp
+discard		9/TEST		sink null
+discard		9/udp		sink null
+systat		11/TEST		users
+daytime		13/TEST
+daytime		13/udp
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sed s/tcp/TEST/g < /etc/services > mynewfile.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ head -200[K n[Kmynewfile.txt
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+TESTmux		1/TEST				# TCP port service multiplexer
+echo		7/TEST
+echo		7/udp
+discard		9/TEST		sink null
+discard		9/udp		sink null
+systat		11/TEST		users
+daytime		13/TEST
+daytime		13/udp
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat /etc/services | sed s/tc/T[K[K[Kcp/TEST/gi | head -n 200[K
+# Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TEST and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml .
+#
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+TESTmux		1/TEST				# TEST port service multiplexer
+echo		7/TEST
+echo		7/udp
+discard		9/TEST		sink null
+discard		9/udp		sink null
+systat		11/TEST		users
+daytime		13/TEST
+daytime		13/udp
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sed 's/\home/[K\/chris/\/home2\/chris/g
+> sed 's/\home\/chris/\/home2\/chris/g
+sed: -e expression #1, char 56: unknown option to `s'
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sed 's/\home\/chris/\/home2\/chris/g
+sed 's/\home\/chris/\/home2\/chris/g[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' < /etc/passwd | grep chir[K[Kris
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls | tr '\n' ' '
+copy.txt Desktop Documents Downloads index.html Logs memo.txt memo.txt~ Music myfile myfile-hardlink myfile-symlink mynewfile.txt mypipe output.txt Pictures pkg.txt Public snap Templates testscript.sh Videos ]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls \ [K[K| tr ' ' '\n'
+copy.txt
+Desktop
+Documents
+Downloads
+index.html
+Logs
+memo.txt
+memo.txt~
+Music
+myfile
+myfile-hardlink
+myfile-symlink
+mynewfile.txt
+mypipe
+output.txt
+Pictures
+pkg.txt
+Public
+snap
+Templates
+testscript.sh
+Videos
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ls
+copy.txt   index.html  [0m[01;34mMusic[0m            mynewfile.txt  pkg.txt    [01;32mtestscript.sh[0m
+[01;34mDesktop[0m    [01;34mLogs[0m        myfile           [40;33mmypipe[0m         [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  memo.txt    myfile-hardlink  output.txt     [01;34msnap[0m
+[01;34mDownloads[0m  memo.txt~   [01;36mmyfile-symlink[0m   [01;34mPictures[0m       [01;34mTemplates[0m
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ echo chris | tr a-z A-Z
+CHRIS
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ diff config config.old
+diff: config: No such file or directory
+diff: config.old: No such file or directory
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ seq 1 7 > fi.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat fi.txt
+1
+2
+3
+4
+5
+6
+7
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sed s/5[K4/FOUR/ < fi.txt > f2.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ diff fi.txt f2.txt
+4c4
+< 4
+---
+> FOUR
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ diff -u fi.txt f2.txt
+--- fi.txt	2021-02-13 16:06:35.086747054 +0900
++++ f2.txt	2021-02-13 16:06:51.234816447 +0900
+@@ -1,7 +1,7 @@
+ 1
+ 2
+ 3
+-4
++FOUR
+ 5
+ 6
+ 7
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sdiff fi.txt f2.txt
+1								1
+2								2
+3								3
+4							      |	FOUR
+5								5
+6								6
+7								7
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ diff -u fi.txt f2[K2.txt ??[K[K> patchfile.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ patch fi.txt < patchfile.txt
+patching file fi.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat fi.txt
+1
+2
+3
+FOUR
+5
+6
+7
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ ps auwx | awk '{print %[K$1, [K$11}'
+USER COMMAND
+root /sbin/init
+root [kthreadd]
+root [rcu_gp]
+root [rcu_par_gp]
+root [kworker/0:0H-kblockd]
+root [kworker/0:1-ata_sff]
+root [mm_percpu_wq]
+root [ksoftirqd/0]
+root [rcu_sched]
+root [migration/0]
+root [idle_inject/0]
+root [cpuhp/0]
+root [cpuhp/1]
+root [idle_inject/1]
+root [migration/1]
+root [ksoftirqd/1]
+root [kworker/1:0H-kblockd]
+root [cpuhp/2]
+root [idle_inject/2]
+root [migration/2]
+root [ksoftirqd/2]
+root [kworker/2:0H-kblockd]
+root [cpuhp/3]
+root [idle_inject/3]
+root [migration/3]
+root [ksoftirqd/3]
+root [kworker/3:0H-kblockd]
+root [kdevtmpfs]
+root [netns]
+root [rcu_tasks_kthre]
+root [rcu_tasks_rude_]
+root [rcu_tasks_trace]
+root [kauditd]
+root [khungtaskd]
+root [oom_reaper]
+root [writeback]
+root [kcompactd0]
+root [ksmd]
+root [khugepaged]
+root [kintegrityd]
+root [kblockd]
+root [blkcg_punt_bio]
+root [tpm_dev_wq]
+root [ata_sff]
+root [md]
+root [edac-poller]
+root [devfreq_wq]
+root [kworker/2:1-events]
+root [watchdogd]
+root [pm_wq]
+root [kswapd0]
+root [ecryptfs-kthrea]
+root [kthrotld]
+root [acpi_thermal_pm]
+root [scsi_eh_0]
+root [scsi_tmf_0]
+root [scsi_eh_1]
+root [scsi_tmf_1]
+root [vfio-irqfd-clea]
+root [kworker/3:1-events]
+root [ipv6_addrconf]
+root [kstrp]
+root [zswap-shrink]
+root [kworker/u9:0]
+root [charger_manager]
+root [kworker/3:2-events]
+root [scsi_eh_2]
+root [scsi_tmf_2]
+root [kworker/0:1H-kblockd]
+root [kworker/1:1H-kblockd]
+root [kworker/3:1H-kblockd]
+root [jbd2/sda5-8]
+root [ext4-rsv-conver]
+root [kworker/2:1H-kblockd]
+root /lib/systemd/systemd-journald
+root /lib/systemd/systemd-udevd
+root [loop0]
+root [loop1]
+root [loop2]
+root [loop3]
+root [loop4]
+root [loop5]
+root [loop6]
+root [loop7]
+root [loop8]
+root [loop9]
+root [iprt-VBoxWQueue]
+root [cryptd]
+root [irq/18-vmwgfx]
+root [ttm_swap]
+systemd+ /lib/systemd/systemd-resolved
+root /usr/lib/accountsservice/accounts-daemon
+root /usr/sbin/acpid
+avahi avahi-daemon:
+root /usr/sbin/cron
+message+ /usr/bin/dbus-daemon
+root /usr/sbin/NetworkManager
+root /usr/sbin/irqbalance
+root /usr/bin/python3
+root /usr/sbin/osspd
+root /usr/lib/policykit-1/polkitd
+syslog /usr/sbin/rsyslogd
+root /usr/lib/snapd/snapd
+root /usr/libexec/switcheroo-control
+root /lib/systemd/systemd-logind
+root /usr/lib/udisks2/udisksd
+avahi avahi-daemon:
+root [kworker/1:4-events]
+root /usr/sbin/preload
+root /usr/sbin/cupsd
+root /usr/sbin/ModemManager
+games /usr/games/bzfs
+root /usr/sbin/cups-browsed
+root /usr/bin/python3
+whoopsie /usr/bin/whoopsie
+kernoops /usr/sbin/kerneloops
+kernoops /usr/sbin/kerneloops
+root /usr/sbin/gdm3
+root /usr/sbin/VBoxService
+root gdm-session-worker
+bok_suh /lib/systemd/systemd
+bok_suh (sd-pam)
+bok_suh /usr/bin/pulseaudio
+bok_suh /usr/libexec/tracker-miner-fs
+bok_suh /usr/bin/dbus-daemon
+bok_suh /usr/bin/gnome-keyring-daemon
+bok_suh /usr/lib/gdm3/gdm-x-session
+bok_suh /usr/lib/xorg/Xorg
+rtkit /usr/libexec/rtkit-daemon
+bok_suh /usr/libexec/gvfsd
+bok_suh /usr/libexec/gvfsd-fuse
+bok_suh /usr/libexec/gvfs-udisks2-volume-monitor
+bok_suh /usr/libexec/gvfs-goa-volume-monitor
+bok_suh /usr/libexec/goa-daemon
+bok_suh /usr/libexec/goa-identity-service
+bok_suh /usr/libexec/gvfs-afc-volume-monitor
+bok_suh /usr/libexec/gvfs-mtp-volume-monitor
+bok_suh /usr/libexec/gvfs-gphoto2-volume-monitor
+root /usr/lib/upower/upowerd
+bok_suh /usr/libexec/gnome-session-binary
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/ssh-agent
+bok_suh [fcitx]
+bok_suh /usr/bin/fcitx
+bok_suh /usr/bin/VBoxClient
+bok_suh /usr/bin/dbus-daemon
+bok_suh /usr/bin/fcitx-dbus-watcher
+bok_suh /usr/libexec/at-spi-bus-launcher
+bok_suh /usr/bin/dbus-daemon
+bok_suh /usr/libexec/gnome-session-ctl
+bok_suh /usr/libexec/gnome-session-binary
+bok_suh /usr/bin/gnome-shell
+bok_suh ibus-daemon
+bok_suh /usr/libexec/ibus-memconf
+bok_suh /usr/libexec/ibus-extension-gtk3
+bok_suh /usr/libexec/ibus-x11
+bok_suh /usr/libexec/ibus-portal
+bok_suh /usr/libexec/at-spi2-registryd
+bok_suh /usr/libexec/xdg-permission-store
+bok_suh /usr/libexec/gnome-shell-calendar-server
+bok_suh /usr/libexec/evolution-source-registry
+bok_suh /usr/libexec/evolution-calendar-factory
+bok_suh /usr/libexec/dconf-service
+bok_suh /usr/libexec/evolution-addressbook-factory
+bok_suh /usr/bin/gjs
+bok_suh /usr/libexec/gvfsd-trash
+bok_suh /usr/libexec/gsd-a11y-settings
+bok_suh /usr/libexec/gsd-color
+bok_suh /usr/libexec/gsd-datetime
+bok_suh /usr/libexec/gsd-housekeeping
+bok_suh /usr/libexec/gsd-keyboard
+bok_suh /usr/libexec/gsd-media-keys
+bok_suh /usr/libexec/gsd-power
+bok_suh /usr/libexec/gsd-print-notifications
+bok_suh /usr/libexec/gsd-rfkill
+bok_suh /usr/libexec/gsd-screensaver-proxy
+bok_suh /usr/libexec/gsd-sharing
+bok_suh /usr/libexec/gsd-printer
+bok_suh /usr/libexec/gsd-smartcard
+colord /usr/libexec/colord
+bok_suh /usr/libexec/gsd-sound
+bok_suh /usr/libexec/gsd-usb-protection
+bok_suh /usr/libexec/gsd-wacom
+bok_suh /usr/libexec/gsd-wwan
+bok_suh /usr/libexec/gsd-xsettings
+bok_suh /usr/libexec/evolution-data-server/evolution-alarm-notify
+bok_suh /usr/libexec/gsd-disk-utility-notify
+bok_suh /snap/snap-store/518/usr/bin/snap-store
+bok_suh /usr/libexec/xdg-document-portal
+bok_suh /usr/lib/ibus/ibus-engine-hangul
+root /usr/libexec/fwupd/fwupd
+bok_suh /usr/libexec/gnome-terminal-server
+bok_suh bash
+bok_suh script
+bok_suh bash
+bok_suh /usr/libexec/gvfsd-metadata
+bok_suh update-notifier
+root [kworker/0:0-cgroup_destroy]
+root [kworker/u8:1-events_unbound]
+root /sbin/wpa_supplicant
+root [kworker/2:2-events]
+root [kworker/u8:2-events_power_efficient]
+root [kworker/1:0-events]
+root [kworker/u8:0-events_unbound]
+root [kworker/3:0-events]
+root [kworker/1:1-events]
+root [kworker/1:2-events]
+root [kworker/2:0-events]
+bok_suh /usr/libexec/tracker-store
+bok_suh ps
+bok_suh awk
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ echo hello > myunixfile.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ od -c -t x1 myunixfile.txt
+0000000   h   e   l   l   o  \n
+         68  65  6c  6c  6f  0a
+0000006
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ unix2dos < myunixfile.txt > mydosfile.txt
+
+Command 'unix2dos' not found, but can be installed with:
+
+sudo apt install dos2unix
+
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ sudo apt-get install dos2unix
+[sudo] password for bok_suh: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  dos2unix
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 374 kB of archives.
+After this operation, 1,342 kB of additional disk space will be used.
+0% [Working]0% [Waiting for headers]                        Get:1 http://kr.archive.ubuntu.com/ubuntu focal/universe amd64 dos2unix amd64 7.4.0-2 [374 kB]
+1% [1 dos2unix 4,097 B/374 kB 1%]9% [1 dos2unix 43.5 kB/374 kB 12%]36% [1 dos2unix 166 kB/374 kB 44%]63% [1 dos2unix 295 kB/374 kB 79%]                                  100% [Working]              Fetched 374 kB in 3s (143 kB/s)
+Selecting previously unselected package dos2unix.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 281281 files and directories currently installed.)
+Preparing to unpack .../dos2unix_7.4.0-2_amd64.deb ...
+Unpacking dos2unix (7.4.0-2) ...
+Setting up dos2unix (7.4.0-2) ...
+Processing triggers for man-db (2.9.1-1) ...
+libdvd-pkg: Checking orig.tar integrity...
+/usr/src/libdvd-pkg/libdvdcss_1.4.2.orig.tar.bz2: OK
+libdvd-pkg: `apt-get check` failed, you may have broken packages. Aborting...
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ unix2dos < myunixfile.txt > mydosfile.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat mydosfile.txt | dos2unix ?[K> myunixfile.txt
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ cat mydosfile.txt
+hello
+]0;bok_suh@Bok: ~[01;32mbok_suh@Bok[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-02-13 16:09:59+09:00 [COMMAND_EXIT_CODE="0"]
