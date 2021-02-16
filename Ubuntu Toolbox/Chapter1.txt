@@ -812,7 +812,8 @@ anacrontab (5)       - configuration file for anacron
 crontab (1)          - maintain crontab files for individual users (Vixie Cron)
 crontab (5)          - tables for driving cron
 ]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man man
-[?1049h[22;0;0t[?1h=MAN(1)                        Manual pager utils                        MAN(1)[m
+[?1049h[22;0;0t[?1h=
+MAN(1)                        Manual pager utils                        MAN(1)[m
 [m
 [1mNAME[0m[m
        man - an interface to the system reference manuals[m
@@ -835,8 +836,10 @@ crontab (5)          - tables for driving cron
        the first [4mpage[24m found, even if [4mpage[24m exists in several [4msections[24m.[m
 [m
        The table below shows the [4msection[24m numbers of the manual followed by the[m
-[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man 5 crontab
-[?1049h[22;0;0t[?1h=CRONTAB(5)                    File Formats Manual                   CRONTAB(5)[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man 5 crontab
+[?1049h[22;0;0t[?1h=
+CRONTAB(5)                    File Formats Manual                   CRONTAB(5)[m
 [m
 [1mNAME[0m[m
        crontab - tables for driving cron[m
@@ -859,8 +862,10 @@ crontab (5)          - tables for driving cron
        An  active line in a crontab will be either an environment setting or a[m
        cron command.  The crontab file is parsed from top to  bottom,  so  any[m
        environment  settings  will affect only the cron commands below them in[m
-[7m Manual page crontab(5) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man crontab
-[?1049h[22;0;0t[?1h=CRONTAB(1)                  General Commands Manual                 CRONTAB(1)[m
+[7m Manual page crontab(5) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ man crontab
+[?1049h[22;0;0t[?1h=
+CRONTAB(1)                  General Commands Manual                 CRONTAB(1)[m
 [m
 [1mNAME[0m[m
        crontab - maintain crontab files for individual users (Vixie Cron)[m
@@ -883,7 +888,10 @@ crontab (5)          - tables for driving cron
 [m
        If neither of these files exists, then depending on site-dependent con‐[m
        figuration  parameters, only the super user will be allowed to use this[m
-[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[Kqq[K[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ apropos route
+[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[Kqq
+[K[7m Manual page crontab(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t]0;bok_suh@Bok: ~/Logs[01;32mbok_suh@Bok[00m:[01;34m~/Logs[00m$ apropos route
 ip-mroute (8)        - multicast routing cache management
 ip-route (8)         - routing table management
 route (8)            - show / manipulate the IP routing table
